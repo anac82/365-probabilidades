@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>365 Probabilidades — Evidence Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    color: #f0ede8;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 40px 5%;
+    line-height: 1.6;
+  }
+
+  header {
+    border-bottom: 1px solid #222;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+
+  .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #c8a84b;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    color: #555;
+    text-transform: uppercase;
+  }
+
+  .meta {
+    margin-top: 16px;
+    font-size: 0.72rem;
+    color: #555;
+    line-height: 2;
+  }
+
+  .meta strong { color: #888; }
+
+  .guinness-note {
+    background: #111;
+    border-left: 3px solid #c8a84b;
+    padding: 16px 20px;
+    font-size: 0.72rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 32px;
+  }
+
+  .guinness-note strong { color: #c8a84b; }
+
+  .criteria-key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
+    font-size: 0.65rem;
+    color: #555;
+  }
+
+  .criteria-key span strong { color: #c8a84b; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.72rem;
+  }
+
+  thead tr {
+    border-bottom: 1px solid #c8a84b44;
+  }
+
+  th {
+    text-align: left;
+    padding: 10px 12px;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c8a84b;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid #1a1a1a;
+    transition: background 0.1s;
+  }
+
+  tbody tr:hover { background: #111; }
+  tbody tr.valid { border-left: 2px solid #2a8a5a; }
+  tbody tr.pending { border-left: 2px solid #333; }
+
+  td {
+    padding: 14px 12px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .day { color: #c8a84b; font-weight: 600; font-size: 0.8rem; }
+  .date { color: #444; }
+  .analysis { white-space: normal; max-width: 280px; color: #f0ede8; font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; line-height: 1.4; }
+  .method { background: #111; border: 1px solid #222; padding: 3px 8px; font-size: 0.62rem; color: #666; }
+
+  .c { width: 22px; height: 22px; border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; }
+  .ok { background: #1a3a2a; color: #5adf9a; }
+  .fail { background: #3a1a1a; color: #ff8888; }
+  .pending-c { background: #1a1a1a; color: #333; border: 1px solid #222; }
+
+  .checks { display: flex; gap: 3px; }
+
+  .badge-valid { background: #1a3a2a; color: #5adf9a; padding: 3px 10px; font-size: 0.6rem; letter-spacing: 0.1em; }
+  .badge-pending { background: #1a1a1a; color: #444; padding: 3px 10px; font-size: 0.6rem; letter-spacing: 0.1em; border: 1px solid #222; }
+
+  .links { display: flex; gap: 6px; flex-wrap: wrap; }
+  .lnk { font-size: 0.6rem; padding: 3px 8px; border: 1px solid #222; color: #555; text-decoration: none; transition: all 0.15s; }
+  .lnk:hover { border-color: #c8a84b; color: #c8a84b; }
+
+  footer {
+    border-top: 1px solid #1a1a1a;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 0.65rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title">365 Probabilidades</div>
+  <div class="subtitle">Guinness World Records — Evidence Dashboard</div>
+  <div class="meta">
+    <strong>Candidate:</strong> Ana Carolina Andrade Alexandrino &nbsp;|&nbsp;
+    <strong>Start date:</strong> June 14, 2026 &nbsp;|&nbsp;
+    <strong>Time zone:</strong> UTC-3 (fixed) &nbsp;|&nbsp;
+    <strong>Target:</strong> 365 consecutive days<br>
+    <strong>GitHub:</strong> <a href="https://github.com/anac82/365-probabilidades" style="color:#c8a84b">github.com/anac82/365-probabilidades</a> &nbsp;|&nbsp;
+    <strong>Substack:</strong> <a href="https://anaalexandrino.substack.com/p/dia-001-qual-a-probabilidade-de-voce" style="color:#c8a84b">@365probabilidades</a> &nbsp;|&nbsp;
+    <strong Instagram:</strong> <a href="https://www.instagram.com/p/DZlF-m6GJTZ/?img_index=1" style="color:#c8a84b">@365probabilidades</a>
+  </div>
+</header>
+
+
+
+
+
+<div class="guinness-note">
+  <strong>FOR GUINNESS WORLD RECORDS REVIEWERS:</strong>
+  Each row represents one calendar day of the attempt. All evidence links are public and independently timestamped.
+  C1–C8 represent the eight criteria defined in the record application.
+  GitHub commits provide immutable forensic proof of publication date.
+  Wayback Machine provides independent third-party archiving.
+  Time zone: UTC-3 (Brazil Standard Time) — fixed for the entire attempt.
+</div>
+
+<div class="criteria-key">
+  <span><strong>C1</strong> Distinct analysis</span>
+  <span><strong>C2</strong> Method named</span>
+  <span><strong>C3</strong> Sources cited</span>
+  <span><strong>C4</strong> Decision stated</span>
+  <span><strong>C5</strong> GitHub commit</span>
+  <span><strong>C6</strong> Substack published</span>
+  <span><strong>C7</strong> Instagram published</span>
+  <span><strong>C8</strong> Wayback archived</span>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Date</th>
+      <th>Analysis</th>
+      <th>Method</th>
+      <th>C1</th><th>C2</th><th>C3</th><th>C4</th>
+      <th>C5</th><th>C6</th><th>C7</th><th>C8</th>
+      <th>Status</th>
+      <th>Evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr class="valid">
+      <td class="day">#001</td>
+      <td class="date">2026-06-14</td>
+      <td class="analysis">What is the probability you are in the right job?<br><span style="color:#444">Decision: Should I stay in my current job?</span></td>
+      <td><span class="method">Monte Carlo</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="badge-valid">VALID</span></td>
+      <td>
+        <div class="links">
+          <a class="lnk" href="https://github.com/anac82/365-probabilidades/blob/main/365Probabilidades/modelos/mes-01-janeiro/dia-001-emprego-errado.ipynb" target="_blank">GitHub</a>
+          <a class="lnk" href="https://anaalexandrino.substack.com/p/dia-001-qual-a-probabilidade-de-voce" target="_blank">Substack</a>
+<a class="lnk" href="https://www.instagram.com/p/DZlF-m6GJTZ/?img_index=1" target="_blank">Instagram</a>
+
+          <a class="lnk" href="https://web.archive.org/web/20260614205416/https://anaalexandrino.substack.com/p/dia-001-qual-a-probabilidade-de-voce" target="_blank">Archive</a>
+        </div>
+      </td>
+    </tr>
+
+    <tr class="pending">
+      <td class="day" style="color:#333">#002</td>
+      <td class="date" style="color:#222">—</td>
+      <td class="analysis" style="color:#333">Pending</td>
+      <td><span class="method" style="opacity:0.3">—</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="badge-pending">PENDING</span></td>
+      <td>—</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<footer>
+  <span>365 Probabilidades · Guinness World Records Attempt · Ana Carolina Andrade Alexandrino</span>
+  <span>UTC-3 fixed · Updated daily · <a href="https://github.com/anac82/365-probabilidades" style="color:#333">github.com/anac82/365-probabilidades</a></span>
+</footer>
+
+</body>
+</html>

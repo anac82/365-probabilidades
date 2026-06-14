@@ -4,222 +4,78 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>365 Probabilidades — Evidence Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=IBM+Plex+Mono:wght@300;400;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #0a0a0a;
-    --bg2: #111111;
-    --bg3: #1a1a1a;
-    --gold: #c8a84b;
-    --gold-dim: #7a6530;
-    --white: #f0ede8;
-    --muted: #666660;
-    --border: #222220;
-    --green: #2a8a5a;
-    --green-dim: #1a4a35;
-    --red: #8a2a2a;
-    --pending: #4a4a40;
-  }
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    background: var(--bg);
-    color: var(--white);
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 300;
-    min-height: 100vh;
+    background: #0a0a0a;
+    color: #f0ede8;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 40px 5%;
+    line-height: 1.6;
   }
 
-  /* HEADER */
   header {
-    border-bottom: 1px solid var(--border);
-    padding: 32px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 24px;
+    border-bottom: 1px solid #222;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
   }
 
-  .logo {
+  .title {
     font-family: 'Playfair Display', serif;
-    font-size: 1.6rem;
-    font-weight: 900;
-    color: var(--gold);
-    line-height: 1;
-  }
-
-  .logo span {
-    display: block;
-    font-size: 0.65rem;
-    font-family: 'IBM Plex Mono', monospace;
-    letter-spacing: 0.25em;
-    color: var(--muted);
-    font-style: normal;
-    font-weight: 400;
-    margin-top: 6px;
-    text-transform: uppercase;
-  }
-
-  .header-meta {
-    text-align: right;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.7rem;
-    color: var(--muted);
-    line-height: 2;
-  }
-
-  .header-meta a {
-    color: var(--gold);
-    text-decoration: none;
-  }
-
-  /* HERO STATS */
-  .stats-bar {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .stat {
-    padding: 32px 5%;
-    border-right: 1px solid var(--border);
-  }
-
-  .stat:last-child { border-right: none; }
-
-  .stat-label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.6rem;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: var(--muted);
+    font-size: 1.8rem;
+    color: #c8a84b;
     margin-bottom: 8px;
   }
 
-  .stat-value {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
-    font-weight: 900;
-    color: var(--gold);
-    line-height: 1;
-  }
-
-  .stat-sub {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    color: var(--muted);
-    margin-top: 6px;
-  }
-
-  /* PROGRESS BAR */
-  .progress-section {
-    padding: 32px 5%;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .progress-label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .progress-bar {
-    width: 100%;
-    height: 4px;
-    background: var(--border);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-
-  .progress-fill {
-    height: 100%;
-    background: var(--gold);
-    border-radius: 2px;
-    transition: width 1s ease;
-  }
-
-  /* CRITERIA LEGEND */
-  .legend {
-    padding: 24px 5%;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .legend-title {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-right: 8px;
-  }
-
-  .legend-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'IBM Plex Mono', monospace;
+  .subtitle {
     font-size: 0.7rem;
-    color: var(--muted);
+    letter-spacing: 0.2em;
+    color: #555;
+    text-transform: uppercase;
   }
 
-  .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    flex-shrink: 0;
+  .meta {
+    margin-top: 16px;
+    font-size: 0.72rem;
+    color: #555;
+    line-height: 2;
   }
 
-  .dot-green { background: var(--green); }
-  .dot-red { background: var(--red); }
-  .dot-pending { background: var(--pending); }
+  .meta strong { color: #888; }
 
-  /* CRITERIA KEY */
+  .guinness-note {
+    background: #111;
+    border-left: 3px solid #c8a84b;
+    padding: 16px 20px;
+    font-size: 0.72rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 32px;
+  }
+
+  .guinness-note strong { color: #c8a84b; }
+
   .criteria-key {
-    padding: 16px 5%;
-    border-bottom: 1px solid var(--border);
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
-  }
-
-  .key-item {
-    font-family: 'IBM Plex Mono', monospace;
+    gap: 16px;
+    margin-bottom: 32px;
     font-size: 0.65rem;
-    color: var(--muted);
+    color: #555;
   }
 
-  .key-item strong {
-    color: var(--gold);
-    margin-right: 4px;
-  }
-
-  /* TABLE */
-  .table-wrapper {
-    overflow-x: auto;
-    padding: 0 5%;
-  }
+  .criteria-key span strong { color: #c8a84b; }
 
   table {
     width: 100%;
     border-collapse: collapse;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.75rem;
-    margin: 32px 0;
+    font-size: 0.72rem;
   }
 
   thead tr {
-    border-bottom: 1px solid var(--gold-dim);
+    border-bottom: 1px solid #c8a84b44;
   }
 
   th {
@@ -228,420 +84,156 @@
     font-size: 0.6rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: #c8a84b;
     font-weight: 400;
     white-space: nowrap;
   }
 
   tbody tr {
-    border-bottom: 1px solid var(--border);
-    transition: background 0.15s;
+    border-bottom: 1px solid #1a1a1a;
+    transition: background 0.1s;
   }
 
-  tbody tr:hover { background: var(--bg2); }
-
-  tbody tr.valid { border-left: 2px solid var(--green); }
-  tbody tr.invalid { border-left: 2px solid var(--red); }
-  tbody tr.pending { border-left: 2px solid var(--pending); }
+  tbody tr:hover { background: #111; }
+  tbody tr.valid { border-left: 2px solid #2a8a5a; }
+  tbody tr.pending { border-left: 2px solid #333; }
 
   td {
-    padding: 12px 12px;
+    padding: 14px 12px;
     vertical-align: middle;
-    color: var(--white);
     white-space: nowrap;
   }
 
-  .day-num {
-    color: var(--gold);
-    font-weight: 600;
-    font-size: 0.8rem;
-  }
+  .day { color: #c8a84b; font-weight: 600; font-size: 0.8rem; }
+  .date { color: #444; }
+  .analysis { white-space: normal; max-width: 280px; color: #f0ede8; font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; line-height: 1.4; }
+  .method { background: #111; border: 1px solid #222; padding: 3px 8px; font-size: 0.62rem; color: #666; }
 
-  .day-date { color: var(--muted); font-size: 0.7rem; }
+  .c { width: 22px; height: 22px; border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; }
+  .ok { background: #1a3a2a; color: #5adf9a; }
+  .fail { background: #3a1a1a; color: #ff8888; }
+  .pending-c { background: #1a1a1a; color: #333; border: 1px solid #222; }
 
-  .day-title {
-    white-space: normal;
-    max-width: 260px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 0.8rem;
-    color: var(--white);
-    line-height: 1.4;
-  }
+  .checks { display: flex; gap: 3px; }
 
-  .method-tag {
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    padding: 3px 8px;
-    font-size: 0.62rem;
-    color: var(--muted);
-    white-space: nowrap;
-  }
+  .badge-valid { background: #1a3a2a; color: #5adf9a; padding: 3px 10px; font-size: 0.6rem; letter-spacing: 0.1em; }
+  .badge-pending { background: #1a1a1a; color: #444; padding: 3px 10px; font-size: 0.6rem; letter-spacing: 0.1em; border: 1px solid #222; }
 
-  /* CHECK ICONS */
-  .checks { display: flex; gap: 4px; }
+  .links { display: flex; gap: 6px; flex-wrap: wrap; }
+  .lnk { font-size: 0.6rem; padding: 3px 8px; border: 1px solid #222; color: #555; text-decoration: none; transition: all 0.15s; }
+  .lnk:hover { border-color: #c8a84b; color: #c8a84b; }
 
-  .check {
-    width: 20px;
-    height: 20px;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.6rem;
-    font-weight: 600;
-    flex-shrink: 0;
-    cursor: help;
-  }
-
-  .check-ok { background: var(--green-dim); color: #5adf9a; }
-  .check-fail { background: var(--red); color: #ffaaaa; }
-  .check-pending { background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
-
-  /* STATUS BADGE */
-  .badge {
-    padding: 3px 10px;
-    font-size: 0.6rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: 600;
-    display: inline-block;
-  }
-
-  .badge-valid { background: var(--green-dim); color: #5adf9a; }
-  .badge-invalid { background: var(--red); color: #ffaaaa; }
-  .badge-pending { background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
-
-  /* LINKS */
-  .link-group { display: flex; gap: 6px; }
-
-  .ext-link {
-    font-size: 0.6rem;
-    padding: 3px 8px;
-    border: 1px solid var(--border);
-    color: var(--muted);
-    text-decoration: none;
-    transition: all 0.15s;
-  }
-
-  .ext-link:hover {
-    border-color: var(--gold);
-    color: var(--gold);
-  }
-
-  /* FOOTER */
   footer {
-    border-top: 1px solid var(--border);
-    padding: 32px 5%;
+    border-top: 1px solid #1a1a1a;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 0.65rem;
+    color: #333;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    color: var(--muted);
-  }
-
-  .guinness-note {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--gold);
-    padding: 20px 5%;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.72rem;
-    color: var(--muted);
-    line-height: 1.8;
-  }
-
-  .guinness-note strong { color: var(--gold); }
-
-  @media (max-width: 768px) {
-    .stats-bar { grid-template-columns: 1fr 1fr; }
-    .stat { border-right: none; border-bottom: 1px solid var(--border); }
+    gap: 8px;
   }
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
 <header>
-  <div class="logo">
-    365 Probabilidades
-    <span>Guinness World Records — Evidence Dashboard</span>
-  </div>
-  <div class="header-meta">
-    Candidate: Ana Carolina Andrade Alexandrino<br>
-    GitHub: <a href="https://github.com/anac82/365-probabilidades" target="_blank">anac82/365-probabilidades</a><br>
-    Substack: <a href="https://substack.com/@anacarolalexandrino82" target="_blank">@anacarolalexandrino82</a><br>
-    Instagram: <a href="https://www.instagram.com/anacarolalexandrino82/" target="_blank">@anacarolalexandrino82</a><br>
-    Attempt start: <strong style="color:var(--white)">2026-06-15</strong><br>
-    UTC-3 (Brazil Standard Time) — fixed for entire attempt
+  <div class="title">365 Probabilidades</div>
+  <div class="subtitle">Guinness World Records — Evidence Dashboard</div>
+  <div class="meta">
+    <strong>Candidate:</strong> Ana Carolina Andrade Alexandrino &nbsp;|&nbsp;
+    <strong>Start date:</strong> June 14, 2026 &nbsp;|&nbsp;
+    <strong>Time zone:</strong> UTC-3 (fixed) &nbsp;|&nbsp;
+    <strong>Target:</strong> 365 consecutive days<br>
+    <strong>GitHub:</strong> <a href="https://github.com/anac82/365-probabilidades" style="color:#c8a84b">github.com/anac82/365-probabilidades</a> &nbsp;|&nbsp;
+    <strong>Substack:</strong> <a href="https://substack.com/@365probabilidades" style="color:#c8a84b">@365probabilidades</a> &nbsp;|&nbsp;
+    <strong>Instagram:</strong> <a href="https://www.instagram.com/365probabilidades/" style="color:#c8a84b">@365probabilidades</a>
   </div>
 </header>
 
-<!-- STATS BAR -->
-<div class="stats-bar">
-  <div class="stat">
-    <div class="stat-label">Consecutive Days</div>
-    <div class="stat-value" id="consecutive">6</div>
-    <div class="stat-sub">current streak</div>
-  </div>
-  <div class="stat">
-    <div class="stat-label">Total Published</div>
-    <div class="stat-value" id="total">6</div>
-    <div class="stat-sub">of 365 target</div>
-  </div>
-  <div class="stat">
-    <div class="stat-label">Days Valid</div>
-    <div class="stat-value" id="valid" style="color:#5adf9a">6</div>
-    <div class="stat-sub">all criteria met</div>
-  </div>
-  <div class="stat">
-    <div class="stat-label">Days Failed</div>
-    <div class="stat-value" id="failed" style="color:#ff8888">0</div>
-    <div class="stat-sub">streak resets</div>
-  </div>
-</div>
-
-<!-- PROGRESS BAR -->
-<div class="progress-section">
-  <div class="progress-label">
-    <span>Progress to 365</span>
-    <span id="pct">1.6% complete</span>
-  </div>
-  <div class="progress-bar">
-    <div class="progress-fill" id="progress-fill" style="width: 1.6%"></div>
-  </div>
-</div>
-
-<!-- GUINNESS NOTE -->
 <div class="guinness-note">
   <strong>FOR GUINNESS WORLD RECORDS REVIEWERS:</strong>
-  This dashboard provides a consolidated public record of all daily publications.
-  Each row contains independent verification links across four channels.
-  All timestamps are in UTC-3 (Brazil Standard Time), fixed for the entire attempt.
-  Criteria definitions follow the submitted record application.
-  GitHub repository with full commit history: <a href="https://github.com/anac82/365-probabilidades" target="_blank" style="color:var(--gold)">github.com/anac82/365-probabilidades</a>
+  Each row represents one calendar day of the attempt. All evidence links are public and independently timestamped.
+  C1–C8 represent the eight criteria defined in the record application.
+  GitHub commits provide immutable forensic proof of publication date.
+  Wayback Machine provides independent third-party archiving.
+  Time zone: UTC-3 (Brazil Standard Time) — fixed for the entire attempt.
 </div>
 
-<!-- LEGEND -->
-<div class="legend">
-  <span class="legend-title">Status:</span>
-  <div class="legend-item"><div class="dot dot-green"></div> Valid — all criteria met</div>
-  <div class="legend-item"><div class="dot dot-red"></div> Invalid — one or more criteria failed</div>
-  <div class="legend-item"><div class="dot dot-pending"></div> Pending — not yet published</div>
-</div>
-
-<!-- CRITERIA KEY -->
 <div class="criteria-key">
-  <div class="key-item"><strong>C1</strong> Distinct analysis</div>
-  <div class="key-item"><strong>C2</strong> Probability method named</div>
-  <div class="key-item"><strong>C3</strong> Empirical sources cited</div>
-  <div class="key-item"><strong>C4</strong> Individual life decision stated</div>
-  <div class="key-item"><strong>C5</strong> Open-source code (GitHub)</div>
-  <div class="key-item"><strong>C6</strong> Substack published (same day)</div>
-  <div class="key-item"><strong>C7</strong> Instagram published (same day)</div>
-  <div class="key-item"><strong>C8</strong> Wayback Machine archived</div>
+  <span><strong>C1</strong> Distinct analysis</span>
+  <span><strong>C2</strong> Method named</span>
+  <span><strong>C3</strong> Sources cited</span>
+  <span><strong>C4</strong> Decision stated</span>
+  <span><strong>C5</strong> GitHub commit</span>
+  <span><strong>C6</strong> Substack published</span>
+  <span><strong>C7</strong> Instagram published</span>
+  <span><strong>C8</strong> Wayback archived</span>
 </div>
 
-<!-- TABLE -->
-<div class="table-wrapper">
-  <table>
-    <thead>
-      <tr>
-        <th>Day</th>
-        <th>Date (UTC-3)</th>
-        <th>Analysis Title & Decision</th>
-        <th>Method</th>
-        <th>C1</th>
-        <th>C2</th>
-        <th>C3</th>
-        <th>C4</th>
-        <th>C5</th>
-        <th>C6</th>
-        <th>C7</th>
-        <th>C8</th>
-        <th>Status</th>
-        <th>Evidence Links</th>
-      </tr>
-    </thead>
-    <tbody>
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Date</th>
+      <th>Analysis</th>
+      <th>Method</th>
+      <th>C1</th><th>C2</th><th>C3</th><th>C4</th>
+      <th>C5</th><th>C6</th><th>C7</th><th>C8</th>
+      <th>Status</th>
+      <th>Evidence</th>
+    </tr>
+  </thead>
+  <tbody>
 
-      <tr class="valid">
-        <td><span class="day-num">#001</span></td>
-        <td class="day-date">2025-06-05</td>
-        <td class="day-title">What is the probability you are in the right job?<br><small style="color:var(--muted)">Should I stay in my current job?</small></td>
-        <td><span class="method-tag">Monte Carlo</span></td>
-        <td><span class="check check-ok" title="Distinct analysis — new context + Gallup AJQS 2025 + Monte Carlo">✓</span></td>
-        <td><span class="check check-ok" title="Method: Monte Carlo simulation, 100k iterations">✓</span></td>
-        <td><span class="check check-ok" title="Gallup AJQS 2025 (N=18,429)">✓</span></td>
-        <td><span class="check check-ok" title="Decision stated: Should I stay in my current job?">✓</span></td>
-        <td><span class="check check-ok" title="GitHub commit: dia-001-emprego-errado.ipynb">✓</span></td>
-        <td><span class="check check-ok" title="Substack published 2025-06-05">✓</span></td>
-        <td><span class="check check-ok" title="Instagram #DIA001 published 2025-06-05">✓</span></td>
-        <td><span class="check check-ok" title="Wayback Machine archived 2025-06-05">✓</span></td>
-        <td><span class="badge badge-valid">Valid</span></td>
-        <td>
-          <div class="link-group">
-            <a class="ext-link" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-001-emprego-errado.ipynb" target="_blank">GitHub</a>
-            <a class="ext-link" href="#" target="_blank">Substack</a>
-            <a class="ext-link" href="#" target="_blank">Instagram</a>
-            <a class="ext-link" href="#" target="_blank">Archive</a>
-          </div>
-        </td>
-      </tr>
+    <tr class="valid">
+      <td class="day">#001</td>
+      <td class="date">2026-06-14</td>
+      <td class="analysis">What is the probability you are in the right job?<br><span style="color:#444">Decision: Should I stay in my current job?</span></td>
+      <td><span class="method">Monte Carlo</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="c ok">✓</span></td>
+      <td><span class="badge-valid">VALID</span></td>
+      <td>
+        <div class="links">
+          <a class="lnk" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-001-emprego-errado.ipynb" target="_blank">GitHub</a>
+          <a class="lnk" href="#" target="_blank">Substack</a>
+          <a class="lnk" href="#" target="_blank">Instagram</a>
+          <a class="lnk" href="#" target="_blank">Archive</a>
+        </div>
+      </td>
+    </tr>
 
-      <tr class="valid">
-        <td><span class="day-num">#002</span></td>
-        <td class="day-date">2025-06-06</td>
-        <td class="day-title">What is the probability you will regret a major decision?<br><small style="color:var(--muted)">Should I act or not act on this decision?</small></td>
-        <td><span class="method-tag">Beta Distribution</span></td>
-        <td><span class="check check-ok" title="Distinct — new context + Yeung & Feldman 2022 + Beta">✓</span></td>
-        <td><span class="check check-ok" title="Method: Beta distribution, IC 95%">✓</span></td>
-        <td><span class="check check-ok" title="Yeung & Feldman 2022 (N=988) + Roese & Summerville 2005 (N=3,041)">✓</span></td>
-        <td><span class="check check-ok" title="Decision stated: Should I act or not act?">✓</span></td>
-        <td><span class="check check-ok" title="GitHub commit: dia-002-probabilidade-arrependimento.ipynb">✓</span></td>
-        <td><span class="check check-ok" title="Substack published 2025-06-06">✓</span></td>
-        <td><span class="check check-ok" title="Instagram #DIA002 published 2025-06-06">✓</span></td>
-        <td><span class="check check-ok" title="Wayback Machine archived 2025-06-06">✓</span></td>
-        <td><span class="badge badge-valid">Valid</span></td>
-        <td>
-          <div class="link-group">
-            <a class="ext-link" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-002-probabilidade-arrependimento.ipynb" target="_blank">GitHub</a>
-            <a class="ext-link" href="#" target="_blank">Substack</a>
-            <a class="ext-link" href="#" target="_blank">Instagram</a>
-            <a class="ext-link" href="#" target="_blank">Archive</a>
-          </div>
-        </td>
-      </tr>
+    <tr class="pending">
+      <td class="day" style="color:#333">#002</td>
+      <td class="date" style="color:#222">—</td>
+      <td class="analysis" style="color:#333">Pending</td>
+      <td><span class="method" style="opacity:0.3">—</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="c pending-c">·</span></td>
+      <td><span class="badge-pending">PENDING</span></td>
+      <td>—</td>
+    </tr>
 
-      <tr class="valid">
-        <td><span class="day-num">#003</span></td>
-        <td class="day-date">2025-06-07</td>
-        <td class="day-title">What is the probability your salary makes you happy?<br><small style="color:var(--muted)">Is my current income sufficient for well-being?</small></td>
-        <td><span class="method-tag">Beta Distribution</span></td>
-        <td><span class="check check-ok" title="Distinct — new context + Kahneman 2010 + Beta">✓</span></td>
-        <td><span class="check check-ok" title="Method: Beta distribution + hedonic treadmill model">✓</span></td>
-        <td><span class="check check-ok" title="Kahneman & Deaton 2010 (N=450,000) + Killingsworth 2021 (N=33,391)">✓</span></td>
-        <td><span class="check check-ok" title="Decision stated: Is my current income sufficient for well-being?">✓</span></td>
-        <td><span class="check check-ok" title="GitHub commit: dia-003-salario-felicidade.ipynb">✓</span></td>
-        <td><span class="check check-ok" title="Substack published 2025-06-07">✓</span></td>
-        <td><span class="check check-ok" title="Instagram #DIA003 published 2025-06-07">✓</span></td>
-        <td><span class="check check-ok" title="Wayback Machine archived 2025-06-07">✓</span></td>
-        <td><span class="badge badge-valid">Valid</span></td>
-        <td>
-          <div class="link-group">
-            <a class="ext-link" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-003-salario-felicidade.ipynb" target="_blank">GitHub</a>
-            <a class="ext-link" href="#" target="_blank">Substack</a>
-            <a class="ext-link" href="#" target="_blank">Instagram</a>
-            <a class="ext-link" href="#" target="_blank">Archive</a>
-          </div>
-        </td>
-      </tr>
+  </tbody>
+</table>
 
-      <tr class="valid">
-        <td><span class="day-num">#004</span></td>
-        <td class="day-date">2025-06-08</td>
-        <td class="day-title">What is the probability your overtime hours are worth nothing?<br><small style="color:var(--muted)">Should I work more hours to produce more?</small></td>
-        <td><span class="method-tag">Beta Distribution</span></td>
-        <td><span class="check check-ok" title="Distinct — new context + Pencavel 2014 + Beta">✓</span></td>
-        <td><span class="check check-ok" title="Method: Beta distribution + diminishing returns model">✓</span></td>
-        <td><span class="check check-ok" title="Pencavel 2014 (Stanford/IZA) + ILO 2019 + Eurostat 2023">✓</span></td>
-        <td><span class="check check-ok" title="Decision stated: Should I work more hours to produce more?">✓</span></td>
-        <td><span class="check check-ok" title="GitHub commit: dia-004-horas-produtividade.ipynb">✓</span></td>
-        <td><span class="check check-ok" title="Substack published 2025-06-08">✓</span></td>
-        <td><span class="check check-ok" title="Instagram #DIA004 published 2025-06-08">✓</span></td>
-        <td><span class="check check-ok" title="Wayback Machine archived 2025-06-08">✓</span></td>
-        <td><span class="badge badge-valid">Valid</span></td>
-        <td>
-          <div class="link-group">
-            <a class="ext-link" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-004-horas-produtividade.ipynb" target="_blank">GitHub</a>
-            <a class="ext-link" href="#" target="_blank">Substack</a>
-            <a class="ext-link" href="#" target="_blank">Instagram</a>
-            <a class="ext-link" href="#" target="_blank">Archive</a>
-          </div>
-        </td>
-      </tr>
-
-      <tr class="valid">
-        <td><span class="day-num">#005</span></td>
-        <td class="day-date">2025-06-09</td>
-        <td class="day-title">What is the probability your friendships are determining your income?<br><small style="color:var(--muted)">How much does my social network affect my financial future?</small></td>
-        <td><span class="method-tag">Beta Distribution</span></td>
-        <td><span class="check check-ok" title="Distinct — new context + Chetty 2022 + Beta">✓</span></td>
-        <td><span class="check check-ok" title="Method: Beta distribution, economic connectedness model">✓</span></td>
-        <td><span class="check check-ok" title="Chetty et al. 2022 — Nature (N=21 billion friendships, 72M users)">✓</span></td>
-        <td><span class="check check-ok" title="Decision stated: How much does my social network affect my financial future?">✓</span></td>
-        <td><span class="check check-ok" title="GitHub commit: dia-005-amizades-renda.ipynb">✓</span></td>
-        <td><span class="check check-ok" title="Substack published 2025-06-09">✓</span></td>
-        <td><span class="check check-ok" title="Instagram #DIA005 published 2025-06-09">✓</span></td>
-        <td><span class="check check-ok" title="Wayback Machine archived 2025-06-09">✓</span></td>
-        <td><span class="badge badge-valid">Valid</span></td>
-        <td>
-          <div class="link-group">
-            <a class="ext-link" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-005-amizades-renda.ipynb" target="_blank">GitHub</a>
-            <a class="ext-link" href="#" target="_blank">Substack</a>
-            <a class="ext-link" href="#" target="_blank">Instagram</a>
-            <a class="ext-link" href="#" target="_blank">Archive</a>
-          </div>
-        </td>
-      </tr>
-
-      <tr class="valid">
-        <td><span class="day-num">#006</span></td>
-        <td class="day-date">2025-06-10</td>
-        <td class="day-title">What is the probability you are experiencing burnout without knowing it?<br><small style="color:var(--muted)">Am I burned out right now?</small></td>
-        <td><span class="method-tag">Beta Distribution</span></td>
-        <td><span class="check check-ok" title="Distinct — new context + Blom 2024 + Beta">✓</span></td>
-        <td><span class="check check-ok" title="Method: Beta distribution, silent burnout model">✓</span></td>
-        <td><span class="check check-ok" title="Blom et al. 2024 (N=813+591) + Spring Health 2026 + Aflac 2022">✓</span></td>
-        <td><span class="check check-ok" title="Decision stated: Am I burned out right now?">✓</span></td>
-        <td><span class="check check-ok" title="GitHub commit: dia-006-burnout-silencioso.ipynb">✓</span></td>
-        <td><span class="check check-ok" title="Substack published 2025-06-10">✓</span></td>
-        <td><span class="check check-ok" title="Instagram #DIA006 published 2025-06-10">✓</span></td>
-        <td><span class="check check-ok" title="Wayback Machine archived 2025-06-10">✓</span></td>
-        <td><span class="badge badge-valid">Valid</span></td>
-        <td>
-          <div class="link-group">
-            <a class="ext-link" href="https://github.com/anac82/365-probabilidades/blob/main/modelos/mes-01-janeiro/dia-006-burnout-silencioso.ipynb" target="_blank">GitHub</a>
-            <a class="ext-link" href="#" target="_blank">Substack</a>
-            <a class="ext-link" href="#" target="_blank">Instagram</a>
-            <a class="ext-link" href="#" target="_blank">Archive</a>
-          </div>
-        </td>
-      </tr>
-
-      <!-- PENDING DAYS SAMPLE -->
-      <tr class="pending">
-        <td><span class="day-num" style="color:var(--muted)">#007</span></td>
-        <td class="day-date" style="color:var(--muted)">—</td>
-        <td class="day-title" style="color:var(--muted)">Not yet published</td>
-        <td><span class="method-tag" style="opacity:0.4">—</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="check check-pending" title="Pending">·</span></td>
-        <td><span class="badge badge-pending">Pending</span></td>
-        <td>—</td>
-      </tr>
-
-    </tbody>
-  </table>
-</div>
-
-<!-- FOOTER -->
 <footer>
-  <div>
-    365 Probabilidades · Guinness World Records Attempt · Ana Carolina Andrade Alexandrino
-  </div>
-  <div>
-    GitHub: <a href="https://github.com/anac82/365-probabilidades" target="_blank" style="color:var(--gold)">anac82/365-probabilidades</a>
-    · UTC-3 fixed · Updated daily
-  </div>
+  <span>365 Probabilidades · Guinness World Records Attempt · Ana Carolina Andrade Alexandrino</span>
+  <span>UTC-3 fixed · Updated daily · <a href="https://github.com/anac82/365-probabilidades" style="color:#333">github.com/anac82/365-probabilidades</a></span>
 </footer>
 
 </body>

@@ -19,7 +19,7 @@ Projeto pessoal de 365 dias criando modelos estatísticos de situações univers
 ├── publicados/       → arquivo dos já publicados
 ├── assets/           → logos, paleta, templates visuais
 ├── guinness/         → evidências e documentação do recorde
-├── livro/            → manuscrito em construção
+
 └── _templates/       → templates de modelo para copiar
 ```
 

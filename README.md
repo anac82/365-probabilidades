@@ -3,8 +3,8 @@
 
 Projeto pessoal de 365 dias criando modelos estatísticos de situações universais da vida humana.
 
-**Início:** [DATA DE INÍCIO]  
-**Meta:** Guinness World Records — maior série consecutiva de modelos estatísticos sobre comportamento humano  
+
+
 **Plataformas:** GitHub · Substack · Instagram  
 **Hashtag:** #365Probabilidades
 

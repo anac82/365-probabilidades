@@ -1,4 +1,46 @@
+# ==========================================================
+#  365 Probabilidades — .gitignore
+# ==========================================================
+
+# ---- Sistema operacional (macOS) ----
 .DS_Store
-**/.DS_Store
-.DS_Store
-**/.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# ---- Windows ----
+Thumbs.db
+ehthumbs.db
+
+# ---- Temporários do Office / Excel ----
+~$*
+*.tmp
+*.bak
+
+# ---- Jupyter / Python ----
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.virtual_documents/
+
+# ---- Cópias duplicadas do Finder (sufixo " 2") ----
+* 2.ipynb
+* 2.png
+* 2.py
+
+# ==========================================================
+#  CONTEÚDO PRIVADO (fora do GitHub por padrão)
+#  Apague a linha se quiser publicar.
+# ==========================================================
+livro/
+livro_ato2/
+rascunhos/
+relacao_de_temas.xlsx
+~$relacao_de_temas.xlsx
+
+# guinness/  <- NÃO ignorada. Descomente esta linha se quiser privada.

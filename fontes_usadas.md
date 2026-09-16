@@ -1227,6 +1227,133 @@ torna o achado mais notável e limita a generalização para o Brasil.
 
 **Pendência:** N e tamanhos de efeito do estudo de bem-estar de 2020 não localizados.
 
+# BLOCO CONSOLIDADO - DIAS #081 A #085
+## Para colar no fontes_usadas_novo.md ANTES do bloco #086-#098 (fecha a lacuna)
+## Reconstruído da sessão de produção de 01-07/09 (conversa "Temas dos dias 63 a 70")
+
+---
+
+### Dia #081 - 2026-09-02 - forma: REPLICAÇÃO EM MASSA (o clássico que NÃO caiu)
+**Pergunta:** Qual a probabilidade de a mesma decisão mudar só porque mudou a frase?
+(Experimental)
+**Fontes:** Tversky & Kahneman (1981), Science: o problema da doença asiática, 152 no
+enquadramento de ganho, 155 no de perda; **72% vs 22%** escolhem a opção segura (a origem).
+Klein et al. (2014), Many Labs 1: **36 laboratórios, N=6.344; a inversão apareceu em
+31 dos 36**, nenhum dos 5 restantes na direção oposta. Klein et al. (2018), Many Labs 2:
+55 estimativas, efeito agrupado **g=0,44 [0,38, 0,50]**.
+**Modelo:** razão de chances ~9 reconstruída das proporções e N publicados (conta
+própria); tradução do g em probabilidade de superioridade; o contrapeso declarado:
+efeito pequeno a médio, a força está na consistência. **×0,80:** não (escolha binária
+entre opções descritas).
+**Escolha editorial registrada:** o dia declara que "este clássico não caiu", citando
+os que caíram no mês (#080 esteira, #067 ego, #068 endorfina): a desconfiança do leitor
+virada em surpresa.
+**Correção ao banco feita na validação:** o d=0,62 anotado desde 11/08 NÃO se confirmou;
+substituído por 31/36 + g=0,44 (mesma família do erro dos 84% do #063).
+**Abertura:** o leitor responde aos dois programas antes de ler (descobre o efeito em si).
+**Commit:** Dia #081 - Enquadramento [Experimental | Replicação em 36 laboratórios |
+Tversky & Kahneman 1981 e Klein et al. 2014]. Pasta: dias-061-090.
+
+### Dia #082 - 2026-09-03 - forma: TRADUÇÃO DE r=0,02
+**Pergunta:** Qual a probabilidade de o caçula ser mesmo o mais criativo da família?
+(Preditivo)
+**Fonte central:** Rohrer, Egloff & Schmukle (2015), PNAS, 112(46): três painéis
+nacionais (5.240 EUA + 4.489 Grã-Bretanha + 10.457 Alemanha = **N=20.186**), análises
+dentro da família e entre famílias.
+**Âncoras:** extroversão, estabilidade emocional, amabilidade, conscienciosidade e
+imaginação: NENHUM efeito. Sobra um: primogênitos ligeiramente acima em inteligência
+medida e intelecto autorrelatado; efeito médio **r=0,02** (estudo companheiro com
+272 mil pessoas). Correção de calibração ao banco: "não é reviravolta pura, é calibração
+do tamanho real".
+**Modelo (a conta que faz o dia):** r=0,02 → 0,04% da variância; **51 de 100 duelos**
+(vs 50 do acaso); N necessário para enxergar ~19.700 pessoas; poder numa família de 2-3
+irmãos: 5% (= zero). "A crença não veio da observação; não tinha como ter vindo."
+**×0,80:** não (testes objetivos e escalas; tradução de tamanho de efeito).
+**Gancho pessoal:** "Sou a caçula, e acho que sou a mais criativa da família" (abertura B,
+escolha consciente: o texto desmonta a própria abertura; fecho mantém a crença e abre mão
+da explicação). **Número de capa:** 51 em 100.
+**Commit:** Dia #082 - Ordem de nascimento [Preditivo | Tradução de r=0,02 |
+Rohrer, Egloff & Schmukle 2015]. Arquivo: dia-082-ordem-de-nascimento.ipynb.
+
+### Dia #083 - 2026-09-04 - forma: ARITMÉTICA DA JANELA + SENSIBILIDADE
+**Pergunta:** Qual a probabilidade de você já ter conhecido a maior parte da sua turma?
+(Redes)
+**Fonte central:** Wrzus, Hänel, Wagner & Neyer (2013), Psychological Bulletin, 139(1),
+53-80: meta-análise de **277 estudos, N=177.635**, da adolescência à velhice.
+**Âncoras:** rede global cresce até a vida adulta jovem e decresce continuamente; redes
+pessoal e de amizade decrescem a vida adulta inteira; colegas e vizinhos só em faixas
+específicas; **a rede familiar fica estável em tamanho da adolescência à velhice** (a
+única, o contrapeso que salva o dia). Ressalva declarada: estável em tamanho não é
+estável em qualidade.
+**Modelo (contas próprias):** a janela: crescimento ~15 anos vs encolhimento ~50 →
+**77% da vida adulta depois do pico**, com sensibilidade declarada (pico de 25 a 35 anos:
+69% a 85%, conclusão inalterada; premissa "vida adulta jovem = 30" declarada como escolha);
+taxa de reposição mínima para a rede não encolher. **×0,80:** não (meta de medidas de
+tamanho de rede).
+**ERRATA REGISTRADA (nota 41-adjacente do livro-caixa, linha ~1405):** colisão de apoio
+com o #024, identificada e corrigida PELA ANA. **Corda amizade:** tocada de novo no #089
+(alerta 41), declarada no próprio #089.
+
+### Dia #084 - 2026-09-05 - forma: PICO DE REMINISCÊNCIA (descritivo com conta própria)
+**Pergunta:** Qual a probabilidade de o seu gosto musical ter sido decidido aos 14 anos?
+(Descritivo)
+**Fonte central:** Jakubowski, Eerola, Tillmann, Perrin & Heine (2020), Music & Science:
+**N=470** (18 a 82 anos), **111 canções** das paradas de 1950 a 2015, iguais para todos;
+avaliação de memória autobiográfica evocada, familiaridade e gosto.
+**Âncoras:** pico aos **14,0 anos**; pico das memórias por palavra: 14,7 (distância de
+0,7 ano, 5%: "a música não cria um pico próprio, ilumina o mesmo pico"); **pico em
+cascata** na adolescência dos pais (Krumhansl & Zupnick, 2013): "parte do gosto foi
+decidida antes de a pessoa nascer".
+**Modelo (conta própria):** quanto da vida vem depois do pico: aos 30, 53%; aos 50,
+**72%**; aos 70, 80%; aos 82, 83%.
+**×0,80:** não (avaliação de estímulo padronizado: as mesmas 111 canções para todos).
+**Limitações destacadas:** transversal (idade × geração confundidas); saliência
+autobiográfica não é preferência (extensão declarada).
+**Commit:** Dia #084 - O gosto aos 14 [Descritivo | Pico de reminiscência |
+Jakubowski et al. 2020]. Arquivo: dia-084-o-gosto-aos-14.ipynb.
+
+### Dia #085 - 2026-09-06 - forma: TRADUÇÃO DE r + CONCORDÂNCIA NO EXTREMO
+**Pergunta:** solidão × isolamento (*pergunta exata: conferir no cabeçalho do notebook;
+a calibração ofereceu "Qual a probabilidade de você estar sozinho sem estar solitário?"
+e variantes, e a escolha da Ana não ficou registrada na busca*). (Emocional, domingo)
+**Fonte central:** Matthews et al. (2016), Soc Psychiatry Psychiatr Epidemiol, 51,
+339-348: E-Risk Longitudinal Twin Study, **1.116 pares de gêmeos do mesmo sexo**
+(2.232 indivíduos), nascidos 1994-95, avaliados aos 18.
+**Âncoras:** isolamento × solidão **r=0,39** (15% de variância compartilhada);
+herdabilidades: isolamento 40%, solidão 38%, depressão 29%; correlações genéticas:
+isolamento-solidão **0,65**, solidão-depressão 0,63; no modelo conjunto, **solidão é o
+preditor mais robusto de depressão**. Frase dos autores: jovens socialmente isolados
+não necessariamente se sentem sozinhos.
+**Modelo (contas próprias, semente 42):** concordância no quartil extremo via normal
+bivariada simulada: **42% dos mais isolados estão entre os mais solitários** (~58% não);
+comparação com "mesma coisa" (100%) e "independentes" (25%).
+**×0,80:** não (declarado no notebook: aplica_fator_080=False).
+**Decisão editorial registrada:** o achado genético (herdabilidade + r genética) foi
+CORTADO do Substack e mantido no notebook, por decisão da Ana ("vamos tirar só do
+substack"): o texto ficou com três passos limpos (duas medidas, 42% no extremo, solidão
+prevê depressão). Pergunta reflexiva do fecho: a pessoa de agenda cheia.
+
+---
+
+## NOTAS DO BLOCO #081-#085
+
+**Semana completa (qua 02/09 a dom 06/09), 4 artefatos por dia, pasta dias-061-090.**
+**Resumo semanal** publicado no domingo cobrindo #079-#085 (só no Substack, sem números,
+formato consolidado desde o #071).
+
+**Correções ao banco feitas na validação do bloco:** (1) d=0,62 do enquadramento morto,
+substituído por 31/36 + g=0,44; (2) ordem de nascimento recalibrada de "reviravolta"
+para "calibração de tamanho real" (r=0,02).
+
+**Entradas de banco registradas na semana:** álcool no corpo (LIVRE, sem restrição;
+ângulo: taxa de eliminação fixa); benefícios do sono (LIVRE COM RESTRIÇÃO: privação
+aguda e julgamento queimados no #042, e **Walker queimado como fonte**; precisa de
+desfecho objetivo e número contraintuitivo, não lista de bem-estar).
+
+**Deslocamento de calendário:** o #087 planejado era "idade relativa no Brasil"
+(Oliveira & Menezes Filho, 2018, ANPEC, Censo Escolar BH, N=36.718, RDD na data de
+corte, validado); foi deslocado quando o home office assumiu o #087. **Segue na reserva,
+validado**, e ganhou parentesco com o tema do azarão (#062 e a reserva do hóquei).
 ---
 # BLOCO CONSOLIDADO - DIAS #086 A #098
 ## Para colar no fontes_usadas_novo.md, na sequência dos registros (o último formal é o #080)

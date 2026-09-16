@@ -1228,6 +1228,237 @@ torna o achado mais notável e limita a generalização para o Brasil.
 **Pendência:** N e tamanhos de efeito do estudo de bem-estar de 2020 não localizados.
 
 ---
+# BLOCO CONSOLIDADO - DIAS #086 A #098
+## Para colar no fontes_usadas_novo.md, na sequência dos registros (o último formal é o #080)
+
+**ALERTA DE LACUNA, ANTES DO BLOCO:** os dias **#081 a #085** existem no arquivo apenas
+como linhas de calendário (Klein 2014/2018; Rohrer 2015; Wrzus 2013; Jakubowski 2020;
+Matthews 2016), sem registro formal. A consolidação deles precisa da sessão em que foram
+produzidos; este bloco não os inventa. Fica anotado como pendência própria.
+
+---
+
+### Dia #086 - 2026-09-07 - forma: MEIA-VIDA COM EQUAÇÃO
+**Pergunta:** Qual a probabilidade de começar no ano errado custar dez anos? (Carreira)
+**Fonte central:** Oreopoulos, von Wachter & Heisz (2012), AEJ: Applied Economics, 4(1),
+1-29. Base administrativa canadense (~70% dos formados universitários 1976-1995, registros
+fiscais 1982-1999; N individual não publicado, cobertura declarada como medida de tamanho).
+**Âncoras:** +5 p.p. de desemprego na formatura → -9% de ganhos iniciais; metade da perda
+some em ~5 anos; zero estatístico em 8-10; ~30% da reversão vem de trocar de empresa.
+**Modelo:** decaimento exponencial estilizado sobre as três âncoras (suposição declarada:
+a exponencial não toca o zero, o que zera é a significância); custo acumulado da década
+~ metade de um salário anual. **×0,80:** não (registro fiscal objetivo).
+**Ponte:** #053 (sorte no topo; aqui, o azar de entrada com prazo de validade).
+
+### Dia #087 - 2026-09-08 - forma: ANATOMIA DE UM EFEITO
+**Pergunta:** Qual a probabilidade de trabalhar de pijama render mais? (Trabalho)
+**Fonte central:** Bloom, Liang, Roberts & Ying (2015), QJE, 130(1), 165-218. Call center
+da Ctrip, RCT por paridade de aniversário: funil 996 elegíveis → 503 voluntários → 249
+randomizados (131 casa, 118 escritório), 9 meses.
+**Âncoras:** +13% de desempenho = +9% minutos por turno + +4% ligações/minuto (composição
+1,09×1,04≈1,134, arredondamento dos autores); rotatividade caiu ~metade; pós-seleção
+voluntária ~+22%; promoção condicional ao desempenho CAIU (direção reportada, magnitude
+não ancorada). Bloom et al. 2024, Nature, N=1.612 (híbrido) nas limitações.
+**Modelo:** decomposição verificada + dias-equivalentes (conta própria: +0,65 dia útil por
+semana) + o valor da seleção (~9 p.p.). **×0,80:** não (RCT, medição por sistema).
+**PAR SELADO com o #093:** os dois lados da parede, declarado nos dois dias.
+
+### Dia #088 - 2026-09-09 - forma: TAMANHO HONESTO + FOREST
+**Pergunta:** Qual a probabilidade de você ler pior na tela? (Cognição)
+**Fonte central:** Delgado, Vargas, Ackerman & Salmerón (2018), Educational Research
+Review, 25, 23-38. 54 estudos, 76 comparações, N=171.055 (2000-2017), Knapp-Hartung.
+**Âncoras:** vantagem do papel g=0,21 [0,14, 0,28] entre participantes (k=56, 2 outliers
+removidos) e 0,21 [0,06, 0,37] intra (k=18); sensibilidade só-publicados 0,19 [0,11, 0,27];
+I²=72,2; intervalo de predição [-0,14, +0,56]; fail-safe N=1.727 (critério 290), Egger
+p=0,39; 97% dos participantes em 4 megaestudos (sensibilidade sem eles: 0,22). Moderadores
+com IC: tempo limitado 0,26 [0,16, 0,35] vs ritmo próprio 0,09 [-0,05, 0,22]; informativo
+0,27 e misto 0,30 vs narrativa -0,01 [-0,20, 0,20]; ano β=0,01/ano (p=0,03, R²=64%).
+Contexto dos autores: 2/3 de um ano escolar; metade de uma intervenção de leitura.
+**Apoio:** Kong, Seo & Zhai (2018), independente, 17 estudos: 0,21.
+**Modelo:** traduções (56/100 duelos, U3 58%, sobreposição 92%) + dois forest plots.
+**×0,80:** não (meta de tamanhos de efeito). **Ponte:** #037 (hábito de leitura; claims
+distintos). **NOTA DE TROCA:** substituiu "a reversão do azarão" (Fumarco et al. 2017,
+PLOS ONE, N=4.447, gradiente quantílico p90 +9,2 pontos/+51,3% salário); o notebook do
+azarão está PRONTO na reserva (dia-088-a-reversao-do-azarao.ipynb) para renumeração futura.
+
+### Dia #089 - 2026-09-10 - forma: EQUAÇÃO VERIFICADA (SEMENTE 42)
+**Pergunta:** Qual a probabilidade de os seus amigos terem mais amigos que você? (Redes)
+**Fonte central:** Feld (1991), American Journal of Sociology, 96(6), 1464-1477, sobre
+Coleman (1961). Marketville, meninas: N=146; 80 abaixo da média dos amigos, 41 acima,
+25 empatadas; médias 2,7 vs 3,4; 74% abaixo da régua geral. Equação: Σx²/Σx = média +
+variância/média.
+**Apoio:** Ugander et al. (2011), Facebook, N=721 milhões: 92,7% abaixo da média,
+83,6% abaixo da mediana; Twitter ~98% (Hodas et al. 2013).
+**Modelo:** equação verificada em rede sintética de 1.000 pessoas (modelo de configuração,
+semente 42, ilustração declarada). **×0,80:** não (propriedade matemática).
+**Corda:** #083 (rede que encolhe), par declarado no próprio texto; alerta 41 do eixo
+amizade atendido.
+
+### Dia #090 - 2026-09-11 - forma: CONTRASTE DE MAGNITUDES + CLES
+**Pergunta:** Qual a probabilidade de o estresse mudar as suas decisões? (Decisão)
+**Fonte central:** Gu et al. (2025), Psychoneuroendocrinology, k=171, N=8.452: fisiológico
+geral g=1,25 [1,13, 1,38]; autônomo 1,38 [1,23, 1,54]; HPA 1,04 [0,86, 1,21]; psicológico
+0,93 [0,79, 1,09]; cortisol × sensação ρ=-0,22 n.s.
+**Fontes de decisão:** Starcke & Brand (2016), Psych Bulletin, 32 datasets, N=1.829:
+d=0,19 (psicossocial) e 0,09 (sistêmico); ERRATUM DE 2016 CHECADO em 02/09/2026 (só a
+descrição do U invertido; os d intactos; ICs não disponíveis, limitação declarada).
+Forbes et al. (2024): desconto temporal SMD=-0,18 [-0,57, +0,20], NULO.
+**Reforços:** Sokol-Hessner 2016 (cortisol p=8,9e-16, risco IC [-0,05, +0,06]); Parslow &
+Rose 2022 pré-registrado N=194 (63,4% vs 65,8%, p=0,302); Fricke 2025 RCT duplo-cego N=94.
+**Nuance:** Shields et al. 2016, N=2.486 (memória -0,20; inibição cognitiva -0,21;
+inibição de resposta +0,30: específico e pequeno; cortisol administrado não reproduz).
+**Modelo:** razão da fenda 6,6x + CLES (corpo 81%/decisão 55%). **×0,80:** não.
+**DESCARTE DE RIGOR:** Danziger (juízes famintos) NÃO usado, alerta 16 do livro-caixa;
+sem blindagem extra por decisão da Ana. **Pontes:** #051 e #058 (cortisol, objetos distintos).
+
+### Dia #091 - 2026-09-12 - forma: ASSIMETRIA + NULOS ELEGANTES
+**Pergunta:** Qual a probabilidade de a felicidade estar na mala ainda fechada? (Bem-estar)
+**Fonte central:** Nawijn, Marchand, Veenhoven & Vingerhoets (2010), Applied Research in
+Quality of Life, 5(1), 35-47, aberto. N=1.530 (974 viajantes, 556 não). Pré: 2,25 vs 2,07,
+p=0,018, η²=0,02 (declarado minúsculo no texto E no gráfico). Pós: sem diferença. Exceção:
+viagem muito relaxada 2,64, brilho ~2 semanas, extinto em 8 (basal do grupo 2,48).
+Nulos: duração da estadia e dias desde a volta sem efeito.
+**Modelo:** a assimetria (antes mensurável, depois indistinguível) + curva de decaimento
+estilizada (suposição declarada). **×0,80:** não (comparação de médias, η²).
+**Gancho pessoal:** a volta de deixar um filho morando em outro país (forma da virada
+biográfica). **Ponte:** #047 (a memória estica; a felicidade encolhe na mesma volta).
+
+### Dia #092 - 2026-09-13 - forma: POSTERIOR NO LOG-RR + GOMPERTZ
+**Pergunta:** Qual a probabilidade de o otimismo alongar a sua vida? (Longevidade)
+**Fonte central:** Rozanski, Bavishi, Kubzansky & Cohen (2019), JAMA Network Open, 2(9),
+15 estudos, N=229.391: eventos CV RR=0,65 [0,51, 0,78]; mortalidade RR=0,86 [0,80, 0,92].
+**Apoio:** Lee et al. (2019), PNAS, 116(37): 69.744 mulheres (10 anos) + 1.429 homens
+(30 anos); vida +14,9% [11,9, 18,0] (faixa 11-15%); odds de chegar aos 85: 1,5 e 1,7;
+dose-dependente P<0,01, robusto a ajustes.
+**Modelo:** posterior no log-RR (P(proteção CV existe)≈100%; P(mortalidade >10%)=91%*)
++ equação de Gompertz Δanos=-ln(RR)/b, b∈[0,07, 0,11] → 1,4 a 2,2 anos (sensibilidade).
+(*valor exato no notebook; conferir no Run All)
+**×0,80:** não (óbito objetivo). **REUSO DECLARADO (a "colisão tripla" tratada como
+conteúdo):** Rozanski/Bavishi/Cohen apareceram no #064 (Cohen, Bavishi & Rozanski 2016,
+propósito); estudos e construtos diferentes, nota de reuso no próprio notebook; os RRs
+de propósito (0,85 do #064) e otimismo (0,86) NÃO se somam, dito no texto.
+
+### Dia #093 - 2026-09-14 - forma: ORÇAMENTO DE CONVERSA + CONTRASTE DE CANAIS
+**Pergunta:** Qual a probabilidade de o escritório aberto ter matado a conversa? (Trabalho)
+**Fonte central:** Bernstein & Turban (2018), Phil. Trans. Royal Society B, 373. Estudo 1:
+N=52, interação face a face 5,8h → 1,7h (-71%); email +56%, mensagens +67%. Estudo 2:
+N=100, 1.830 duplas: 643 conversaram menos, 141 mais (verificado na fonte).
+**Modelo:** orçamento de conversa perdida (820-984 h/ano ≈ meio expediente semanal, conta
+própria declarada). **×0,80:** não (sensores sociométricos, medida objetiva).
+**PAR SELADO com o #087** (o experimento do home office abre a história: "semana passada,
+um sorteio mandou metade de um call center para casa"). **Insight final integral da Ana**
+("mudar uma planta é mais fácil que entender comportamento").
+
+### Dia #094 - 2026-09-15 - forma: POSTERIOR ANTI-INFLAÇÃO + DIRICHLET + SALA DE 30
+**Pergunta:** Qual a probabilidade de você aguentar o pior e seguir de pé? (Resiliência)
+**Fonte central:** Galatzer-Levy, Huang & Bonanno (2018), Clinical Psychology Review:
+trajetória resiliente 65,7% [61,6, 69,8]; quatro trajetórias com soma 106% normalizada
+(decisão declarada). **Apoio:** Schäfer et al. (2022), TiCS: 66,0% na pandemia.
+**Modelo:** posterior anti-inflação (P(>60%)=99,7%; P(>2/3)=32%: o dia NÃO arredonda para
+"dois terços"); Dirichlet α=604 calibrada no IC para as quatro trajetórias; preditivo da
+sala de 30 pessoas: [13, 24] no IC 95%. **×0,80:** não (trajetórias de coorte).
+**Corda com o #010** (aguentar mais do que imaginava): declarada na ABERTURA da versão
+final da Ana; cross-check documentado (claims distintos, fontes disjuntas, tensão
+Bonanno × crescimento pós-traumático dita no texto). Substack final: versão integral dela.
+
+### Dia #095 - 2026-09-16 - forma: EQUAÇÃO DE FANO RESOLVIDA + SENSIBILIDADE
+**Pergunta:** Qual a probabilidade de os seus próximos passos serem previsíveis? (Comportamento)
+**Fonte central:** Song, Qu, Blumm & Barabási (2010), Science, 327: entropia real da
+mobilidade S=0,8 bit; teto de previsibilidade ~93% via desigualdade de Fano; N=50 mil
+usuários de celular (3 meses). **Apoios:** Lu et al. (2013): teto 88%, realizado 87%;
+Haiti 85%; Smith et al.: 81-85%.
+**Modelo:** Fano resolvida numericamente (brentq) com sensibilidade ao N de locais
+(N=10/50/100 → 89,8/92,6/93,3%: "a rotina, não o mapa, decide"); vacina conceitual
+Shannon vs termodinâmica (com a pasta de dente da Ana); dado de 50 faces: 2%.
+**×0,80:** não (registro de antenas, medida objetiva). **Conceito virgem no projeto**
+(grep no livro-caixa: entropia inédita). **Capa REFEITA sob a regra nova** ("Você se acha
+espontâneo?" no lugar de "Você custa 0,8 bit"): o dia que gerou a REGRA DE CAPAS.
+Substack final: versão da Ana (abertura "94 dias esperando o assunto caber"; fecho
+"me tranquiliza!").
+
+### Dia #096 - 2026-09-17 - forma: DISPUTA (1ª do bloco) - POSTERIOR + ESCADA EM DUELOS
+**Pergunta:** Qual a probabilidade de "durma sobre o assunto" ser um conselho furado? (Decisão)
+**Fonte central:** Nieuwenstein et al. (2015), Judgment and Decision Making: meta de 61
+efeitos/31 estudos (45 n.s.); g corrigida=0,018 [-0,10, 0,14]; réplica N=399 com poder
+0,997: g=-0,01; BF=7,8 pró-nulo.
+**Contexto dos dois lados:** Strick et al. (2011): g=0,224 (meta dos proponentes);
+Dijksterhuis et al. (2006), Science: d=0,69 com N~30 (a origem).
+**Modelo:** escada em duelos pelo CLES: 68,7 → 56,3 → 50,5 → 49,7 de 100. **×0,80:** não.
+**Frases-eixo:** "o que morreu não foi a noite, foi a mágica"; fronteira com o #013
+declarada (criatividade/incubação ≠ qualidade da decisão). Capa: o conselho entre aspas.
+
+### Dia #097 - 2026-09-18 - forma: MITO ENTERRADO COM MAGNITUDE HONESTA
+**Pergunta:** Qual a probabilidade de viver entre dois mundos ser um presente? (Identidade)
+**TROCA DE TEMA REGISTRADA:** o dia estava pronto com ACEs e dor crônica (Bussières et al.
+2023, EJP, N=826.452, gradiente 1,29→1,95, régua +11-15%/ACE, curva anti-determinismo
+67/100, contraponto Senaratne 2025 Lothian). Ana julgou pesado demais; **dia completo na
+GAVETA** (10 arquivos gaveta-aces-* em outputs: notebook, substack, 6 slides, HTML,
+legenda), renumerar quando publicar. Não conta na cota de disputas.
+**Fonte central do dia publicado:** Nguyen & Benet-Martínez (2013), J. Cross-Cultural
+Psychology, 44(1), 122-159: 83 estudos, 322 correlações, N=23.197; biculturalismo ×
+ajustamento r=0,51 [0,48, 0,54] (efeitos aleatórios) / 0,10 (fixos, no próprio artigo);
+bicultural > monocultural; "invalida o homem marginal".
+**A escada da magnitude, declarada por inteiro:** Stogianni, Bender, Sleegers,
+Benet-Martínez & Nguyen (2021), atualização com +90 estudos incl. não-publicados: r=0,12;
+Yoon et al. (2013), 325 estudos: 0,10; desafio: Bierwiaczonek & Kunst (2021), longitudinal,
+pode ser zero; resposta: Grigoryev et al. (2023). Contexto histórico: Stonequist (1937),
+o "homem marginal".
+**Modelo:** escada em duelos (80 → 57 → 50) + TESTE DO PISO (a região do mito, abaixo da
+moeda, está vazia em todas as réguas, dos dois lados da disputa). **×0,80:** não
+(correlações de escalas). **Gancho pessoal:** "Meu filho iniciou recentemente uma imersão
+em outro país" (decisão consciente da Ana; território aberto pelo #014, ponte declarada).
+**Frases-eixo:** "identidade não é bolo, é idioma"; "não divide o pertencimento; dobra".
+Capa: o mito entre aspas.
+
+### Dia #098 - 2026-09-19 - forma: DISPUTA (2ª e última do bloco) - BF DE REPLICAÇÃO
+**Pergunta:** Qual a probabilidade de o seu amuleto da sorte funcionar? (Crença)
+**Ato 1:** Damisch, Stoberock & Mussweiler (2010), Psychological Science, 21(7),
+1014-1020. Exp. 1: N=28, 10 tacadas de 100 cm; bola "de sorte" 65% vs 48% (6,4 vs 4,8);
+d=0,83 [0,05, 1,60], p=0,042.
+**Ato 2 (fonte central):** Calin-Jageman & Caldwell (2014), Social Psychology, 45(3),
+239-245, aberto: DUAS replicações pré-registradas, N=124 e N=120, com cooperação da
+própria Damisch; "quase idêntico" ao controle; objeções checadas (manipulação, poder,
+dificuldade, crença); heterogeneidade significativa na mini-meta.
+**Árbitro:** Ly, Etz, Marsman & Wagenmakers (2019), Behavior Research Methods:
+BF de replicação = 0,175 (~5,7:1 pró-nulo). **Queda do império:** Dickhäuser et al.
+(2020): anagramas do mesmo grupo, duas réplicas pré-registradas ≈ 0.
+**Modelo:** BF traduzido + preço do amuleto em tacadas (SD implícito 1,93: promessa 1,6 →
+ponderado 0,16 → réplicas 0) + A PISTA DO IC (o intervalo [0,05, 1,60] já confessava;
+"a certidão de nascimento já pedia desconfiança"). **×0,80:** não (experimentos
+randomizados). **Par de disputas com o #096, declarado nos dois:** "amostra pequena,
+manchete grande, réplica honesta, efeito nenhum". Fair play da autora original registrado
+com aplauso. Capa: "A camisa que você não lava em dia de final."
+
+---
+
+## NOTAS DE JANELA (#086-#098)
+
+**Placar:** 13 dias consecutivos completos (seg 07/09 a sáb 19/09), 52 artefatos.
+Estrutura: #086-#090 em modelos/dias-061-090/; #091-#098 em modelos/dias-091-120/.
+
+**Cota de disputas do bloco: FECHADA** com o par #096 + #098. O #097 (mito enterrado)
+não conta na cota: forma distinta, declarada.
+
+**Pares e cordas da janela:** #087/#093 (par selado, dois lados da parede);
+#094/#010 (corda "aguentar", claims distintos, aberta na versão da Ana);
+#092/#064 (reuso Rozanski declarado; RRs que não se somam);
+#089/#083 (eixo amizade, alerta 41 atendido); #097/#014 (corda familiar, construto novo);
+#095: conceito virgem (entropia).
+
+**Regras editoriais nascidas ou consolidadas na janela:**
+1. Regra do modelo próprio: todo dia tem ao menos uma conta nossa.
+2. Regra de capas (a partir do #095): manchete em linguagem de mesa, pergunta direta ou
+   promessa invertida; jargão só como isca dourada da última linha.
+3. Forma da virada biográfica: inquietação verdadeira → número → companhia anti-heroica;
+   o gancho volta no fecho; terceiros contidos.
+4. Marcadores de IA a caçar: "acho fascinante", "extremamente interessante".
+5. "A resposta seria sim" (nunca "a pergunta"); títulos curtos e universais.
+
+**Pendências antigas mortas na janela:** 10, 11 e 12 do livro-caixa.
+
+**Reservas vivas:** azarão do hóquei (notebook pronto); gaveta ACEs (dia completo);
+divórcio ~69% (candidato #099, validar); olfato/memória (outubro, distância do #084);
+gasto pró-social (dezembro); "época vs arquitetura" (banco).
 
 # PARTE 2B - ALERTA DE DATA
 

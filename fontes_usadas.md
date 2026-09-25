@@ -1,59 +1,77 @@
 # FONTES USADAS - 365 PROBABILIDADES
-### Livro-caixa de fontes primarias dos dias #001 a #080 + calendario validado ate #098
-Gerado em 13/08/2026 por extracao automatica dos notebooks do repositorio
-`anac82/365-probabilidades`, atualizado em 16/08/2026 com os dias #063 a #066 e em
-22/08/2026 com os dias #067 a #070, em 27/08/2026 com os dias #071 a #075
-em 29/08/2026 com os dias #076 e #077, em 01/09/2026 com os dias
-#078 a #080 e em 02/09/2026 com as fontes do #059, o calendario validado
-#088 a #098 e os alertas 35 a 41.
-Fonte da verdade: os proprios `.ipynb` publicados.
+### Livro-caixa de fontes primárias dos dias #001 a #107, calendário até #110 e reservas
+**Versão consolidada de 25/09/2026.** Substitui, num arquivo só, `fontes_usadas.md`
+(25/08), `fontes_usadas_novo.md` (10/09) e `fontes_usadas_16set.md` (16/09). Os três
+eram versões encadeadas do mesmo texto (cada um continha o anterior por inteiro); nada
+foi perdido na fusão. Os blocos #081-#085 e #086-#098, que estavam colados como anexos,
+entraram na sequência normal da Parte 2.
+
+Histórico das atualizações anteriores: gerado em 13/08/2026 por extração automática dos
+notebooks do repositório `anac82/365-probabilidades`; atualizado em 16/08 (#063-#066),
+22/08 (#067-#070), 27/08 (#071-#075), 29/08 (#076-#077), 01/09 (#078-#080), 02/09
+(fontes do #059, calendário #088-#098, alertas 35-41), 16/09 (blocos #081-#085 e
+#086-#098) e 25/09 (esta consolidação: #099-#107, alertas 42-54, pendências 13-20,
+calendário #099-#110, reservas).
+
+Fonte da verdade: os próprios `.ipynb` publicados.
 
 **Como usar:** antes de validar qualquer fonte para um dia novo, procurar aqui pelo
-sobrenome do primeiro autor. A checagem e por FONTE, nao por tema. Dois dias podem
-tratar de assuntos distantes e citar o mesmo estudo, e e ai que a repeticao fica
-visivel para o leitor.
+sobrenome do primeiro autor. A checagem é por FONTE, não por tema. Dois dias podem
+tratar de assuntos distantes e citar o mesmo estudo, e é aí que a repetição fica
+visível para o leitor.
 
-**Como manter:** ao fechar cada dia, acrescentar a linha na PARTE 1 e os autores na
-PARTE 2. Leva um minuto e evita o retrabalho de descobrir a colisao depois de publicar.
+**Como manter:** ao fechar cada dia, acrescentar a linha na PARTE 2 e os autores na
+PARTE 1. Leva um minuto e evita o retrabalho de descobrir a colisão depois de publicar.
+
+**Índice:** Parte 1 (alertas de reuso) · Parte 2 (fontes por dia, #001 a #107) ·
+Parte 2B (alerta de data) · Parte 3 (dias sem bloco de fontes) · Parte 4 (alertas
+permanentes 1-54) · Parte 5 (rotina) · Pendências abertas · Calendário #099-#110 ·
+Reservas validadas · Notas de janela.
 
 ---
 
 # PARTE 1 - ALERTAS DE REUSO CONFIRMADO
 
-Cruzamento automatico de autor+ano em todos os 60 notebooks.
+Cruzamento de autor+ano nos notebooks publicados.
 
-## Lally, van Jaarsveld, Potts & Wardle (2010) - usado em TRES dias
+## Lally, van Jaarsveld, Potts & Wardle (2010) - usado em TRÊS dias
 `European Journal of Social Psychology`, N=82, mediana de 66 dias, faixa 18-254.
 
 | Dia | Papel da fonte |
 |---|---|
 | #031 | Citada na lista de fontes (curva de abandono) |
-| #036 | **Fonte central.** Curva assintotica, o dia inteiro e sobre ela |
+| #036 | **Fonte central.** Curva assintótica, o dia inteiro é sobre ela |
 | #060 | **Fonte central.** Curva de Mitscherlich calibrada pela mediana de 66 dias |
 
-**Este e o reuso mais pesado do projeto.** O #036 e o #060 rodam a mesma forma
-funcional sobre o mesmo N=82. Se o tema de habito voltar, precisa de fonte nova
-(sugestao: Fournier et al. ou Keller et al. 2021) ou de angulo declaradamente
-diferente. **Lally esta queimada ate o fim do projeto.**
+**Este é o reuso mais pesado do projeto.** O #036 e o #060 rodam a mesma forma
+funcional sobre o mesmo N=82. Se o tema de hábito voltar, precisa de fonte nova
+(sugestão: Fournier et al. ou Keller et al. 2021) ou de ângulo declaradamente
+diferente. **Lally está queimada até o fim do projeto.** (Os 66 dias voltaram a ser
+citados só como reuso declarado nas fontes validadas para a sobrevivência dos 100 dias,
+tema que ficou na reserva.)
 
 ## Killingsworth & Gilbert (2010) - usado em dois dias
 `Science` 330(6006), N=15.000. Dias **#007** e **#013**.
-Ja estava declarado no proprio #013 ("ja utilizado no Dia #007 deste projeto"), o que
-esta correto. Nao repetir uma terceira vez.
+Já estava declarado no próprio #013 ("já utilizado no Dia #007 deste projeto"), o que
+está correto. Não repetir uma terceira vez.
 
 ## Reed & Ones (2006) - usado em dois dias
 `Psychology of Sport and Exercise` 7, 477-514. Dias **#034** e **#043**.
-Risco baixo: no #043 entrou so como apoio qualitativo, sem tamanho de efeito, e isso
-esta declarado na nota metodologica. Registrado por completude.
+Risco baixo: no #043 entrou só como apoio qualitativo, sem tamanho de efeito, e isso
+está declarado na nota metodológica. Registrado por completude.
 
-## Autores novos registrados em #061 e #062 - sem colisao
+## Autores novos registrados em #061 e #062 - sem colisão
 Hart et al. 2009, Festinger 1957, Layton et al. 2018. Nenhum aparecia nos dias #001 a
-#060. Livre para uso futuro, respeitando a regra de nao repetir fonte central.
+#060. Livre para uso futuro, respeitando a regra de não repetir fonte central.
 
-## Kahneman, D. - autor recorrente, estudos diferentes
-Aparece em **#005** (Kahneman & Deaton 2010), **#035** (peak-end, tres artigos) e
-**#039** (Kahneman & Klein 2009, como conceito). Estudos distintos, sem colisao real,
-mas o nome ja apareceu tres vezes. Evitar um quarto dia ancorado nele.
+## Kahneman, D. - autor recorrente, LIBERADO POR ANA em 18/09/2026
+Aparece em **#005** (Kahneman & Deaton 2010), **#035** (peak-end, três artigos),
+**#039** (Kahneman & Klein 2009, como conceito) e **#081** (Tversky & Kahneman 1981,
+enquadramento). O alerta antigo de "evitar um quarto dia ancorado nele" foi suspenso por
+decisão da Ana ("sou muito fã do Kahneman, pode repetir ele sim"), com duas condições:
+o reuso é declarado no notebook, e os dias de *Rápido e Devagar* não vêm em sequência
+("colocar tudo na sequência é muito ruim"). O #107 cita Kahneman & Tversky 1979 como
+origem do conceito de falácia do planejamento: quinta aparição, declarada.
 
 ## Dunning, D. — usado em DOIS dias
 | Dia | Fonte |
@@ -72,6 +90,11 @@ Estudos diferentes, sem colisão de dado. Mas o nome já apareceu duas vezes em 
 
 Somado ao alerta acima, **a dupla Epley/Dunning está saturada até o fim do bloco atual.**
 
+## Kruger, J. — atenção ao reuso
+Justin Kruger assina o #027 (Kruger & Dunning 1999) e também Kruger & Evans 2004
+(*JESP* 40(5), "desempacotar" tarefas reduz a falácia do planejamento). Se o #107 usar
+o segundo, declarar o nome. Não confundir com Joachim Krueger (crítica ao #027).
+
 ## Tappin & McKay — dois artigos no MESMO dia
 No #063 entram 2017 (*SPPS* 8(6), N=270) e 2019 (*SPPS* 10(2), N=827 e N=825). É
 deliberado: o segundo é o contrapeso nulo do primeiro. Registrado para que o par não
@@ -84,11 +107,31 @@ Wade, Lindsay, Azad, Strange, Ost e Hyman (2017); Pezdek (1997); Brewin e Andrew
 (2017); Bickel, Hammel e O'Connell (1975); Rekdal (2014); Rogers e Aida (2014); Rogers,
 ten Brinke e Carney (2016). Nenhum aparecia nos dias #001 a #062.
 
-**Atenção ao Rozanski:** ele está no banco de temas como fonte candidata para um dia de
-otimismo. Se aquele dia for montado, o #064 já terá usado o nome dele uma vez.
+## Rozanski, Bavishi, Cohen (Randy) e Kubzansky — colisão tripla, tratada como conteúdo
+Cohen, Bavishi & Rozanski 2016 assinam o #064 (propósito). Rozanski, Bavishi, Kubzansky
+& Cohen 2019 assinam o #092 (otimismo), e Kubzansky assina as duas fontes do #092. Reuso
+declarado no notebook do #092 e no texto ("os dois dias não se somam"). **Grupo fechado
+para novos dias.**
+
+## Cohen — dois pesquisadores diferentes, regra do nome completo
+**Randy Cohen** (cardiologia, #064 e #092) e **Sheldon Cohen** (Carnegie Mellon,
+psiconeuroimunologia; fonte validada do abraço e resfriado, na reserva). Se o abraço for
+montado, escrever "Sheldon Cohen" sempre, nunca "Cohen et al.", para não parecer quarta
+aparição do grupo do #064.
+
+## Albarracín, D. — em uma fonte publicada e uma na reserva
+Assina Hart et al. 2009 (#061) e Chan, Jones, Hall Jamieson & Albarracín 2017 (fonte
+central do dia da correção de crença, notebook pronto na reserva). Estudos diferentes;
+se a correção for publicada, declarar a corda com o #061.
+
+## Christenfeld, N. — nome com reserva declarada pela Ana
+Roy & Christenfeld 2004 (cachorro e dono, validado e descartado em 25/09) e Roy,
+Christenfeld & McKenzie 2005 (*Psychological Bulletin*, meta-análise da subestimação de
+duração de tarefas). A Wikipédia registra denúncias de má conduta contra ele e a Ana
+ainda não decidiu se cita. **Não usar em nenhum dia sem decisão explícita dela.** O
+#107 foi montado sem ele.
 
 ---
-
 
 ## Autores novos registrados em #067 a #070 — sem colisão
 
@@ -115,9 +158,7 @@ deve ser reaberto no bloco atual.**
 | #070 | autorrelato contra desfecho objetivo |
 
 Seis dias em nove tocam essa mesma corda, com fontes e desenhos distintos. **Não é
-colisão de fonte, mas é fadiga editorial.** O bloco #071 a #090 deve abrir com outro
-eixo.
-
+colisão de fonte, mas é fadiga editorial.** O bloco #071 a #090 abriu com outro eixo.
 
 ## Autores novos registrados em #071 a #075 — sem colisão
 
@@ -137,12 +178,11 @@ Os cinco dias abrem eixos distintos: tempo de convivência (#071), régua diagn�
 (#072), risco articular (#073), janela de aprendizado (#074) e percepção sensorial
 (#075).
 
-**Novo padrão observado, e ele merece vigilância:** três dos cinco dias deste bloco são
+**Padrão observado, e ele merece vigilância:** três dos cinco dias deste bloco são
 "achado famoso com disputa metodológica anexa" (#071 com os comentários formais na
 mesma revista, #073 com os intervalos que cruzam o 1, #074 com a reanálise de van der
 Slik). É uma forma editorial forte e virou quase automática. **Não usar mais de dois
 dias assim por bloco de dez.**
-
 
 ## Autores novos registrados em #076 e #077 — sem colisão
 
@@ -153,49 +193,81 @@ Lu, Klein-Cardeña, Lee, Antonsen, Girvan e Ott (2016); McHill e Chinoy (2020) e
 O **#077** não tem autores: a fonte é institucional (SITA). Ver o alerta permanente
 sobre fonte de indústria.
 
-## Tema queimado, não reabrir
-
-**"O tempo passa mais rápido conforme envelhecemos" já foi o #047**, em 30/07, com
-Lemlich (1975) e Wittmann & Lehnhoff (2005). O tema voltou a ser proposto para o #076 e
-foi barrado na checagem. **Fora do banco em definitivo.**
-
-
 ## Autores novos registrados em #078 a #080 — sem colisão
 
 Gable, Gonzaga, Strachman, Reis, Impett e Asher (2004 e 2006); Hartshorne e May (1928);
 Mischel (1968); Epstein (1979); Fleeson (2001); Shoda; Brickman, Coates e Janoff-Bulman
 (1978); Lindqvist, Östling e Cesarini (2020). Nenhum aparecia nos dias #001 a #077.
 
+## Autores novos registrados em #081 a #098 — sem colisão (confirmados no fechamento)
+
+Klein e os 36 laboratórios do Many Labs (2014, 2018); Rohrer, Egloff e Schmukle (2015);
+Jakubowski, Eerola, Tillmann, Perrin e Heine (2020); Krumhansl e Zupnick (2013);
+Matthews (2016); Oreopoulos, von Wachter e Heisz (2012); Bloom, Liang, Roberts e Ying
+(2015 e 2024); Delgado, Vargas, Ackerman e Salmerón (2018); Kong, Seo e Zhai (2018);
+Feld (1991); Coleman (1961); Ugander (2011); Hodas (2013); Gu (2025); Starcke e Brand
+(2016); Forbes (2024); Sokol-Hessner (2016); Parslow e Rose (2022); Fricke (2025);
+Shields (2016); Nawijn, Marchand, Veenhoven e Vingerhoets (2010); Lee (2019, PNAS);
+Bernstein e Turban (2018); Galatzer-Levy, Huang e Bonanno (2018); Schäfer (2022); Song,
+Qu, Blumm e Barabási (2010); Lu (2013, Sci Rep); Dijksterhuis, Bos, Nordgren e van
+Baaren (2006); Nieuwenstein (2015); Strick (2011); Nguyen e Benet-Martínez (2013);
+Stogianni, Bender, Sleegers (2021); Yoon (2013); Bierwiaczonek e Kunst (2021); Grigoryev
+(2023); Damisch, Stoberock e Mussweiler (2010); Calin-Jageman e Caldwell (2014); Ly,
+Etz, Marsman e Wagenmakers (2019); Dickhäuser (2020).
+
+**Reusos declarados nessa janela:** Wrzus 2013 (#024 e #083); Tversky & Kahneman
+(#081, ver Kahneman acima); Rozanski/Bavishi/Cohen/Kubzansky (#064 e #092).
+
+## Autores novos registrados em #099 a #107 — sem colisão (confirmar no fechamento)
+
+Mandsager (2018); Stinebrickner e Stinebrickner (2014); INEP (2024, base
+administrativa); Norscia e Palagi (2011); Bartholomew e Cirulli (2014); Odean (1998);
+Lu, Musalem, Olivares e Schilkrut (2013); Caixa Econômica Federal (resultados oficiais,
+cópia pública); Fleurian e Pearce (2021); Goldstein (1980); Sloboda (1991); Panksepp
+(1995); Nusbaum e Silvia (2011); Mlejnek (2013); Nusbaum (2014); Bannister e Eerola
+(2018); Bannister (2020); Bignardi (2022 e 2026, só no notebook); Buehler, Griffin e
+Ross (1994 e 1995); Flyvbjerg, Skamris Holm e Buhl (2002).
+
+**Atenção a três nomes:** *Lu* aparece em #076 (Lu, Klein-Cardeña 2016), #095 (Lu 2013,
+Sci Rep) e #103 (Lu, Musalem 2013): três pessoas diferentes, sem colisão real, mas o
+sobrenome repete; usar nome do coautor nas citações. *Sloboda* e *Nusbaum* saíram do
+#105 como camada própria e voltam no #160 (a palavra muda a resposta): reuso declarado
+por construção. *Kahneman & Tversky 1979* no #107: ver o alerta do Kahneman.
+
 ## Temas queimados, não reabrir
 
 | Tema | Motivo |
 |---|---|
-| Tempo passa mais rápido com a idade | já foi o **#047** (Lemlich 1975, Wittmann & Lehnhoff 2005) |
+| Tempo passa mais rápido com a idade | já foi o **#047** (Lemlich 1975, Wittmann & Lehnhoff 2005); proposto de novo para o #076 e barrado |
 | Dinheiro e felicidade / esteira do salário | já foi o **#005** (Kahneman & Deaton 2010, Killingsworth 2021, Killingsworth, Kahneman & Mellers 2023) |
 | Noite mal dormida e julgamento | já foi o **#042** (Yoo, Gujar, Hu, Jolesz & Walker 2007) |
 | Temperatura da sala e desempenho por gênero | descartado: efeito só existe em subgrupo, sem efeito na amostra completa, sem replicação conhecida, e literatura vizinha com ~1 milhão de alunos aponta em outra direção |
+| Babble effect / quem fala mais lidera | já foi o **#059** (MacLaren et al. 2020); proposto para o #093 e barrado |
+| Paradoxo do aniversário | Ana, 21/09: "o dia do aniversário já saiu". Não repropor na série dos cabalísticos (conferir em qual dia entrou antes de citar) |
+| Esgotamento do ego como dia próprio | Hagger 2016 e Vohs 2021 já entraram como contrapeso no #067 |
+| Fila única contra filas paralelas | tirado do #103 por decisão da Ana ("quero colocar fila única fora"); Wang & Zhou 2018 fora |
+| Cachorro e dono se parecem | validado (Roy & Christenfeld 2004) e descartado por Ana em 25/09 como "muito fraco" |
 
-**Os três primeiros foram propostos por engano em agosto e barrados na checagem.**
-Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
+**Regra fixada:** rodar a busca neste arquivo ANTES de propor tema, nunca depois.
 
 ---
 
 # PARTE 2 - FONTES POR DIA
 
-### Dia #001 - 2025-06-14 - forma: MAGNITUDE
+### Dia #001 - 2025-06-14 (typo no notebook; real 2026-06-14) - forma: MAGNITUDE
 **Qual a probabilidade de você estar no emprego certo?**
 
 - Gallup — American Job Quality Study, 2025 Amostra: N=18.429 | Margem de erro: ±1 ponto percentual (95% de confiança)
 
-### Dia #002 - 2025-06-15 - forma: MAGNITUDE
+### Dia #002 - 2025-06-15 (typo no notebook; real 2026-06-15) - forma: MAGNITUDE
 **Qual a probabilidade de você se arrepender de uma grande decisão?**
 
-- **PENDENTE.** O notebook nao tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
+- **PENDENTE.** O notebook não tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
 
 ### Dia #003 - 2026-06-16 - forma: MAGNITUDE
 **Qual a probabilidade de as amizades do seu filho estarem determinando o futuro financeiro dele?**
 
-- **PENDENTE.** O notebook nao tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
+- **PENDENTE.** O notebook não tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
 
 ### Dia #004 - 2026-06-17 - forma: CONTRASTE
 **Qual a probabilidade de você ser mais corajosa do que pensa depois dos 40?**
@@ -204,12 +276,14 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 - OECD — Organization for Economic Co-operation and Development N=longitudinal · 62% ainda empregados aos 60 após mudança entre 45-54
 - Liu et al., 2024 — Dare to be yourself: courage promotes self-authenticity Journal of Positive Psychology · N=3.868
 
+**Errata registrada:** a "ilusão de coragem" atribuída a "Loewenstein et al., Carnegie Mellon" está com atribuição incorreta e o dia carrega estatísticas não verificáveis (Enterprise Apps Today sem metodologia; "70% não se reconhecem" é estimativa, não dado). Correção adiada. Ver pendência 4 e alerta 42.
+
 ### Dia #005 - 2026-06-18 - forma: ARCO
 **Qual a probabilidade de o seu salário atual te fazer feliz?**
 
 - Kahneman & Deaton, 2010 — High income improves evaluation of life but not emotional well-being — N=450.000
 - Killingsworth, 2021 — Experienced well-being rises with income, even above $75.000 — N=33.391
-- Killingsworth, Kahneman & Mellers, 2023 — Income and emotional well-being: A conflict resolved — N=33.391 ⚠️ Nota sobre unidades — leia antes dos números: Os estudos originais reportam limiares em dólares por ano (USD/ano). Para tornar a história legível em reais e por mês — a forma como pensamos no salário no dia a dia — o modelo converte direto: USD/ano × taxa de câmbio ÷ 12 meses = R$/mês. [...] (nota metodologica completa no notebook)
+- Killingsworth, Kahneman & Mellers, 2023 — Income and emotional well-being: A conflict resolved — N=33.391 ⚠️ Nota sobre unidades — leia antes dos números: Os estudos originais reportam limiares em dólares por ano (USD/ano). Para tornar a história legível em reais e por mês — a forma como pensamos no salário no dia a dia — o modelo converte direto: USD/ano × taxa de câmbio ÷ 12 meses = R$/mês. [...] (nota metodológica completa no notebook)
 
 ### Dia #006 - 2026-06-19 - forma: MAGNITUDE
 **Qual a probabilidade de disciplina prever seu sucesso melhor que inteligência?**
@@ -311,9 +385,9 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 - Scheibehenne, B., Greifeneder, R. & Todd, P.M. (2010) — Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload — Journal of Consumer Research, 37(3), 409-425 — 50 estudos, N=5.036
 - Chernev, A., Böckenholt, U. & Goodman, J. (2015) — Choice Overload: A Conceptual Review and Meta-Analysis — Journal of Consumer Psychology, 25(2), 333-358
 - Nielsen (2019) — Total Audience Report — levantamento de mercado sobre comportamento de usuários de streaming (não é estudo peer-reviewed)
-- Prezzo / UK (2023) — levantamento com N=2.000 sobre \"menu anxiety\" em restaurantes (não é estudo peer-reviewed)
+- Prezzo / UK (2023) — levantamento com N=2.000 sobre "menu anxiety" em restaurantes (não é estudo peer-reviewed)
 - OnePoll / USA (2023) — levantamento com N=2.000 sobre ansiedade diante de cardápios (não é estudo peer-reviewed)
-- Kim, H. & Choi, J. (2024) — conceito de \"Netflix syndrome\" — Asian Journal for Public Opinion Research
+- Kim, H. & Choi, J. (2024) — conceito de "Netflix syndrome" — Asian Journal for Public Opinion Research
 
 ### Dia #022 - 2026-07-05 - forma: MECANISMO
 **Qual a probabilidade de você tratar seu "eu" de 10 anos pra frente como um completo estranho?**
@@ -336,7 +410,7 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 - Dunbar, R.I.M. (1992) — Neocortex size as a constraint on group size in primates — Journal of Human Evolution, 22(6), 469-493 (base teórica)
 - Dunbar, R.I.M. (1998) — The social brain hypothesis — Evolutionary Anthropology, 6(5), 178-190
 - Zhou, W.X., Sornette, D., Hill, R.A. & Dunbar, R.I.M. (2005) — Discrete hierarchical organization of social group sizes — Proceedings of the Royal Society B, 272, 439-444 (confirmação empírica das camadas 5/15/50/150)
-- Wrzus, C., Hänel, M., Wagner, J. & Neyer, F.J. (2013) — Social network changes and life events across the life span: A meta-analysis — Psychological Bulletin, 139(1), 53-80 — 277 estudos
+- Wrzus, C., Hänel, M., Wagner, J. & Neyer, F.J. (2013) — Social network changes and life events across the life span: A meta-analysis — Psychological Bulletin, 139(1), 53-80 — 277 estudos (reusada como central no #083, declarado lá)
 - Revisão sistemática BMC Public Health (2022) — Association between friendship quality and subjective wellbeing among adolescents — 43 estudos selecionados de 21.585 registros
 
 ### Dia #025 - 2026-07-08 - forma: CONTRASTE
@@ -386,12 +460,12 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 ### Dia #031 - 2026-07-14 - forma: GRADIENTE
 **Qual a probabilidade de um projeto pessoal chegar até o fim?**
 
-- **PENDENTE.** O notebook nao tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
+- **PENDENTE.** O notebook não tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook. (Lally 2010 citada na lista de fontes, ver Parte 1.)
 
 ### Dia #032 - 2026-07-15 - forma: MAGNITUDE
 **Qual a probabilidade de o hábito da leitura te dar mais de um ano de vida?**
 
-- **PENDENTE.** O notebook nao tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
+- **PENDENTE.** O notebook não tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
 
 ### Dia #033 - 2026-07-16 - forma: MAGNITUDE
 **Qual a probabilidade de o seu corpo estar pagando a conta da sua resiliência?**
@@ -405,7 +479,7 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 ### Dia #034 - 2026-07-17 - forma: GRADIENTE
 **Qual a probabilidade de menos exercício ser melhor pro seu humor do que você imagina?**
 
-- **PENDENTE.** O notebook nao tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
+- **PENDENTE.** O notebook não tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook. (Reed & Ones 2006 usada, ver Parte 1.)
 
 ### Dia #035 - 2026-07-18 - forma: MECANISMO
 **Qual a probabilidade de dois momentos definirem uma vida inteira na sua memória?**
@@ -417,40 +491,42 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 ### Dia #036 - 2026-07-19 - forma: GRADIENTE
 **Qual a probabilidade de um hábito levar 66 dias, e não 21, para se formar?**
 
-- **PENDENTE.** O notebook nao tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook.
+- **PENDENTE.** O notebook não tem bloco `**Fontes:**` estruturado. Preencher manualmente a partir do texto do notebook. (Fonte central: Lally et al. 2010, ver Parte 1.)
 
 ### Dia #037 - 2026-07-09 - forma: MAGNITUDE
 **Qual a probabilidade de dormir mal uma noite mudar como você percebe ameaças no dia seguinte?**
 
 - Yoo, S.S., Gujar, N., Hu, P., Jolesz, F.A. & Walker, M.P. (2007) — The human emotional brain without sleep — a prefrontal amygdala disconnect — Current Biology, 17(20), R877-R878 — N=26 (13 privados de sono, 13 controle)
-- Walker, M.P. (2017) — Why We Sleep: Unlocking the Power of Sleep and Dreams — Scribner (síntese das implicações dos dados de fMRI)
+- Walker, M.P. (2017) — Why We Sleep: Unlocking the Power of Sleep and Dreams — Scribner (síntese das implicações dos dados de fMRI). **Walker queimado como fonte** (ver reservas: benefícios do sono).
 
 ### Dia #038 - PENDENTE - forma: CONTRASTE
-**Qual a probabilidade de ninguem ter reparado naquilo que te constrangeu?**
+**Qual a probabilidade de ninguém ter reparado naquilo que te constrangeu?**
 
 - Gilovich, T., Medvec, V. H., & Savitsky, K. (2000). The Spotlight Effect in Social Judgment: An Egocentric Bias in Estimates of the Salience of One's Own Actions and Appearance. Journal of Personality and Social Psychology, 78(2), 211-222. N = 109 participantes no total. Estudo 1: 15 alvos, 64 observadores, 30 controles. Experimento com medida objetiva de reconhecimento.
 
 ### Dia #039 - PENDENTE - forma: CONTRASTE
-**Qual a probabilidade de a sua intuicao ganhar de uma formula simples?**
+**Qual a probabilidade de a sua intuição ganhar de uma fórmula simples?**
 
-- Grove, W. M., Zald, D. H., Lebow, B. S., Snitz, B. E., & Nelson, C. (2000). Clinical versus mechanical prediction: A meta-analysis. Psychological Assessment, 12(1), 19-30. N = 136 estudos comparando julgamento clinico contra previsao mecanica.
-- Kahneman, D., & Klein, G. (2009). Conditions for Intuitive Expertise: A Failure to Disagree. American Psychologist, 64(6), 515-526. Artigo teorico. Entra como conceito, nao como fonte numerica.
+- Grove, W. M., Zald, D. H., Lebow, B. S., Snitz, B. E., & Nelson, C. (2000). Clinical versus mechanical prediction: A meta-analysis. Psychological Assessment, 12(1), 19-30. N = 136 estudos comparando julgamento clínico contra previsão mecânica.
+- Kahneman, D., & Klein, G. (2009). Conditions for Intuitive Expertise: A Failure to Disagree. American Psychologist, 64(6), 515-526. Artigo teórico. Entra como conceito, não como fonte numérica.
 
 ### Dia #040 - 2026-07-23 - forma: CONTRASTE
 **Qual a probabilidade de conversar com um estranho deixar seu dia melhor, não pior?**
 
-- Epley, N. & Schroeder, J. (2014). Mistakenly Seeking Solitude. Journal of Experimental Psychology: General, 143(5), 1980-1999. Experimento 1a: N=97 comutadores (Metra, Chicago) · Experimento 1b (previsão): N=66. Nota metodológica: os números centrais são tamanhos de efeito de um experimento de campo aleatorizado, com medida objetiva de condição. Por isso o fator de correção ×0.80, reservado a [...] (nota metodologica completa no notebook)
+- Epley, N. & Schroeder, J. (2014). Mistakenly Seeking Solitude. Journal of Experimental Psychology: General, 143(5), 1980-1999. Experimento 1a: N=97 comutadores (Metra, Chicago) · Experimento 1b (previsão): N=66. Nota metodológica: os números centrais são tamanhos de efeito de um experimento de campo aleatorizado, com medida objetiva de condição. Por isso o fator de correção ×0.80, reservado a [...] (nota metodológica completa no notebook)
 
 ### Dia #041 - 2026-07-23 - forma: CONTRASTE
 **Qual a probabilidade de você mudar mais nos próximos 10 anos do que imagina?**
 
-- Quoidbach, J., Gilbert, D. T. & Wilson, T. D. (2013). The End of History Illusion. Science, 339(6115), 96-98. 6 estudos, N>19.000 (18-68 anos). Validação objetiva: coorte MIDUS, N=3.808. Nota metodológica: os números centrais são tamanhos de efeito e correlações validados contra uma coorte longitudinal com medida objetiva. Por isso o fator de correção ×0.80, reservado a proporções de survey [...] (nota metodologica completa no notebook)
+- Quoidbach, J., Gilbert, D. T. & Wilson, T. D. (2013). The End of History Illusion. Science, 339(6115), 96-98. 6 estudos, N>19.000 (18-68 anos). Validação objetiva: coorte MIDUS, N=3.808. Nota metodológica: os números centrais são tamanhos de efeito e correlações validados contra uma coorte longitudinal com medida objetiva. Por isso o fator de correção ×0.80, reservado a proporções de survey [...] (nota metodológica completa no notebook)
+
+**Atenção:** o `claude/temas_futuros.md` ainda lista "a ilusão do fim da história" na Parte 3 como validado e não escolhido. **Já saiu: é este dia.** Não repropor.
 
 ### Dia #042 - 2026-07-25 - forma: CONTRASTE
 **Qual a probabilidade de sentir saudade estar te fazendo bem?**
 
 - Wildschut, T., Sedikides, C., Arndt, J. & Routledge, C. (2006). Nostalgia: Content, Triggers, Functions. Journal of Personality and Social Psychology, 91, 975-993. (7 estudos · frequência N amostra comunitária · experimento Estudo 5 N≈52)
-- Zhou, X., Wildschut, T., Sedikides, C., Chen, X. & Vingerhoets, A. (2012). Heartwarming Memories: Nostalgia Maintains Physiological Comfort. Emotion, 12(4), 678-684. (função homeostática · 5 estudos) Nota metodológica: os tamanhos de efeito vêm de experimentos com atribuição aleatória, não de survey autorrelatado. Por isso o fator de correção ×0.80 não se aplica. A frequência de 79% entra como [...] (nota metodologica completa no notebook)
+- Zhou, X., Wildschut, T., Sedikides, C., Chen, X. & Vingerhoets, A. (2012). Heartwarming Memories: Nostalgia Maintains Physiological Comfort. Emotion, 12(4), 678-684. (função homeostática · 5 estudos) Nota metodológica: os tamanhos de efeito vêm de experimentos com atribuição aleatória, não de survey autorrelatado. Por isso o fator de correção ×0.80 não se aplica. A frequência de 79% entra como [...] (nota metodológica completa no notebook)
 
 ### Dia #043 - 2026-07-26 - forma: CONTRASTE
 **Qual a probabilidade de o seu corpo ter esquecido menos do que você sentiu?**
@@ -466,6 +542,8 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 - Sirois, F. & Pychyl, T. (2013). Procrastination and the Priority of Short-Term Mood Regulation. Social and Personality Psychology Compass. (conceito)
 - Wohl, M., Pychyl, T. & Bennett, S. (2010). I forgive myself, now I can study. Personality and Individual Differences, 48, 803-808. N=119 calouros.
 
+**Atenção:** "procrastinar a própria vida" (Parte 4 do banco de temas) tem Steel 2007 e Sirois & Pychyl como fontes candidatas. Já foram centrais aqui. Se aquele dia for montado, precisa de desconto hiperbólico (O'Donoghue & Rabin 1999, Laibson 1997) como eixo novo, com o reuso declarado.
+
 ### Dia #045 - 2026-07-28 - forma: CONTRASTE
 **Qual a probabilidade de uma única frase te fazer cumprir o que você planejou?**
 
@@ -475,7 +553,7 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 ### Dia #046 - 2026-07-29 - forma: ASSIMETRIA
 **Qual a probabilidade de você decidir melhor se pensar como se a vida fosse de outra pessoa?**
 
-- Grossmann, I. & Kross, E. (2014). Exploring Solomon's Paradox: Self-Distancing Eliminates the Self-Other Asymmetry in Wise Reasoning. Psychological Science, 25(8), 1571-1580. Três estudos, N total = 693 (inclui adultos de 20-40 e de 60-80 anos). Estudo 1: raciocínio sobre o outro M=0,49 (DP 0,69) vs sobre si M=-0,51 (DP 1,03); ηp²=0,25. Auto-distanciamento (3ª pessoa) elimina a assimetria: [...] (nota metodologica completa no notebook)
+- Grossmann, I. & Kross, E. (2014). Exploring Solomon's Paradox: Self-Distancing Eliminates the Self-Other Asymmetry in Wise Reasoning. Psychological Science, 25(8), 1571-1580. Três estudos, N total = 693 (inclui adultos de 20-40 e de 60-80 anos). Estudo 1: raciocínio sobre o outro M=0,49 (DP 0,69) vs sobre si M=-0,51 (DP 1,03); ηp²=0,25. Auto-distanciamento (3ª pessoa) elimina a assimetria: [...] (nota metodológica completa no notebook)
 
 ### Dia #047 - 2026-07-30 - forma: MECANISMO
 **Qual a probabilidade de a novidade fazer o seu ano parecer mais longo?**
@@ -492,7 +570,7 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 ### Dia #049 - 2026-08-01 - forma: ASSIMETRIA
 **Qual a probabilidade de o seu gesto gentil valer muito mais do que você imagina?**
 
-- Kumar, A. & Epley, N. (2022). A Little Good Goes an Unexpectedly Long Way: Underestimating the Positive Impact of Kindness on Recipients. Journal of Experimental Psychology: General. Experimento de campo (chocolate quente, Maggie Daley Park, Chicago): N=84 (75 doaram). Nota metodológica: os números centrais são tamanhos de efeito de experimentos com medida direta de doadores e recebedores. Por [...] (nota metodologica completa no notebook)
+- Kumar, A. & Epley, N. (2022). A Little Good Goes an Unexpectedly Long Way: Underestimating the Positive Impact of Kindness on Recipients. Journal of Experimental Psychology: General. Experimento de campo (chocolate quente, Maggie Daley Park, Chicago): N=84 (75 doaram). Nota metodológica: os números centrais são tamanhos de efeito de experimentos com medida direta de doadores e recebedores. Por [...] (nota metodológica completa no notebook)
 
 ### Dia #050 - 2026-07-28 - forma: MAGNITUDE
 **Qual a probabilidade de segunda-feira ser mais poderosa do que você pensa?**
@@ -568,54 +646,56 @@ Regra fixada: rodar a busca no arquivo ANTES de propor tema, nunca depois.
 - Milkman et al., 2021 — Nature 600 · N=61.293 · 53 intervenções testadas · só 8% produziram aumento significativo nas 4 semanas seguintes ao fim do incentivo
 
 ### Dia #061 - 2026-08-13 - forma: MAGNITUDE
-**Qual a probabilidade de voce preferir se sentir certo a estar certo?**
+**Qual a probabilidade de você preferir se sentir certo a estar certo?**
 
-- Hart, W., Albarracin, D., Eagly, A. H., Brechan, I., Lindberg, M. J. & Merrill, L. (2009) - "Feeling Validated Versus Being Correct: A Meta-Analysis of Selective Exposure to Information" - Psychological Bulletin, 135(4), 555-588 - 67 relatos, 91 estudos, ~300 grupos independentes, N aprox. 7.930 - d = 0,36 (preferencia moderada por informacao congenial)
-- Festinger, L. (1957) - A Theory of Cognitive Dissonance - Stanford University Press (mecanismo teorico, sem numero)
+- Hart, W., Albarracín, D., Eagly, A. H., Brechan, I., Lindberg, M. J. & Merrill, L. (2009) - "Feeling Validated Versus Being Correct: A Meta-Analysis of Selective Exposure to Information" - Psychological Bulletin, 135(4), 555-588 - 67 relatos, 91 estudos, ~300 grupos independentes, N aprox. 7.930 - d = 0,36 (preferência moderada por informação congenial)
+- Festinger, L. (1957) - A Theory of Cognitive Dissonance - Stanford University Press (mecanismo teórico, sem número)
 
-**Nota metodologica:** o x0,80 nao se aplica. d e tamanho de efeito de meta-analise,
-nao proporcao de survey autorrelatado.
+**Nota metodológica:** o ×0,80 não se aplica. d é tamanho de efeito de meta-análise,
+não proporção de survey autorrelatado.
 
-**Traducao para probabilidade:** CLES por Phi(d/raiz(2)) = 60,0%. Esta e a formula de
-grupos independentes. O desenho do Hart e de escolha dentro do sujeito, cuja leitura
-pareada seria Phi(d) = 64,1%. A escolha de 60% e deliberadamente a mais conservadora e
-deve estar declarada como tal na limitacao.
+**Tradução para probabilidade:** CLES por Φ(d/√2) = 60,0%. Esta é a fórmula de
+grupos independentes. O desenho do Hart é de escolha dentro do sujeito, cuja leitura
+pareada seria Φ(d) = 64,1%. A escolha de 60% é deliberadamente a mais conservadora e
+deve estar declarada como tal na limitação.
 
-**PENDENTE DE CONFIRMACAO:** o IC 95% [0,34 - 0,39] usado no grafico 3 nao foi
-localizado em fonte secundaria. Confirmar que esta literalmente impresso em Hart et al.
-Se tiver sido derivado de N e d, trocar o rotulo para "IC estimado, nao publicado" e
-declarar na limitacao. O desvio implicito e 0,0128, compativel com desenho pareado ou
-com calculo sobre os grupos independentes, mas nao com um calculo simples entre grupos
+**PENDENTE DE CONFIRMAÇÃO:** o IC 95% [0,34 - 0,39] usado no gráfico 3 não foi
+localizado em fonte secundária. Confirmar que está literalmente impresso em Hart et al.
+Se tiver sido derivado de N e d, trocar o rótulo para "IC estimado, não publicado" e
+declarar na limitação. O desvio implícito é 0,0128, compatível com desenho pareado ou
+com cálculo sobre os grupos independentes, mas não com um cálculo simples entre grupos
 sobre N=7.930.
 
-**Material subaproveitado:** Hart encontrou que o vies e mais fraco quando a crenca ja
-tinha sido apoiada antes da escolha, quando nao era relevante para os valores da pessoa
-ou nao era mantida com conviccao, e quando a informacao disponivel era de baixa
-qualidade. O moderador e melhor material que o 60% liso.
+**Material subaproveitado:** Hart encontrou que o viés é mais fraco quando a crença já
+tinha sido apoiada antes da escolha, quando não era relevante para os valores da pessoa
+ou não era mantida com convicção, e quando a informação disponível era de baixa
+qualidade. O moderador é melhor material que o 60% liso.
 
 ### Dia #062 - 2026-08-14 - forma: ARTEFATO DE MEDIDA
-**Qual a probabilidade de ser o mais novo da sala custar um diagnostico?**
+**Qual a probabilidade de ser o mais novo da sala custar um diagnóstico?**
 
-- Layton, T. J., Barnett, M. L., Hicks, T. R. & Jena, A. B. (2018) - "Attention Deficit-Hyperactivity Disorder and Month of School Enrollment" - New England Journal of Medicine, 379, 2122-2130 - N=407.846 criancas nascidas entre 2007 e 2009, base de sinistros de seguro, acompanhamento ate 2015
-  - Nascidos em agosto: 85,1 diagnosticos por 10.000. Nascidos em setembro: 63,6 por 10.000. Taxa 34% maior; tratamento 32% maior.
-  - Diferenca absoluta agosto contra setembro: 21,5 por 10.000, IC 95% [8,8 - 34,0].
-  - Controle negativo: sem diferenca por mes de nascimento em asma, diabetes ou obesidade.
-  - Experimento natural: o efeito some nos estados sem corte em 1 de setembro, e nao aparece em nenhum outro par de meses consecutivos.
+- Layton, T. J., Barnett, M. L., Hicks, T. R. & Jena, A. B. (2018) - "Attention Deficit-Hyperactivity Disorder and Month of School Enrollment" - New England Journal of Medicine, 379, 2122-2130 - N=407.846 crianças nascidas entre 2007 e 2009, base de sinistros de seguro, acompanhamento até 2015
+  - Nascidos em agosto: 85,1 diagnósticos por 10.000. Nascidos em setembro: 63,6 por 10.000. Taxa 34% maior; tratamento 32% maior.
+  - Diferença absoluta agosto contra setembro: 21,5 por 10.000, IC 95% [8,8 - 34,0].
+  - Controle negativo: sem diferença por mês de nascimento em asma, diabetes ou obesidade.
+  - Experimento natural: o efeito some nos estados sem corte em 1 de setembro, e não aparece em nenhum outro par de meses consecutivos.
 
-**Nota metodologica:** o x0,80 nao se aplica. Sao registros administrativos de seguro,
-nao autorrelato.
+**Nota metodológica:** o ×0,80 não se aplica. São registros administrativos de seguro,
+não autorrelato.
 
-**Atencao a leitura do numero:** 34% e diferenca RELATIVA. A diferenca absoluta e de
-0,21 ponto percentual (0,85% contra 0,64%). Nao dizer nem sugerir que um terco dos
-diagnosticos esta errado.
+**Atenção à leitura do número:** 34% é diferença RELATIVA. A diferença absoluta é de
+0,21 ponto percentual (0,85% contra 0,64%). Não dizer nem sugerir que um terço dos
+diagnósticos está errado.
 
-**Atencao editorial:** o dia nao pode ser lido como negacao do TDAH. A moldura correta
-e que o transtorno e real, o instrumento e ruidoso na margem, e e na margem que
-imaturidade relativa vira diagnostico.
+**Atenção editorial:** o dia não pode ser lido como negação do TDAH. A moldura correta
+é que o transtorno é real, o instrumento é ruidoso na margem, e é na margem que
+imaturidade relativa vira diagnóstico.
 
-**Adaptacao ao Brasil:** o corte de matricula aqui e 31 de marco, nao 1 de setembro.
-Conferir antes de dizer ao leitor quem e "o mais novo da sala".
+**Adaptação ao Brasil:** o corte de matrícula aqui é 31 de março, não 1 de setembro.
+Conferir antes de dizer ao leitor quem é "o mais novo da sala".
 
+**Atenção:** o `claude/temas_futuros.md` ainda lista Layton 2018 na Parte 3 como
+"validado, não escolhido". **Já saiu: é este dia.** Layton está queimado.
 
 ---
 
@@ -736,10 +816,10 @@ favor das mulheres relatado no artigo vem do agrupamento dos 101. Bases diferent
 **Atenção editorial:** o dia não conclui que não havia discriminação, e sim que ela não
 estava no comitê de admissão. A pergunta anda para trás, para antes da candidatura.
 
----
+**Atenção:** o `claude/temas_futuros.md` ainda lista o paradoxo de Simpson na Parte 2
+(C2) como "curioso sem dia atribuído". **Já saiu: é este dia.**
 
 ---
-
 
 ### Dia #067 - 2026-08-19 - forma: GRADIENTE AO LONGO DO DIA
 **Qual a probabilidade de a hora da consulta mudar o seu tratamento?**
@@ -838,7 +918,8 @@ de qualquer número. A origem do gap é interpretação dos autores (normas e cu
 resultado do experimento, e a tarefa é de tipo culturalmente associado ao masculino.
 
 **Pendência:** a frase do artigo sobre a tarefa em que o gap NÃO aparece está truncada
-nas fontes acessíveis. Não usar até ver o original.
+nas fontes acessíveis. Não usar até ver o original. (Exley & Kessler 2022 voltou a ser
+oferecido como opção para o #102 em 18/09 e não foi escolhido.)
 
 ---
 
@@ -873,7 +954,6 @@ no geral, 61% no autorrelato, 53% no objetivo), U3 e NNT (9, 8 e 38 pessoas), es
 estatística.
 
 ---
-
 
 ### Dia #071 - 2026-08-23 - forma: EFEITO MÍNIMO DETECTÁVEL
 **Qual a probabilidade de o tempo que você passa com seu filho mudar algo?**
@@ -937,7 +1017,8 @@ do corte por quantil, em que a prevalência é 25% **por construção**.
 não exista. Essa linha precisa estar no texto.
 
 **Vizinhança declarada:** mesma família metodológica do #066 (o número não vem sozinho,
-vem com a decisão que ninguém escreveu no gráfico).
+vem com a decisão que ninguém escreveu no gráfico). **Ponte obrigatória do #160** (a
+palavra muda a resposta): lá é a versão limpa, mesma pesquisa e mesma amostra.
 
 ---
 
@@ -970,7 +1051,7 @@ de correr, o que enriquece o grupo de corredores por seleção.
 n somado, não a heterogeneidade entre estudos.
 
 **Referência interna:** #068 também tratou de corrida, mas o objeto era mecanismo de
-euforia.
+euforia. O #099 (relógio do fôlego) é o terceiro dia de corrida do projeto.
 
 ---
 
@@ -1041,7 +1122,6 @@ como teste.**
 Só foi aceitável porque a tese não depende da magnitude. **Não vira precedente geral.**
 
 ---
-
 
 ### Dia #076 - 2026-08-28 - forma: ASSIMETRIA DIRECIONAL
 **Qual a probabilidade de o seu relógio biológico não ter 24 horas?**
@@ -1118,7 +1198,6 @@ probabilidade e proximidade. A exceção de fonte ficou no meio do texto.
 
 ---
 
-
 ### Dia #078 - 2026-08-30 - forma: CONVERGÊNCIA ENTRE MÉTODOS
 **Qual a probabilidade de a sua boa notícia testar o relacionamento mais que uma briga?**
 
@@ -1163,6 +1242,8 @@ sem roteiro.
 - Epstein, S. (1979) — "The stability of behavior" — instâncias particulares: **0,2 a
   0,3**; coeficientes **agregados: 0,6 a 0,9** — registra que **os próprios
   colaboradores de Hartshorne e May discordavam** da interpretação situacionista
+  (**regra do nome completo: Seymour Epstein**, para não colidir com figuras públicas
+  de mesmo sobrenome)
 - Fleeson, W. (2001) — *JPSP* 80(6), 1011-1027 — **3 estudos de amostragem de
   experiência**, 2 a 3 semanas — o indivíduo típico manifesta **quase todos os níveis
   de todos os traços**; as **médias individuais são quase perfeitamente estáveis**; a
@@ -1227,15 +1308,16 @@ torna o achado mais notável e limita a generalização para o Brasil.
 
 **Pendência:** N e tamanhos de efeito do estudo de bem-estar de 2020 não localizados.
 
-# BLOCO CONSOLIDADO - DIAS #081 A #085
-## Para colar no fontes_usadas_novo.md ANTES do bloco #086-#098 (fecha a lacuna)
-## Reconstruído da sessão de produção de 01-07/09 (conversa "Temas dos dias 63 a 70")
+**Atenção:** o `claude/temas_futuros.md` (Parte 4, item 3, "previsão afetiva") lista
+Brickman 1978 como fonte de um notebook na gaveta (`dia-054-serei-feliz-quando.ipynb`).
+Brickman já foi central aqui. Se aquele notebook for usado, o reuso precisa ser
+declarado e o eixo tem que ser Gilbert & Wilson, não a loteria.
 
 ---
 
 ### Dia #081 - 2026-09-02 - forma: REPLICAÇÃO EM MASSA (o clássico que NÃO caiu)
-**Pergunta:** Qual a probabilidade de a mesma decisão mudar só porque mudou a frase?
-(Experimental)
+**Qual a probabilidade de a mesma decisão mudar só porque mudou a frase?** (Experimental)
+
 **Fontes:** Tversky & Kahneman (1981), Science: o problema da doença asiática, 152 no
 enquadramento de ganho, 155 no de perda; **72% vs 22%** escolhem a opção segura (a origem).
 Klein et al. (2014), Many Labs 1: **36 laboratórios, N=6.344; a inversão apareceu em
@@ -1255,8 +1337,8 @@ substituído por 31/36 + g=0,44 (mesma família do erro dos 84% do #063).
 Tversky & Kahneman 1981 e Klein et al. 2014]. Pasta: dias-061-090.
 
 ### Dia #082 - 2026-09-03 - forma: TRADUÇÃO DE r=0,02
-**Pergunta:** Qual a probabilidade de o caçula ser mesmo o mais criativo da família?
-(Preditivo)
+**Qual a probabilidade de o caçula ser mesmo o mais criativo da família?** (Preditivo)
+
 **Fonte central:** Rohrer, Egloff & Schmukle (2015), PNAS, 112(46): três painéis
 nacionais (5.240 EUA + 4.489 Grã-Bretanha + 10.457 Alemanha = **N=20.186**), análises
 dentro da família e entre famílias.
@@ -1276,8 +1358,8 @@ da explicação). **Número de capa:** 51 em 100.
 Rohrer, Egloff & Schmukle 2015]. Arquivo: dia-082-ordem-de-nascimento.ipynb.
 
 ### Dia #083 - 2026-09-04 - forma: ARITMÉTICA DA JANELA + SENSIBILIDADE
-**Pergunta:** Qual a probabilidade de você já ter conhecido a maior parte da sua turma?
-(Redes)
+**Qual a probabilidade de você já ter conhecido a maior parte da sua turma?** (Redes)
+
 **Fonte central:** Wrzus, Hänel, Wagner & Neyer (2013), Psychological Bulletin, 139(1),
 53-80: meta-análise de **277 estudos, N=177.635**, da adolescência à velhice.
 **Âncoras:** rede global cresce até a vida adulta jovem e decresce continuamente; redes
@@ -1290,13 +1372,15 @@ estável em qualidade.
 69% a 85%, conclusão inalterada; premissa "vida adulta jovem = 30" declarada como escolha);
 taxa de reposição mínima para a rede não encolher. **×0,80:** não (meta de medidas de
 tamanho de rede).
-**ERRATA REGISTRADA (nota 41-adjacente do livro-caixa, linha ~1405):** colisão de apoio
-com o #024, identificada e corrigida PELA ANA. **Corda amizade:** tocada de novo no #089
-(alerta 41), declarada no próprio #089.
+**ERRATA REGISTRADA:** colisão de apoio com o #024, identificada e corrigida PELA ANA
+(Wrzus declarada no notebook). **Corda amizade:** tocada de novo no #089 (alerta 41),
+declarada no próprio #089.
+**ATENÇÃO GUINNESS:** na varredura do repositório em 21/09 o notebook do #083 **não
+estava no GitHub** (critério C5 do dashboard sem evidência). Ver pendência 19.
 
 ### Dia #084 - 2026-09-05 - forma: PICO DE REMINISCÊNCIA (descritivo com conta própria)
-**Pergunta:** Qual a probabilidade de o seu gosto musical ter sido decidido aos 14 anos?
-(Descritivo)
+**Qual a probabilidade de o seu gosto musical ter sido decidido aos 14 anos?** (Descritivo)
+
 **Fonte central:** Jakubowski, Eerola, Tillmann, Perrin & Heine (2020), Music & Science:
 **N=470** (18 a 82 anos), **111 canções** das paradas de 1950 a 2015, iguais para todos;
 avaliação de memória autobiográfica evocada, familiaridade e gosto.
@@ -1309,13 +1393,15 @@ decidida antes de a pessoa nascer".
 **×0,80:** não (avaliação de estímulo padronizado: as mesmas 111 canções para todos).
 **Limitações destacadas:** transversal (idade × geração confundidas); saliência
 autobiográfica não é preferência (extensão declarada).
+**Corda musical:** o #105 (arrepio) declara este dia no texto.
 **Commit:** Dia #084 - O gosto aos 14 [Descritivo | Pico de reminiscência |
 Jakubowski et al. 2020]. Arquivo: dia-084-o-gosto-aos-14.ipynb.
 
 ### Dia #085 - 2026-09-06 - forma: TRADUÇÃO DE r + CONCORDÂNCIA NO EXTREMO
-**Pergunta:** solidão × isolamento (*pergunta exata: conferir no cabeçalho do notebook;
+**Pergunta:** solidão × isolamento. *Pergunta exata: conferir no cabeçalho do notebook;
 a calibração ofereceu "Qual a probabilidade de você estar sozinho sem estar solitário?"
-e variantes, e a escolha da Ana não ficou registrada na busca*). (Emocional, domingo)
+e variantes, e a escolha da Ana não ficou registrada.* (Emocional, domingo)
+
 **Fonte central:** Matthews et al. (2016), Soc Psychiatry Psychiatr Epidemiol, 51,
 339-348: E-Risk Longitudinal Twin Study, **1.116 pares de gêmeos do mesmo sexo**
 (2.232 indivíduos), nascidos 1994-95, avaliados aos 18.
@@ -1331,42 +1417,28 @@ comparação com "mesma coisa" (100%) e "independentes" (25%).
 **Decisão editorial registrada:** o achado genético (herdabilidade + r genética) foi
 CORTADO do Substack e mantido no notebook, por decisão da Ana ("vamos tirar só do
 substack"): o texto ficou com três passos limpos (duas medidas, 42% no extremo, solidão
-prevê depressão). Pergunta reflexiva do fecho: a pessoa de agenda cheia.
+prevê depressão). Pergunta reflexiva do fecho: a pessoa de agenda cheia. **Precedente
+reusado no #105** (genética dos gêmeos só no notebook).
+**ATENÇÃO GUINNESS:** na varredura do repositório em 21/09 o notebook do #085 **não
+estava no GitHub**. Ver pendência 19.
 
----
-
-## NOTAS DO BLOCO #081-#085
-
-**Semana completa (qua 02/09 a dom 06/09), 4 artefatos por dia, pasta dias-061-090.**
-**Resumo semanal** publicado no domingo cobrindo #079-#085 (só no Substack, sem números,
-formato consolidado desde o #071).
-
-**Correções ao banco feitas na validação do bloco:** (1) d=0,62 do enquadramento morto,
-substituído por 31/36 + g=0,44; (2) ordem de nascimento recalibrada de "reviravolta"
-para "calibração de tamanho real" (r=0,02).
-
-**Entradas de banco registradas na semana:** álcool no corpo (LIVRE, sem restrição;
-ângulo: taxa de eliminação fixa); benefícios do sono (LIVRE COM RESTRIÇÃO: privação
-aguda e julgamento queimados no #042, e **Walker queimado como fonte**; precisa de
-desfecho objetivo e número contraintuitivo, não lista de bem-estar).
-
-**Deslocamento de calendário:** o #087 planejado era "idade relativa no Brasil"
-(Oliveira & Menezes Filho, 2018, ANPEC, Censo Escolar BH, N=36.718, RDD na data de
-corte, validado); foi deslocado quando o home office assumiu o #087. **Segue na reserva,
-validado**, e ganhou parentesco com o tema do azarão (#062 e a reserva do hóquei).
----
-# BLOCO CONSOLIDADO - DIAS #086 A #098
-## Para colar no fontes_usadas_novo.md, na sequência dos registros (o último formal é o #080)
-
-**ALERTA DE LACUNA, ANTES DO BLOCO:** os dias **#081 a #085** existem no arquivo apenas
-como linhas de calendário (Klein 2014/2018; Rohrer 2015; Wrzus 2013; Jakubowski 2020;
-Matthews 2016), sem registro formal. A consolidação deles precisa da sessão em que foram
-produzidos; este bloco não os inventa. Fica anotado como pendência própria.
+**NOTAS DO BLOCO #081-#085.** Semana completa (qua 02/09 a dom 06/09), 4 artefatos
+por dia, pasta dias-061-090. Resumo semanal publicado no domingo cobrindo #079-#085 (só
+no Substack, sem números, formato consolidado desde o #071). Correções ao banco feitas
+na validação: (1) d=0,62 do enquadramento morto, substituído por 31/36 + g=0,44;
+(2) ordem de nascimento recalibrada de "reviravolta" para "calibração de tamanho real".
+Entradas de banco registradas: álcool no corpo (LIVRE; ângulo: taxa de eliminação
+fixa); benefícios do sono (LIVRE COM RESTRIÇÃO: privação aguda e julgamento queimados
+no #042, e **Walker queimado como fonte**; precisa de desfecho objetivo e número
+contraintuitivo). Deslocamento: a idade relativa no Brasil (Oliveira & Menezes Filho
+2018, ANPEC, Censo Escolar BH, N=36.718, RDD) saiu do #087 quando o home office o
+assumiu; hoje está marcada para o **#161**.
 
 ---
 
 ### Dia #086 - 2026-09-07 - forma: MEIA-VIDA COM EQUAÇÃO
-**Pergunta:** Qual a probabilidade de começar no ano errado custar dez anos? (Carreira)
+**Qual a probabilidade de começar no ano errado custar dez anos?** (Carreira)
+
 **Fonte central:** Oreopoulos, von Wachter & Heisz (2012), AEJ: Applied Economics, 4(1),
 1-29. Base administrativa canadense (~70% dos formados universitários 1976-1995, registros
 fiscais 1982-1999; N individual não publicado, cobertura declarada como medida de tamanho).
@@ -1376,9 +1448,12 @@ some em ~5 anos; zero estatístico em 8-10; ~30% da reversão vem de trocar de e
 a exponencial não toca o zero, o que zera é a significância); custo acumulado da década
 ~ metade de um salário anual. **×0,80:** não (registro fiscal objetivo).
 **Ponte:** #053 (sorte no topo; aqui, o azar de entrada com prazo de validade).
+**ATENÇÃO GUINNESS:** o #086 tem dois notebooks no repositório (varredura de 21/09).
+Ver pendência 19.
 
 ### Dia #087 - 2026-09-08 - forma: ANATOMIA DE UM EFEITO
-**Pergunta:** Qual a probabilidade de trabalhar de pijama render mais? (Trabalho)
+**Qual a probabilidade de trabalhar de pijama render mais?** (Trabalho)
+
 **Fonte central:** Bloom, Liang, Roberts & Ying (2015), QJE, 130(1), 165-218. Call center
 da Ctrip, RCT por paridade de aniversário: funil 996 elegíveis → 503 voluntários → 249
 randomizados (131 casa, 118 escritório), 9 meses.
@@ -1391,7 +1466,8 @@ semana) + o valor da seleção (~9 p.p.). **×0,80:** não (RCT, medição por s
 **PAR SELADO com o #093:** os dois lados da parede, declarado nos dois dias.
 
 ### Dia #088 - 2026-09-09 - forma: TAMANHO HONESTO + FOREST
-**Pergunta:** Qual a probabilidade de você ler pior na tela? (Cognição)
+**Qual a probabilidade de você ler pior na tela?** (Cognição)
+
 **Fonte central:** Delgado, Vargas, Ackerman & Salmerón (2018), Educational Research
 Review, 25, 23-38. 54 estudos, 76 comparações, N=171.055 (2000-2017), Knapp-Hartung.
 **Âncoras:** vantagem do papel g=0,21 [0,14, 0,28] entre participantes (k=56, 2 outliers
@@ -1406,10 +1482,12 @@ Contexto dos autores: 2/3 de um ano escolar; metade de uma intervenção de leit
 **×0,80:** não (meta de tamanhos de efeito). **Ponte:** #037 (hábito de leitura; claims
 distintos). **NOTA DE TROCA:** substituiu "a reversão do azarão" (Fumarco et al. 2017,
 PLOS ONE, N=4.447, gradiente quantílico p90 +9,2 pontos/+51,3% salário); o notebook do
-azarão está PRONTO na reserva (dia-088-a-reversao-do-azarao.ipynb) para renumeração futura.
+azarão está PRONTO na reserva (dia-088-a-reversao-do-azarao.ipynb), hoje marcado para o
+**#213**.
 
 ### Dia #089 - 2026-09-10 - forma: EQUAÇÃO VERIFICADA (SEMENTE 42)
-**Pergunta:** Qual a probabilidade de os seus amigos terem mais amigos que você? (Redes)
+**Qual a probabilidade de os seus amigos terem mais amigos que você?** (Redes)
+
 **Fonte central:** Feld (1991), American Journal of Sociology, 96(6), 1464-1477, sobre
 Coleman (1961). Marketville, meninas: N=146; 80 abaixo da média dos amigos, 41 acima,
 25 empatadas; médias 2,7 vs 3,4; 74% abaixo da régua geral. Equação: Σx²/Σx = média +
@@ -1420,9 +1498,12 @@ variância/média.
 semente 42, ilustração declarada). **×0,80:** não (propriedade matemática).
 **Corda:** #083 (rede que encolhe), par declarado no próprio texto; alerta 41 do eixo
 amizade atendido.
+**Atenção:** o `claude/temas_futuros.md` ainda lista o paradoxo da amizade na Parte 2
+(C1) como "curioso sem dia atribuído". **Já saiu: é este dia.**
 
-### Dia #090 - 2026-09-11 - forma: CONTRASTE DE MAGNITUDES + CLES
-**Pergunta:** Qual a probabilidade de o estresse mudar as suas decisões? (Decisão)
+### Dia #090 - 2026-09-11 - forma: CONTRASTE DE MAGNITUDES + CLES (refeito em duas camadas)
+**Qual a probabilidade de o estresse mudar as suas decisões?** (Decisão)
+
 **Fonte central:** Gu et al. (2025), Psychoneuroendocrinology, k=171, N=8.452: fisiológico
 geral g=1,25 [1,13, 1,38]; autônomo 1,38 [1,23, 1,54]; HPA 1,04 [0,86, 1,21]; psicológico
 0,93 [0,79, 1,09]; cortisol × sensação ρ=-0,22 n.s.
@@ -1434,12 +1515,18 @@ Forbes et al. (2024): desconto temporal SMD=-0,18 [-0,57, +0,20], NULO.
 Rose 2022 pré-registrado N=194 (63,4% vs 65,8%, p=0,302); Fricke 2025 RCT duplo-cego N=94.
 **Nuance:** Shields et al. 2016, N=2.486 (memória -0,20; inibição cognitiva -0,21;
 inibição de resposta +0,30: específico e pequeno; cortisol administrado não reproduz).
-**Modelo:** razão da fenda 6,6x + CLES (corpo 81%/decisão 55%). **×0,80:** não.
+**Modelo (versão final, refeita porque Ana classificou a primeira como "só estudo"):**
+razão da fenda 6,6x + CLES (corpo 81%/decisão 55%), mais posterior bayesiana **por
+pessoa** sobre Parslow & Rose 2022 e Monte Carlo dos duelos corpo contra decisão; quatro
+gráficos (fenda, bayes, duelo, nuance). **Lição registrada:** Beta sobre escolhas
+repetidas da mesma pessoa dá precisão falsa; o teste tem de ser por pessoa (alerta 49).
+**×0,80:** não.
 **DESCARTE DE RIGOR:** Danziger (juízes famintos) NÃO usado, alerta 16 do livro-caixa;
 sem blindagem extra por decisão da Ana. **Pontes:** #051 e #058 (cortisol, objetos distintos).
 
 ### Dia #091 - 2026-09-12 - forma: ASSIMETRIA + NULOS ELEGANTES
-**Pergunta:** Qual a probabilidade de a felicidade estar na mala ainda fechada? (Bem-estar)
+**Qual a probabilidade de a felicidade estar na mala ainda fechada?** (Bem-estar)
+
 **Fonte central:** Nawijn, Marchand, Veenhoven & Vingerhoets (2010), Applied Research in
 Quality of Life, 5(1), 35-47, aberto. N=1.530 (974 viajantes, 556 não). Pré: 2,25 vs 2,07,
 p=0,018, η²=0,02 (declarado minúsculo no texto E no gráfico). Pós: sem diferença. Exceção:
@@ -1451,7 +1538,8 @@ estilizada (suposição declarada). **×0,80:** não (comparação de médias, �
 biográfica). **Ponte:** #047 (a memória estica; a felicidade encolhe na mesma volta).
 
 ### Dia #092 - 2026-09-13 - forma: POSTERIOR NO LOG-RR + GOMPERTZ
-**Pergunta:** Qual a probabilidade de o otimismo alongar a sua vida? (Longevidade)
+**Qual a probabilidade de o otimismo alongar a sua vida?** (Longevidade)
+
 **Fonte central:** Rozanski, Bavishi, Kubzansky & Cohen (2019), JAMA Network Open, 2(9),
 15 estudos, N=229.391: eventos CV RR=0,65 [0,51, 0,78]; mortalidade RR=0,86 [0,80, 0,92].
 **Apoio:** Lee et al. (2019), PNAS, 116(37): 69.744 mulheres (10 anos) + 1.429 homens
@@ -1461,23 +1549,31 @@ dose-dependente P<0,01, robusto a ajustes.
 + equação de Gompertz Δanos=-ln(RR)/b, b∈[0,07, 0,11] → 1,4 a 2,2 anos (sensibilidade).
 (*valor exato no notebook; conferir no Run All)
 **×0,80:** não (óbito objetivo). **REUSO DECLARADO (a "colisão tripla" tratada como
-conteúdo):** Rozanski/Bavishi/Cohen apareceram no #064 (Cohen, Bavishi & Rozanski 2016,
-propósito); estudos e construtos diferentes, nota de reuso no próprio notebook; os RRs
-de propósito (0,85 do #064) e otimismo (0,86) NÃO se somam, dito no texto.
+conteúdo, caminho A):** Rozanski/Bavishi/Cohen apareceram no #064 (Cohen, Bavishi &
+Rozanski 2016, propósito) e Kubzansky assina as duas fontes deste dia; estudos e
+construtos diferentes, nota de reuso no próprio notebook; os RRs de propósito (0,85 do
+#064) e otimismo (0,86) NÃO se somam, dito no texto. Sharot fora (alerta 9).
 
-### Dia #093 - 2026-09-14 - forma: ORÇAMENTO DE CONVERSA + CONTRASTE DE CANAIS
-**Pergunta:** Qual a probabilidade de o escritório aberto ter matado a conversa? (Trabalho)
+### Dia #093 - 2026-09-14 - forma: ORÇAMENTO DE CONVERSA + CONTRASTE DE CANAIS (refeito em duas camadas)
+**Qual a probabilidade de o escritório aberto ter matado a conversa?** (Trabalho)
+
 **Fonte central:** Bernstein & Turban (2018), Phil. Trans. Royal Society B, 373. Estudo 1:
 N=52, interação face a face 5,8h → 1,7h (-71%); email +56%, mensagens +67%. Estudo 2:
-N=100, 1.830 duplas: 643 conversaram menos, 141 mais (verificado na fonte).
-**Modelo:** orçamento de conversa perdida (820-984 h/ano ≈ meio expediente semanal, conta
-própria declarada). **×0,80:** não (sensores sociométricos, medida objetiva).
+N=100, 1.830 duplas: 643 conversaram menos, 141 mais (verificado na fonte; fecha a
+antiga pendência 10).
+**Modelo (versão final):** orçamento de conversa perdida rebaixado a "conta de bolso"
+(820-984 h/ano ≈ meio expediente semanal, conta própria declarada) + Beta de Jeffreys
+sobre as díades do próprio artigo (82% dos pares conversam menos, IC [79, 85]) + Monte
+Carlo do escritório de 52 pessoas (menos conversa com ~25 de 30 colegas); quatro gráficos
+(horas, troca, díades, orçamento). **×0,80:** não (sensores sociométricos, medida objetiva).
 **PAR SELADO com o #087** (o experimento do home office abre a história: "semana passada,
 um sorteio mandou metade de um call center para casa"). **Insight final integral da Ana**
-("mudar uma planta é mais fácil que entender comportamento").
+("mudar uma planta é mais fácil que entender comportamento"). Alerta 38: mede interação,
+não produtividade.
 
 ### Dia #094 - 2026-09-15 - forma: POSTERIOR ANTI-INFLAÇÃO + DIRICHLET + SALA DE 30
-**Pergunta:** Qual a probabilidade de você aguentar o pior e seguir de pé? (Resiliência)
+**Qual a probabilidade de você aguentar o pior e seguir de pé?** (Resiliência)
+
 **Fonte central:** Galatzer-Levy, Huang & Bonanno (2018), Clinical Psychology Review:
 trajetória resiliente 65,7% [61,6, 69,8]; quatro trajetórias com soma 106% normalizada
 (decisão declarada). **Apoio:** Schäfer et al. (2022), TiCS: 66,0% na pandemia.
@@ -1489,7 +1585,8 @@ final da Ana; cross-check documentado (claims distintos, fontes disjuntas, tens�
 Bonanno × crescimento pós-traumático dita no texto). Substack final: versão integral dela.
 
 ### Dia #095 - 2026-09-16 - forma: EQUAÇÃO DE FANO RESOLVIDA + SENSIBILIDADE
-**Pergunta:** Qual a probabilidade de os seus próximos passos serem previsíveis? (Comportamento)
+**Qual a probabilidade de os seus próximos passos serem previsíveis?** (Comportamento)
+
 **Fonte central:** Song, Qu, Blumm & Barabási (2010), Science, 327: entropia real da
 mobilidade S=0,8 bit; teto de previsibilidade ~93% via desigualdade de Fano; N=50 mil
 usuários de celular (3 meses). **Apoios:** Lu et al. (2013): teto 88%, realizado 87%;
@@ -1498,13 +1595,14 @@ Haiti 85%; Smith et al.: 81-85%.
 (N=10/50/100 → 89,8/92,6/93,3%: "a rotina, não o mapa, decide"); vacina conceitual
 Shannon vs termodinâmica (com a pasta de dente da Ana); dado de 50 faces: 2%.
 **×0,80:** não (registro de antenas, medida objetiva). **Conceito virgem no projeto**
-(grep no livro-caixa: entropia inédita). **Capa REFEITA sob a regra nova** ("Você se acha
-espontâneo?" no lugar de "Você custa 0,8 bit"): o dia que gerou a REGRA DE CAPAS.
-Substack final: versão da Ana (abertura "94 dias esperando o assunto caber"; fecho
-"me tranquiliza!").
+(entropia inédita). **Capa REFEITA sob a regra nova** ("Você se acha espontâneo?" no
+lugar de "Você custa 0,8 bit"): o dia que gerou a REGRA DE CAPAS. Substack final:
+versão da Ana (abertura "94 dias esperando o assunto caber"; fecho "me tranquiliza!").
+Alerta 36: o 93% é teto potencial, não acerto medido.
 
 ### Dia #096 - 2026-09-17 - forma: DISPUTA (1ª do bloco) - POSTERIOR + ESCADA EM DUELOS
-**Pergunta:** Qual a probabilidade de "durma sobre o assunto" ser um conselho furado? (Decisão)
+**Qual a probabilidade de "durma sobre o assunto" ser um conselho furado?** (Decisão)
+
 **Fonte central:** Nieuwenstein et al. (2015), Judgment and Decision Making: meta de 61
 efeitos/31 estudos (45 n.s.); g corrigida=0,018 [-0,10, 0,14]; réplica N=399 com poder
 0,997: g=-0,01; BF=7,8 pró-nulo.
@@ -1515,7 +1613,8 @@ Dijksterhuis et al. (2006), Science: d=0,69 com N~30 (a origem).
 declarada (criatividade/incubação ≠ qualidade da decisão). Capa: o conselho entre aspas.
 
 ### Dia #097 - 2026-09-18 - forma: MITO ENTERRADO COM MAGNITUDE HONESTA
-**Pergunta:** Qual a probabilidade de viver entre dois mundos ser um presente? (Identidade)
+**Qual a probabilidade de viver entre dois mundos ser um presente?** (Identidade)
+
 **TROCA DE TEMA REGISTRADA:** o dia estava pronto com ACEs e dor crônica (Bussières et al.
 2023, EJP, N=826.452, gradiente 1,29→1,95, régua +11-15%/ACE, curva anti-determinismo
 67/100, contraponto Senaratne 2025 Lothian). Ana julgou pesado demais; **dia completo na
@@ -1535,10 +1634,11 @@ moeda, está vazia em todas as réguas, dos dois lados da disputa). **×0,80:** 
 (correlações de escalas). **Gancho pessoal:** "Meu filho iniciou recentemente uma imersão
 em outro país" (decisão consciente da Ana; território aberto pelo #014, ponte declarada).
 **Frases-eixo:** "identidade não é bolo, é idioma"; "não divide o pertencimento; dobra".
-Capa: o mito entre aspas.
+Capa: o mito entre aspas. (Tema antecipado do #103 da grade antiga.)
 
 ### Dia #098 - 2026-09-19 - forma: DISPUTA (2ª e última do bloco) - BF DE REPLICAÇÃO
-**Pergunta:** Qual a probabilidade de o seu amuleto da sorte funcionar? (Crença)
+**Qual a probabilidade de o seu amuleto da sorte funcionar?** (Crença)
+
 **Ato 1:** Damisch, Stoberock & Mussweiler (2010), Psychological Science, 21(7),
 1014-1020. Exp. 1: N=28, 10 tacadas de 100 cm; bola "de sorte" 65% vs 48% (6,4 vs 4,8);
 d=0,83 [0,05, 1,60], p=0,042.
@@ -1554,91 +1654,270 @@ ponderado 0,16 → réplicas 0) + A PISTA DO IC (o intervalo [0,05, 1,60] já co
 "a certidão de nascimento já pedia desconfiança"). **×0,80:** não (experimentos
 randomizados). **Par de disputas com o #096, declarado nos dois:** "amostra pequena,
 manchete grande, réplica honesta, efeito nenhum". Fair play da autora original registrado
-com aplauso. Capa: "A camisa que você não lava em dia de final."
+com aplauso. Capa: "A camisa que você não lava em dia de final." Abertura: confissão
+universal (todo mundo tem um amuleto).
 
 ---
 
-## NOTAS DE JANELA (#086-#098)
+### Dia #099 - 2026-09-20 (domingo) - forma: RELÓGIO BIOLÓGICO POR APTIDÃO CARDIORRESPIRATÓRIA
+**Pergunta:** o relógio do fôlego (VO₂máx e mortalidade). *Pergunta exata: conferir no
+cabeçalho do notebook.* (Preditivo · dia de corrida)
 
-**Placar:** 13 dias consecutivos completos (seg 07/09 a sáb 19/09), 52 artefatos.
-Estrutura: #086-#090 em modelos/dias-061-090/; #091-#098 em modelos/dias-091-120/.
+**Fonte central:** Mandsager et al. (2018), *JAMA Network Open*, aptidão
+cardiorrespiratória medida em esteira e mortalidade por qualquer causa, coorte da
+Cleveland Clinic. **Números exatos (N, HR por faixa, seguimento): conferir no notebook
+antes de reusar; não estão registrados aqui porque o dia foi fechado em outra sessão.**
+**Tema final:** "o relógio do fôlego" (gráficos relogio / altura / pulso). Abertura
+escrita pela própria Ana (chuva recorde, treinos abandonados, algoritmos inundando as
+telas com VO₂máx). Reticências liberadas quando são da voz dela (regra de 18/09).
+**×0,80:** não (coorte com desfecho objetivo, óbito por registro).
+**Capa:** "Seu corpo tem um relógio que o RG não mostra." Carrossel de 6 slides gerado
+em 18/09; legenda com rascunho proposto.
+**Cordas:** #068 e #073 (corrida; objetos distintos: euforia e joelho). Terceiro domingo
+seguido com mortalidade contando #092 (otimismo), o que pesou na escolha do #106.
+**Grade:** subiu para o domingo quando o divórcio saiu do #099 (notebook do divórcio
+pronto na reserva).
 
-**Cota de disputas do bloco: FECHADA** com o par #096 + #098. O #097 (mito enterrado)
-não conta na cota: forma distinta, declarada.
+### Dia #100 - 2026-09-21 (segunda) - forma: MARCO · CURVA DE DESCOBERTA DEPOIS DA ESCOLHA
+**Qual a probabilidade de você só descobrir quem é depois de escolher?** (Identidade · trabalho)
 
-**Pares e cordas da janela:** #087/#093 (par selado, dois lados da parede);
-#094/#010 (corda "aguentar", claims distintos, aberta na versão da Ana);
-#092/#064 (reuso Rozanski declarado; RRs que não se somam);
-#089/#083 (eixo amizade, alerta 41 atendido); #097/#014 (corda familiar, construto novo);
-#095: conceito virgem (entropia).
+**Fontes:** Stinebrickner, R. & Stinebrickner, T. (2014), *Review of Economic Studies*,
+**N=655**, Berea College (painel de expectativas e troca de curso: o aluno descobre o
+que gosta depois de entrar); INEP, *Indicadores de Trajetória* 2024, coorte de 2015,
+filtrado para Estatística (planilha baixada pela Ana; registro administrativo).
+**×0,80:** não (painel com desfecho observado e registro administrativo).
+**Gancho pessoal:** Ana entrou na UNESP sem saber o que era estatística; tatuagem da
+Poisson na canela.
+**Notebook:** `dia-100-descobrir-depois-de-escolher.ipynb`, 4 gráficos.
+**Reservas que saíram deste dia (não perder):** (a) a curva U da felicidade, notebook
+`dia-100-a-curva-u.ipynb` v4 e Substack testados (Blanchflower 2021, 145 países, nadir
+47,2/48,2 anos + Weiss 2012, símios, N=508), descartada por Ana ("resgate a ideia
+inicial do dia 100"); (b) a sobrevivência dos 100 dias, fontes validadas e nunca
+montadas: Oscarsson et al. 2020, *PLOS ONE*, N=1.066 (linha 77% em 1 semana / 55% em
+1 mês / 43% em 3 meses / 40% em 6 meses / 19% em 2 anos; metas de aproximação 58,9% vs
+evitação 47,1%) e Norcross, Mrykalo & Blagys 2002 (N=159+123; 46% vs 4% aos 6 meses);
+Lally 66 dias só como reuso declarado; ×0,80 SIM nas proporções de sobrevivência
+(survey autorrelatado). Lições de tom das versões descartadas: metáfora maré/ondas
+rejeitada ("trocadilho"), tom consolador rejeitado; Ana quer "intenso e intencional".
 
-**Regras editoriais nascidas ou consolidadas na janela:**
-1. Regra do modelo próprio: todo dia tem ao menos uma conta nossa.
-2. Regra de capas (a partir do #095): manchete em linguagem de mesa, pergunta direta ou
-   promessa invertida; jargão só como isca dourada da última linha.
-3. Forma da virada biográfica: inquietação verdadeira → número → companhia anti-heroica;
-   o gancho volta no fecho; terceiros contidos.
-4. Marcadores de IA a caçar: "acho fascinante", "extremamente interessante".
-5. "A resposta seria sim" (nunca "a pergunta"); títulos curtos e universais.
+### Dia #101 - 2026-09-22 (terça) - forma: GRADIENTE DO AFETO EM PROPORÇÕES
+**Qual a probabilidade de você bocejar só de ver alguém bocejar?** (Curiosidade · social)
 
-**Pendências antigas mortas na janela:** 10, 11 e 12 do livro-caixa.
+**Fontes:** Norscia, I. & Palagi, E. (2011), *PLoS ONE*, 109 adultos, 480 episódios de
+bocejo observados em ambiente natural: o contágio segue o vínculo (família > amigos >
+conhecidos > estranhos; **o gradiente 85% / 52% / 39% é o eixo do dia, conferir a
+correspondência exata das faixas no notebook**); Bartholomew, A. J. & Cirulli, E. T.
+(2014), *PLoS ONE*, 328 participantes, **222 bocejaram**; empatia medida não previu o
+contágio.
+**×0,80:** não (contagem observacional de bocejos, não autorrelato de opinião).
+**Gancho pessoal:** contido, um bocejo pego de alguém próximo.
+**Notebook:** `dia-101-bocejo.ipynb`; Substack entregue. **Corda com o #015** (contágio
+social na rede de Framingham) a declarar.
+**TROCA DE TEMA REGISTRADA (21/09):** o dia estava pronto como "a correção reduz, não
+zera" (Qual a probabilidade de você mudar de ideia quando te mostram o fato?; Chan,
+Jones, Hall Jamieson & Albarracín 2017, k=52, N=6.878, d desinformação 2,41-3,08,
+desmentido 1,14-1,33, persistência 0,75-1,06; Wood & Porter 2019, 5 experimentos,
+N>10.100, 52 temas, zero backfire; Costello, Pennycook & Rand 2024, N=2.190, queda de
+20% mantida 2 meses; modelo em três camadas: posterior de Jeffreys sobre 0/52 dá teto
+de 3,6% e média 0,9%, Monte Carlo de 200 mil sorteios dá 67% da distância fechada IC
+[58,7; 73,9], duelos 97 → 74 em 100; notebook `dia-101-mudar-de-ideia.ipynb`, carrossel,
+legenda e duas versões do Substack). Ana não gostou e adiou para "um dia bem lá pra
+frente". **Material inteiro guardado.** Se publicado: corda com o #061 (Albarracín) e
+conta na cota de disputas do bloco em que entrar. Lição registrada: o Substack dessa
+versão ficou "bem difícil de ler" (números demais, método no meio da história).
 
-**Reservas vivas:** azarão do hóquei (notebook pronto); gaveta ACEs (dia completo);
-divórcio ~69% (candidato #099, validar); olfato/memória (outubro, distância do #084);
-gasto pró-social (dezembro); "época vs arquitetura" (banco).
+### Dia #102 - 2026-09-23 (quarta) - forma: ASSIMETRIA PURA (PGR CONTRA PLR)
+**Qual a probabilidade de você vender a coisa certa e segurar a errada?** (Decisão · dinheiro)
+
+**Fonte central:** Odean, T. (1998), "Are Investors Reluctant to Realize Their Losses?",
+*Journal of Finance* 53(5), 1775-1798. **10.000 contas** de uma corretora de desconto,
+1987-1993. Proporção de ganhos realizados **PGR = 0,148** contra proporção de perdas
+realizadas **PLR = 0,098** (1,5 vez mais chance de vender o que subiu); inversão em
+dezembro (venda para fins fiscais); as ações vendidas com ganho rendem **+3,41 p.p.**
+nos 252 dias seguintes em relação às perdas mantidas.
+**×0,80:** não (registro de transações).
+**Gancho pessoal:** fora do dinheiro (segurar o que já não serve em outra área da vida);
+Ana pediu a abertura "mais pessoal e menos de trabalhei com modelagem", sem citar a
+carreira no mercado financeiro.
+**Eixo:** a assimetria pura. **Ponte:** #052 (custo afundado, vizinho conceitual;
+conferir a fonte do #052 antes de publicar para não repetir Arkes & Blumer).
+**Pendência:** Ana pediu dado mais recente; a linha brasileira (Prates, Costa & Santos
+2019, dados da B3) está por validar, com a ressalva de que usá-la tira do #161 o posto
+de primeiro dado brasileiro do projeto (o #100 já usou o INEP, então o posto já caiu).
+**Escolhido em 18/09 entre quatro propostas novas; as outras ficam no banco:** repetição
+espaçada (Cepeda et al. 2006), dose mínima de natureza (White et al. 2019), autopromoção
+(Exley & Kessler 2022, já central no #069).
+
+### Dia #103 - 2026-09-24 (quinta) - forma: A ESCOLHA PELO COMPRIMENTO, NÃO PELA VELOCIDADE
+**Qual a probabilidade de você escolher a fila errada?** (Decisão · cotidiano)
+
+**Fonte central:** Lu, Y., Musalem, A., Olivares, M. & Schilkrut, A. (2013), "Measuring
+the Effect of Queues on Customer Purchases", *Management Science* 59(8). Clientes de
+supermercado decidem pelo **comprimento** da fila, não pela **velocidade**; medida por
+vídeo e caixa. **N não localizado** (ver alerta 31: quarta ocorrência no projeto).
+**×0,80:** não (observação de comportamento real).
+**Notebook:** `dia-103-fila-errada.ipynb`; Substack a reescrever.
+**Reorientação registrada (21/09):** Ana tirou a fila única do dia ("quero colocar fila
+única fora"); com isso Wang & Zhou 2018 saiu. **Cordas:** #109 (elevador, mesma família
+de "o acaso parece arrumado") e cuidado para não queimar o dia do ônibus (paradoxo da
+inspeção), reservado.
+
+### Dia #104 - 2026-09-25 (sexta) - forma: SIMULAÇÃO PRÓPRIA CONTRA DADO OFICIAL (1º cabalístico)
+**Qual a probabilidade de a Mega-Sena lembrar quais números já saíram?** (Cabalístico · crença)
+
+**Fonte:** resultados oficiais da Mega-Sena (Caixa Econômica Federal), na **cópia
+pública** dos concursos até o **3.005 (07/05/2026)**, origem declarada nas fontes e nas
+limitações porque a Ana não tinha o arquivo oficial baixado. Sem fonte publicada, por
+construção da série (alerta 48).
+**Modelo:** "a bola não tem memória" seguido de "o acaso parece arrumado": distribuição
+esperada das frequências sob sorteio uniforme contra a observada; teste de aderência.
+**×0,80:** não (registro oficial).
+**Abertura:** confissão universal (todo mundo já olhou a lista dos atrasados).
+**Notebook:** `dia-104-mega-sena-memoria.ipynb` + CSV entregues; Substack conferido
+contra a rodada.
+**Regras nascidas aqui:** bloco de abertura técnica chama-se **"A conta que ninguém
+faz"** (no lugar de "O que a ciência descobriu"); vocabulário **"número", não
+"dezena"** (só na descrição da regra oficial).
+
+### Dia #105 - 2026-09-26 (sábado) - forma: PREVALÊNCIA CORRIGIDA + CONTAGEM DE LABORATÓRIO (três camadas)
+**Qual a probabilidade de uma música te dar arrepio?** (Leve · sensação)
+
+**Guarda-chuva:** de Fleurian, R. & Pearce, M. T. (2021), *Psychological Bulletin*
+147(9), revisão de 167 trabalhos sobre chills musicais.
+**Camada 1, prevalência (cinco pesquisas):** Goldstein 1980 (N=249); Sloboda 1991
+(N=83); Panksepp 1995 (N=828); Nusbaum & Silvia 2011 (N=196); Mlejnek 2013 (N=186);
+N total 1.542; proporção típica **85%**, corrigida **×0,80 → 68% [63, 73]**.
+**Camada 2, frequência por escuta:** Nusbaum et al. 2014 (N=106): arrepio em **14%**
+das ocasiões de escuta. ×0,80 aplicado.
+**Camada 3, manipulação acústica (nova em 25/09):** Bannister, S. & Eerola, T. (2018),
+*Frontiers in Psychology* 9:2046, N=24, remoção do trecho crítico 30 → 21 episódios;
+Bannister, S. (2020), *Music & Science* 3, N=34, Glósóli a −6 / 0 / +6 dBA = 6 / 11 / 29
+chills; regressão de Poisson (conta própria) dá **2,30× por +6 dB, IC [1,52; 3,49]**;
+peça de controle sem clímax 0,94×. **×0,80 NÃO na camada 3** (contagem de laboratório
+com condutância da pele). A nota metodológica declara os dois regimes no mesmo dia.
+**Só no notebook, fora do Substack (precedente do #085):** genética dos gêmeos,
+Bignardi et al. 2022 e 2026.
+**Eixo:** "é maioria, não é coisa sua". **Corda musical com o #084**, declarada.
+**Pendência antiga resolvida:** o N do Salimpoor 2011 (*Nature Neuroscience* 14(2))
+foi entendido na validação: funil de triagem até N=8, demonstração de mecanismo
+(dopamina no estriado), nunca estimativa populacional (alerta 51). Não entra como
+prevalência.
+**Desmembramento (25/09):** a antiga terceira camada (Sloboda 1991, três perguntas para
+as mesmas 83 pessoas: espinha 90%, pele 62%, tremor 31%) saiu deste dia e virou o
+**#160**. Ana achou o texto do modelo "meio bagunçado" com ela dentro.
+
+### Dia #106 - 2026-09-27 (domingo) - EM ABERTO
+**Tema a definir.** Rotação: domingo emocional. O cachorro (Roy & Christenfeld 2004) foi
+descartado por Ana em 25/09 ("muito fraco"). Opções validadas na prateleira, sem
+escolha: abraço e resfriado (Sheldon Cohen 2015), cachorro e sobrevida (Kramer 2019),
+curva U (notebook pronto), quem pede o divórcio (notebook pronto), ninho vazio (Gorchoff
+2008), escrita expressiva (Frattaroli 2006). Ver Reservas.
+
+### Dia #107 - 2026-09-28 (segunda) - forma: PIOR QUE O PIOR CENÁRIO
+**Qual a probabilidade de você entregar no prazo que prometeu?** (Trabalho · planejamento)
+
+**Fonte central:** Buehler, R., Griffin, D. & Ross, M. (1994), "Exploring the 'planning
+fallacy': Why people underestimate their task completion times", *Journal of Personality
+and Social Psychology* 67(3), 366-381. Estudo 1: **37 alunos** (27 mulheres, 10 homens)
+no último semestre da monografia de honra, University of Waterloo, entrevista por
+telefone. Previsão média de entrega **33,9 dias**; "se tudo desse certo" **27,4**; "se
+tudo desse errado" **48,6**; entrega real **55,5 dias**. Cerca de **30%** entregaram até
+a data que tinham prometido. Mais quatro estudos no artigo (previsão para si contra
+para os outros; lembrar o passado não corrige o futuro).
+**Fonte de contraste, escala de bilhões:** Flyvbjerg, B., Skamris Holm, M. K. & Buhl,
+S. L. (2002), "Underestimating Costs in Public Works Projects: Error or Lie?", *Journal
+of the American Planning Association* 68(3), 279-295. **258 projetos** de transporte,
+US$ 90 bilhões (preços de 1995), **20 países em 5 continentes**, concluídos entre 1927
+e 1998. Custo subestimado em **86%** dos projetos ("quase 9 em 10"); custo real em média
+**+28% (DP 39)** sobre o orçado na decisão de construir; ferrovia +44,7% (N=58), pontes
+e túneis +33,8% (N=33), rodovias +20,4% (N=167); fora da Europa e América do Norte
++64,6%. **Sem melhora em 70 anos** (p=0,22 para ano de decisão). Conclusão dos autores:
+não é erro, é representação estratégica ("mentira"). Amostra por disponibilidade de
+dados, viés declarado pelos autores como conservador. Conferido no PDF em 25/09.
+**Origem do conceito:** Kahneman, D. & Tversky, A. (1979), "Intuitive prediction: biases
+and corrective procedures", *TIMS Studies in Management Science* 12, 313-327. Entra como
+conceito; reuso de Kahneman declarado (ver Parte 1).
+**Escada de calibração (usar só se localizada no original):** alunos deram a data em que
+achavam 50%, 75% e 99% de chance de terminar e entregaram até ela, respectivamente,
+13%, 19% e 45%. Circula atribuída a Buehler, Griffin & Ross 1995, *European Review of
+Social Psychology* 6, 1-32 (e ao capítulo de 2002 em *Heuristics and Biases*).
+**Assinatura:** Beta de Jeffreys sobre ~11 de 37 (os 30%); fator 55,5/33,9 = 1,64; a
+realidade acima do pior cenário imaginado. Modelo próprio sugerido: Monte Carlo de um
+projeto como soma de tarefas com duração assimétrica (lognormal), mostrando por que
+somar durações "típicas" subestima a soma.
+**×0,80:** não (previsão contra data real de entrega; registro contábil no Flyvbjerg).
+**Abertura:** confissão universal (todo mundo já prometeu "te mando até sexta").
+**Capa:** pior que o pior cenário (55,5 contra 48,6).
+**Cordas a declarar:** #045 (intenções de implementação são o remédio: Koole & Van't
+Spijker 2000 aplicaram exatamente isso à falácia); #031 e #100 (terminar o que se
+começou); Kruger & Evans 2004 (desempacotar) só com o nome declarado (Parte 1).
+**Fora, deliberadamente:** Roy, Christenfeld & McKenzie 2005 (Parte 1, reserva da Ana
+sobre o nome).
+**STATUS:** notebook, Substack, carrossel e legenda produzidos pela Ana em outra sessão
+(25/09). **Conferir o bloco Fontes do notebook contra esta entrada antes do commit:**
+a validação acima foi feita em paralelo; se o notebook usar N, revista ou número
+diferente, o notebook manda e esta linha é corrigida. Ver pendência 18.
+
+---
 
 # PARTE 2B - ALERTA DE DATA
 
 Os notebooks do **#001** e do **#002** trazem `Data de publicacao: 2025-06-14` e
-`2025-06-15`. O projeto comecou em **14/06/2026**. E erro de digitacao do ano nos dois
-notebooks. Vale corrigir: para o dossie do Guinness, a data declarada no notebook e
-uma das evidencias, e uma divergencia de um ano inteiro contra o registro do Wayback e
-do Substack e o tipo de detalhe que um avaliador nota.
+`2025-06-15`. O projeto começou em **14/06/2026**. É erro de digitação do ano nos dois
+notebooks. Vale corrigir: para o dossiê do Guinness, a data declarada no notebook é
+uma das evidências, e uma divergência de um ano inteiro contra o registro do Wayback e
+do Substack é o tipo de detalhe que um avaliador nota. **Ainda não corrigido em 25/09.**
+
+**Alerta Guinness adicional (varredura do repositório em 21/09):** os notebooks do #083
+e do #085 não estão no GitHub, e seis números têm dois notebooks cada (#032, #038,
+#039, #041, #043, #086), o que um avaliador pode ler como dois dias com o mesmo número.
+Ver pendência 19.
 
 ---
 
 # PARTE 3 - DIAS SEM BLOCO DE FONTES ESTRUTURADO
 
-Sete notebooks nao trazem o bloco `**Fontes:**` no formato padrao. Isso nao significa
-que nao tenham fonte, significa que a fonte nao esta num lugar previsivel. Vale
-padronizar quando houver folga, porque e o que permite a checagem automatica.
+Sete notebooks não trazem o bloco `**Fontes:**` no formato padrão. Isso não significa
+que não tenham fonte, significa que a fonte não está num lugar previsível. Vale
+padronizar quando houver folga, porque é o que permite a checagem automática.
 
-**#002, #003, #031, #032, #034, #036, #059**
+**#002, #003, #031, #032, #034, #036, #059** (o #059 foi preenchido na Parte 2 em 02/09
+por extração; o notebook segue sem o bloco).
 
-Alem disso:
-- **#002** ficou com o cabecalho do template por preencher (`Titulo do Modelo`,
-  `Data: YYYY-MM-DD`, tipo com as tres opcoes do template).
-- **#003** nao tem cabecalho de metadados localizavel.
-- **#038** e **#039** estao sem `Data de publicacao` preenchida.
-- **#047, #048, #051, #052** tem como primeiro titulo `Painel de Publicacao`, e nao a
-  pergunta do dia. O padrao do projeto pede titulo do notebook = titulo do Substack =
+Além disso:
+- **#002** ficou com o cabeçalho do template por preencher (`Titulo do Modelo`,
+  `Data: YYYY-MM-DD`, tipo com as três opções do template).
+- **#003** não tem cabeçalho de metadados localizável.
+- **#038** e **#039** estão sem `Data de publicacao` preenchida.
+- **#047, #048, #051, #052** têm como primeiro título `Painel de Publicacao`, e não a
+  pergunta do dia. O padrão do projeto pede título do notebook = título do Substack =
   slide "A pergunta do dia".
 
-Nenhum desses e erro de rigor. Sao lacunas de metadado que atrapalham a auditoria e,
-no caso do Guinness, o dossie de evidencias.
+Nenhum desses é erro de rigor. São lacunas de metadado que atrapalham a auditoria e,
+no caso do Guinness, o dossiê de evidências.
 
 ---
 
 # PARTE 4 - ALERTAS PERMANENTES DE FONTE
 
-Herdados da triagem de 11/08/2026. Nunca reabrir.
+Herdados da triagem de 11/08/2026 e acumulados desde então. Nunca reabrir.
 
-1. **Nunca citar Francesca Gino nem Dan Ariely** em honestidade, etica ou rituais.
-   Brooks et al. 2016 retratado (ja descartado corretamente no #051). Shu, Mazar, Gino,
-   Ariely & Bazerman 2012 retratado. Mazar, Amir & Ariely 2008 falhou em replicacao
-   registrada (Verschuere et al. 2018, 19 laboratorios, N=4.674, d=-0,04).
-2. **Danziger et al. 2011** (juizes com fome) esta morto. Artefato de agendamento.
-3. **O processo judicial de Berkeley nunca existiu.** Lenda urbana academica.
-4. **Bronnie Ware** nao e fonte cientifica.
-5. **Leanos et al.** sobre aprender varias habilidades foi retratado. So a versao 2023,
-   com a retratacao declarada.
-6. **"23 minutos para retomar o foco"** vem de entrevista do Gallup, nao do paper de
+1. **Nunca citar Francesca Gino nem Dan Ariely** em honestidade, ética ou rituais.
+   Brooks et al. 2016 retratado (já descartado corretamente no #051). Shu, Mazar, Gino,
+   Ariely & Bazerman 2012 retratado. Mazar, Amir & Ariely 2008 falhou em replicação
+   registrada (Verschuere et al. 2018, 19 laboratórios, N=4.674, d=-0,04).
+2. **Danziger et al. 2011** (juízes com fome) está morto. Artefato de agendamento.
+3. **O processo judicial de Berkeley nunca existiu.** Lenda urbana acadêmica.
+4. **Bronnie Ware** não é fonte científica.
+5. **Leanos et al.** sobre aprender várias habilidades foi retratado. Só a versão 2023,
+   com a retratação declarada.
+6. **"23 minutos para retomar o foco"** vem de entrevista do Gallup, não do paper de
    Mark et al. 2008.
-7. **"30 minutos reclamando encolhem o hipocampo"** e mito sem fonte primaria.
-8. **"15 cigarros por dia"** (Holt-Lunstad) nao e achado medido, e comparacao retorica.
-9. **Otimismo neural de Sharot** (N=15) foi demonstrado como artefato estatistico por
+7. **"30 minutos reclamando encolhem o hipocampo"** é mito sem fonte primária, e está
+   sendo espalhado por ferramentas de IA. Não citar.
+8. **"15 cigarros por dia"** (Holt-Lunstad) não é achado medido, é comparação retórica.
+9. **Otimismo neural de Sharot** (N=15) foi demonstrado como artefato estatístico por
    Shah et al. 2016.
-
 10. **"84% previram que cooperariam, 61% cooperaram" é fusão de dois estudos** de Epley
     & Dunning 2000. Números corretos no registro do #063.
 11. **O N do Estudo 2 de Epley & Dunning 2000 não é público.** Qualquer Beta sobre os
@@ -1646,7 +1925,8 @@ Herdados da triagem de 11/08/2026. Nunca reabrir.
 12. **Microdados do INEP não trazem mais data de nascimento.** Pós-2020 as bases são
     anonimizadas e a página oficial exclui dados individuais de alunos. Isso inviabiliza,
     com dado aberto, a réplica brasileira do #062 e qualquer desenho de idade relativa
-    baseado em Censo Escolar.
+    baseado em Censo Escolar. (O #100 usou os *Indicadores de Trajetória* do INEP, que
+    são agregados; não contradiz este alerta.)
 13. **Outliers, de Malcolm Gladwell, não é fonte.** A "Lei de Ferro do Hóquei Canadense"
     é a formulação dele para Barnsley, Thompson & Barnsley, 1985 (*CAHPER Journal* 51).
     Citar o artigo. O livro também carrega a regra das dez mil horas, que não sobreviveu
@@ -1654,7 +1934,6 @@ Herdados da triagem de 11/08/2026. Nunca reabrir.
 14. **HR 3,15 do Alimujiang: não confirmado, excluído.**
 15. **O paradoxo de Simpson não é argumento contra denúncia de discriminação.** Sempre
     que o #066 for citado em dias futuros, essa moldura precisa vir junto.
-
 16. **Danziger et al., 2011 (juízes e liberdade condicional): permanentemente fora.**
     Provável artefato de agendamento. É o estudo mais citado do tema de fadiga de
     decisão, portanto o risco de reentrada é alto.
@@ -1671,11 +1950,10 @@ Herdados da triagem de 11/08/2026. Nunca reabrir.
     fixado no #069 (escala Likert como checagem) e no #067 (análise de sensibilidade).
 21. **`stats.nct` retorna NaN com ncp grande em algumas versões de scipy.** Proteger
     com `np.nan_to_num`. Ver #068.
-
 22. **A estatística dos "23 minutos para voltar ao foco" continua na lista negra.**
-    Relevante para o #079, que é sobre retomada de foco e precisa de outra fonte.
+    Proposta de novo para o #100 em 16/09 e recusada.
 23. **Gottman e a previsão de divórcio com 90% de acerto: não usar.** Modelo ajustado
-    nos mesmos dados que previu. Relevante para o #078.
+    nos mesmos dados que previu. Relevante para o dia do divórcio, na reserva.
 24. **Publicar dia com N desconhecido é exceção, não regra** (ver #075). Só cabe quando
     a tese não depende da magnitude do efeito, e a ausência precisa estar declarada no
     notebook, no console e nas limitações.
@@ -1684,28 +1962,28 @@ Herdados da triagem de 11/08/2026. Nunca reabrir.
     estimativa (ver #072).
 26. **Reanálise que contradiz o achado original entra no corpo do texto**, não no
     rodapé (ver #074, van der Slik).
-
 27. **Fonte de indústria é exceção, e exige declaração no corpo do texto.** Ver
     #077. Só cabe quando não existe alternativa melhor e a consequência de errar é
     baixa. Nunca em dia sobre saúde, dinheiro ou decisão de vida.
 28. **Quando a fonte tem inconsistência interna, o dia cita e não resolve.** Ver #077.
     Escolher uma das cifras sem base seria inventar.
 29. **Limite de forma: no máximo dois dias por bloco de dez com "achado famoso mais
-    disputa metodológica".** Registrado após #071, e violado em #073, #074 e #076.
+    disputa metodológica".** Registrado após #071, violado em #073, #074 e #076,
+    respeitado no bloco #091-#100 (#096 e #098).
 30. **O tema "o tempo passa mais rápido com a idade" está queimado desde o #047.**
-
 31. **PADRÃO PREOCUPANTE: N não localizado.** Aconteceu em #075 (Yan & Dando),
-    #078 (Gable 2004) e #080 (Lindqvist 2020). Em todos, a tese não dependia da
-    magnitude e a ausência foi declarada. **Se acontecer uma quarta vez no mesmo bloco,
-    trocar o tema em vez de declarar.**
+    #078 (Gable 2004), #080 (Lindqvist 2020) e **#103 (Lu, Musalem et al. 2013)**. Em
+    todos, a tese não dependia da magnitude e a ausência foi declarada. **A regra "se
+    acontecer uma quarta vez, trocar o tema" foi fixada para o mesmo bloco; o #103 é de
+    outro bloco, mas o padrão está no limite. Próxima ocorrência: trocar.**
 32. **PADRÃO DE FORMA: assinatura de poder usada em quatro dias** (#068, #071, #078,
     #080). O #079 quebrou a sequência com Spearman-Brown. **Alternar deliberadamente.**
 33. **Correção ao banco: o d de 0,62 do enquadramento não se confirma.** Os números
     verificados são: reversão em **31 dos 36 laboratórios** (Many Labs 1, N=6.344) e
     efeito agrupado **g = 0,44 [0,38 · 0,50]** (Many Labs 2, 55 estimativas).
 34. **Rodar busca no arquivo ANTES de propor tema.** Três temas foram propostos e
-    barrados em agosto por falta desse passo.
-
+    barrados em agosto por falta desse passo; mais dois em setembro (ver temas
+    queimados).
 35. **MacLaren et al. 2020 está queimado.** É a fonte central do #059 (babble effect,
     r=0,67, com contraforças de Bottger, Littlepage e Laughlin & Ellis). Tema proposto
     para o #093 e barrado em 02/09 pela varredura. Não reabrir.
@@ -1716,17 +1994,56 @@ Herdados da triagem de 11/08/2026. Nunca reabrir.
 37. **Os "50/90/200 horas" do Hall 2019 são arredondamento viral.** Pontos de 50% da
     regressão logística publicada: ~94h (amigo casual), ~164h (amigo), 200+ (próximo).
     O Estudo 2 (calouros) anda mais rápido: 57h. Se o dia for montado, usar o publicado.
+    Ana não quer o tema neste bloco.
 38. **Bernstein & Turban 2018 mede interação, não produtividade.** O desfecho é
     conversa face a face e tráfego eletrônico em duas empresas. Não extrapolar para
     desempenho nem para veredito sobre escritório aberto em geral.
-39. **Cota de forma FECHADA no bloco #091-#100:** #096 e #098 são os dois dias de
-    "achado famoso + disputa metodológica" permitidos (alerta 29). Nenhum outro dessa
-    forma até o #100, inclusive ideias novas que surgirem no meio do caminho.
+39. **Cota de forma do bloco #091-#100: fechada** com #096 e #098. O #097 (mito
+    enterrado com magnitude honesta) não contou. **Bloco #101-#110:** zero dias de
+    disputa até 25/09 (o da correção de crença, que abriria a cota, foi adiado).
 40. **Ego depletion aposentado como dia próprio.** Hagger 2016 e Vohs 2021 já entraram
     como contrapeso no #067; um dia inteiro repetiria as fontes como centrais.
 41. **Eixo amizade monitorado:** #083 e #089 tocam a corda em dias próximos, com
     fontes distintas e par declarado. Hall 2019 saiu do #096 para não fazer três em
     duas semanas. Próximo dia de amizade só em semana sem vizinhos do tema.
+
+**Acrescentados na consolidação de 25/09/2026:**
+
+42. **A "ilusão de coragem" atribuída a "Loewenstein et al., Carnegie Mellon" no #004
+    está com atribuição incorreta.** Não reusar a citação em nenhum dia até a correção
+    (pendência 4). O #004 também usa uma fonte sem metodologia (Enterprise Apps Today)
+    e um "70%" que é estimativa apresentada como dado.
+43. **Paradoxo do aniversário já saiu.** Ana, 21/09: "o dia do aniversário já saiu".
+    Não repropor na série dos cabalísticos. Conferir em qual dia entrou antes de citar
+    como ponte.
+44. **Kahneman liberado para reuso por Ana (18/09)**, com reuso declarado no notebook e
+    sem sequência de dias de *Rápido e Devagar*. Substitui o alerta antigo da Parte 1.
+45. **Dois Cohens.** Randy Cohen (#064, #092) e Sheldon Cohen (abraço, reserva). Nome
+    completo sempre que o segundo entrar. Mesma regra do Seymour Epstein (#079).
+46. **Albarracín** assina o #061 (Hart 2009) e a fonte central do dia da correção de
+    crença (Chan 2017), na reserva. Declarar a corda se aquele dia for publicado.
+47. **Christenfeld com reserva declarada pela Ana** (denúncias de má conduta na
+    Wikipédia). Nenhum dia o cita até decisão explícita dela. O #107 foi montado sem
+    Roy, Christenfeld & McKenzie 2005.
+48. **Série dos "números cabalísticos" (a partir do #104): não exige fonte publicada.**
+    Basta dado oficial ou simulação própria com semente declarada, comparação
+    estatística explícita, e o bloco de abertura chamado **"A conta que ninguém faz"**.
+    Os blocos seguintes continuam "O modelo" e "O insight". Manter o formato "Qual a
+    probabilidade de...?".
+49. **Beta sobre escolhas repetidas da mesma pessoa dá precisão falsa** (lição do #090).
+    Quando a fonte tem várias observações por pessoa, o teste é por pessoa.
+50. **Regra do modelo próprio (desde o #090):** todo dia tem pelo menos uma conta nossa
+    (posterior, Monte Carlo, simulação ou tradução declarada), não só a assinatura
+    estatística da fonte. Um dia "só estudo" não passa.
+51. **Salimpoor et al. 2011 nunca entra como estimativa populacional.** O N é um funil
+    de triagem até 8 pessoas; o estudo demonstra mecanismo (dopamina no estriado), e é
+    assim que o #105 o trata. Fecha a antiga pendência do N.
+52. **Wang & Zhou 2018 (fila única) fora, por decisão editorial da Ana** ("quero
+    colocar fila única fora", 21/09). Não é problema de rigor; é escolha de tema.
+53. **Vocabulário de loteria: "número", não "dezena"** (regra de 22/09). "Dezena" só
+    ao descrever a regra oficial.
+54. **Reticências:** proibidas no texto escrito pelo assistente; liberadas quando são da
+    voz da própria Ana (regra de 18/09). Nunca removê-las dela em revisão.
 
 ---
 
@@ -1734,137 +2051,144 @@ Herdados da triagem de 11/08/2026. Nunca reabrir.
 
 Ao fechar cada dia, antes do commit:
 
-- [ ] Sobrenome do primeiro autor procurado nesta lista. Sem colisao.
-- [ ] Se houver colisao, ela esta declarada no proprio notebook (modelo: #013).
+- [ ] Sobrenome do primeiro autor procurado nesta lista. Sem colisão.
+- [ ] Se houver colisão, ela está declarada no próprio notebook (modelo: #013).
 - [ ] Linha nova na PARTE 2, com dia, data, forma e fontes.
 - [ ] Nome do autor conferido contra a PARTE 4.
+- [ ] Auditoria de método feita (desenho, família do teste, adequação da distribuição,
+      comparações múltiplas, seleção de modelo, regra de parada, teste de equivalência
+      quando o texto diz que dois números são "iguais"). Pedida por Ana desde o #101.
+- [ ] Cada frase do Substack conferida contra o output do notebook, e o texto responde
+      de frente à pergunta do dia (checagem mínima de fechamento, #103).
 
 ---
 
-# PENDÊNCIAS ABERTAS EM 01/09/2026
+# PENDÊNCIAS ABERTAS EM 25/09/2026
 
 | # | Pendência | Urgência |
 |---|---|---|
-| 1 | **Erratum de commit:** `9d5b109` (#063) traz "Prever a própria felicidade [Gilbert & Wilson]", que não corresponde ao notebook (é Epley & Dunning 2000); `ff7b1e5` (#064) traz Cohen 2016 como fonte principal em vez de Sutin et al. 2026. **Não reescrever histórico:** registrar aqui e seguir | registrado agora |
+| 1 | **Erratum de commit:** `9d5b109` (#063) traz "Prever a própria felicidade [Gilbert & Wilson]", que não corresponde ao notebook (é Epley & Dunning 2000); `ff7b1e5` (#064) traz Cohen 2016 como fonte principal em vez de Sutin et al. 2026. **Não reescrever histórico:** registrado e seguir | registrada |
 | 2 | Hart et al. 2009: IC 95% [0,34 · 0,39] do #061 não localizado | média |
 | 3 | Datas `2025` nos notebooks #001 e #002 | média, relevante ao dossiê |
-| 4 | #004 com citação incorreta e estatísticas não verificáveis | média |
+| 4 | #004 com citação incorreta (Loewenstein) e estatísticas não verificáveis | média |
 | 5 | Sete notebooks sem bloco `**Fontes:**` estruturado | baixa |
-| 6 | ~~Confirmar autoria do estudo dos drafts da NHL~~ **RESOLVIDA em 02/09**: Gibbs, Jarvis & Dufur, 2012, *IRSS* 47(5), 644-649; apoio Fumarco et al. 2017, *PLOS ONE* | fechada |
+| 6 | ~~Autoria do estudo dos drafts da NHL~~ **RESOLVIDA em 02/09**: Gibbs, Jarvis & Dufur 2012 | fechada |
 | 7 | Hsiang 2019: percentuais de solicitação de mama por horário | baixa |
 | 8 | Exley & Kessler: frase truncada sobre a tarefa sem gap | antes de reusar |
-| 9 | Yan & Dando 2015, Gable et al. 2004, Lindqvist et al. 2020, Hartshorne & May 1928: N não localizados | ver alerta 31 |
-| 10 | #093: confirmar N exato dos dois estudos de Bernstein & Turban (acesso aberto, PMC6030579) | antes de montar o #093 |
-| 11 | #095: extrair do artigo os valores de S_rand e S_unc para o contraste com S_real | antes de montar o #095 |
-| 12 | #096: localizar N por estudo da meta de Nieuwenstein, se o forest for desenhado | antes de montar o #096 |
-
-**Resolvidas em 02/09/2026:** pendência 6 (autoria NHL, acima); fontes do #059
-preenchidas na Parte 2 por extração do notebook; Wrzus 2013 declarado no notebook
-do #083 (colisão de apoio com o #024), feito pela Ana.
-
----
-
-# CALENDÁRIO DO BLOCO #081 A #087
-
-Todos validados, com fonte, N e número de capa conferidos.
-
-| Dia | Data | Semana | Tema | Fonte e N |
-|---|---|---|---|---|
-| #081 | 02/09 | quarta | Enquadramento de perdas contra ganhos | Klein et al., 2014 e 2018 · N=6.344 · **31 de 36 laboratórios**, g = 0,44 [0,38 · 0,50] |
-| #082 | 03/09 | quinta | Ordem de nascimento | Rohrer, Egloff & Schmukle, 2015, *PNAS* 112(46) · **N=20.186** · efeito só em inteligência e intelecto, **r = 0,02** |
-| #083 | 04/09 | sexta | A rede que encolhe sozinha | Wrzus, Hänel, Wagner & Neyer, 2013, *Psych Bulletin* 139(1), 53-80 · **277 estudos, N=177.635** · rede global cresce até a vida adulta jovem e cai; **rede familiar é estável** |
-| #084 | 05/09 | sábado | O gosto musical aos 14 anos | Jakubowski et al., 2020, *Music & Science* · **N=470**, 111 canções de 1950 a 2015 · pico aos **14,0 anos** contra 14,7 das memórias por palavra · pico em cascata (Krumhansl & Zupnick, 2013) |
-| #085 | 06/09 | domingo | Solidão não é estar sozinho | Matthews et al., 2016, *Soc Psychiatry Psychiatr Epidemiol* 51 · **1.116 pares de gêmeos** · **r = 0,39** · herdabilidade 40% e 38% · correlação genética 0,65 |
-| #086 | 07/09 | segunda | Primeiro emprego em recessão | Oreopoulos, von Wachter & Heisz, 2012, *AEJ: Applied* 4(1), 1-29 · alta de 5 p.p. no desemprego → **perda inicial de 9%**, metade em 5 anos, **some em 10** |
-| #087 | 08/09 | terça | Idade relativa no Brasil | Oliveira & Menezes Filho, 2018, ANPEC · Censo Escolar, BH, coorte 2001 · **N=36.718** · RDD na data de corte |
-
-**Reservado para uso futuro (atualizado em 02/09):** Hall 2019, as horas da amizade
-(usar longe de #083/#089, ver alertas 37 e 41) · Kluger & DeNisi 1996 + Wisniewski
-2020, feedback que piora (candidato natural a segunda-feira) · Bloom, Liang, Roberts &
-Ying 2015, home office RCT (131/118 randomizados, +13%, promoção condicional cai ·
-validado em 02/09) · Holt-Lunstad 2010/2015, solidão e mortalidade (longe de #085 e
-#092) · trajetória de satisfação antes e depois do divórcio e quem pede o divórcio
-(candidatos ao domingo #099, validar antes) · morar junto antes de casar (pedido da
-Ana, meados de outubro) · o arrepio na música (Salimpoor, Benovoy, Larcher, Dagher &
-Zatorre, 2011, *Nature Neuroscience* 14(2), 257-262 · dopamina no estriado · média de
-**3,7 arrepios** por trecho, DP 2,8 · **N não localizado**, ver alerta 31) · hora
-extra não paga (só ancorada direto na estatística oficial, exceção declarada, alerta
-27) · separação transnacional (Brunori 2025 · fonte única transversal, decisão
-editorial da Ana) · biculturalismo (Nguyen & Benet-Martínez 2013 · sem recorte por
-idade de migração) · entropia de Shannon e termodinâmica como par de reserva do #095.
-A reversão do azarão saiu da reserva: é o #088.
-
-**Rotação semanal:** sábado leve, domingo emocional, segunda trabalho e produtividade.
-
-**Resumo semanal:** estreou no domingo #071, cobrindo #065 a #071. Só no Substack.
+| 9 | Yan & Dando 2015, Gable et al. 2004, Lindqvist et al. 2020, Hartshorne & May 1928, Lu Musalem et al. 2013: N não localizados | ver alerta 31 |
+| 10 | ~~#093: N exato dos dois estudos de Bernstein & Turban~~ **RESOLVIDA** (52 e 100, verificado na fonte) | fechada |
+| 11 | #095: S_rand e S_unc do artigo, para o contraste com S_real | conferir se o notebook publicado os traz |
+| 12 | ~~#096: N por estudo da meta de Nieuwenstein~~ o forest não foi desenhado | fechada |
+| 13 | **Pergunta exata do #085** não registrada; conferir no cabeçalho do notebook | baixa |
+| 14 | **#099:** pergunta exata e números do Mandsager 2018 (N, HR por faixa, seguimento) não registrados aqui; extrair do notebook | média |
+| 15 | **#160:** número de experimentos da meta-análise de Holleman 1999/2000 não localizado; declarar como limitação ou abrir a tese | antes de montar |
+| 16 | **#102:** Prates, Costa & Santos 2019 (B3) por validar, se a linha brasileira entrar | antes de reusar |
+| 17 | **#101:** correspondência exata das faixas 85 / 52 / 39 com as categorias do Norscia & Palagi 2011; conferir no notebook | baixa |
+| 18 | **#107:** conferir o bloco Fontes do notebook pronto contra a entrada da Parte 2 (validado em paralelo em 25/09) | antes do commit de 28/09 |
+| 19 | **Guinness:** notebooks do #083 e do #085 ausentes no GitHub; números com dois notebooks: #032, #038, #039, #041, #043, #086 | alta, dossiê |
+| 20 | **`claude/temas_futuros.md` desatualizado:** ainda lista como não usados o paradoxo da amizade (#089), o paradoxo de Simpson (#066), Layton 2018 (#062) e a ilusão do fim da história (#041). Limpar na próxima revisão do banco | baixa |
+| 21 | **#106 (dom 27/09) sem tema** | alta, é depois de amanhã |
 
 ---
 
-# CALENDÁRIO DO BLOCO #088 A #098
+# CALENDÁRIO DO BLOCO #099 A #110
 
-Validados em 02/09/2026: fonte, N e número de capa conferidos por busca externa.
-Colisões varridas contra os dias #001 a #087 (arquivo e repositório).
+Estado em 25/09/2026. Pasta: `modelos/dias-091-120/`. Rotação: sábado leve, domingo
+emocional, segunda trabalho e produtividade. Resumo semanal só no Substack, aos domingos.
 
-| Dia | Data | Semana | Tema | Fonte e N |
-|---|---|---|---|---|
-| #088 | 09/09 | quarta | A reversão do azarão (sequência de #062 e #087) | Gibbs, Jarvis & Dufur, 2012, *IRSS* 47(5), 644-649 · dados públicos 2000-2009 · RAE moderado na média, **revertido na elite** (All-Star e olímpicos) · carreira mais longa para nascidos no fim do ano · apoio: Fumarco, Gibbs, Jarvis & Rossi, 2017, *PLOS ONE*, 2008-09 a 2015-16, Q4 pontua mais e ganha mais |
-| #089 | 10/09 | quinta | O paradoxo da amizade | Feld, 1991, *AJS* 96(6) · Coleman 1961: das **146 meninas** com amizades mútuas, **80** tinham menos amigos que a média dos amigos · equação média(x) + variância(x)/média(x) · par declarado com #083 |
-| #090 | 11/09 | sexta | Estresse: o corpo grita, a decisão quase não muda (fecha o bloco 061-090 · commit de infraestrutura) | Gu et al., 2025, *Psychoneuroendocrinology* · k=171, N=8.452 · fisiológico **g=1,25 [1,13·1,38]** · Starcke & Brand, 2016 · 32 datasets, N=1.829 · decisão **d=0,19** · Forbes 2024 · k=11, N=1.097 · desconto temporal nulo · cortisol × sensação ρ=−0,22 n.s. |
-| #091 | 12/09 | sábado | A viagem antes da viagem | Nawijn, Marchand, Veenhoven & Vingerhoets, 2010, *ARQOL* 5(1) · N=1.530 (974 viajantes, 556 não) · felicidade maior ANTES (2,25 contra 2,07) · depois: nada · **η²=0,02 declarado como minúsculo** |
-| #092 | 13/09 | domingo | Otimismo e longevidade | Rozanski, Bavishi, Kubzansky & Cohen, 2019, *JAMA Netw Open* 2(9) · 15 estudos, **N=229.391** · eventos CV **RR=0,65 [0,51·0,78]** · mortalidade RR=0,86 [0,80·0,92] · Lee et al., 2019, *PNAS* · N=69.744 · **14,9% mais tempo de vida [11,9·18,0]** |
-| #093 | 14/09 | segunda | O escritório aberto que matou a conversa | Bernstein & Turban, 2018, *Phil Trans R Soc B* 373(1753), 20170239 · 2 estudos de campo (Fortune 500) · crachás sociométricos + servidores · face a face **−70% nos dois casos** · e-mail +56%, IM +67% (Est. 1) · e-mail +22 a 50% (Est. 2) |
-| #094 | 15/09 | terça | Trajetória resiliente é a resposta modal | Galatzer-Levy, Huang & Bonanno, 2018, *Clin Psych Review* 63 · 54 estudos, 67 casos · resiliente **65,7% [61,6·69,8]** · recuperação 20,8% · crônica 10,6% · tardio 8,9% · referência ao #010 |
-| #095 | 16/09 | quarta | Entropia comportamental | Song, Qu, Blumm & Barabási, 2010, *Science* 327(5968), 1018-1021 · **N=50.000** usuários anônimos de celular · previsibilidade potencial **93%** via entropia e Fano · quase independente da distância · companhia: Lu et al., 2013, *Sci Rep* · 500.000 pessoas, teto 88%, Markov 87-95% real |
-| #096 | 17/09 | quinta | "Durma sobre o assunto": o conselho que não sobreviveu | Dijksterhuis, Bos, Nordgren & van Baaren, 2006, *Science* (N=20-30 por condição) · Nieuwenstein et al., 2015, *JDM* 10(1) · 61 efeitos: g=0,15 [0,03·0,26] → **g=0,018 [−0,10·0,14], p=0,77** pós trim-and-fill · replicação N=399: 58,2% contra 61,9%, p=0,30 · **BF=7,83 pró-nulo** · Calvillo & Penaloza 2009: 4 falhas |
-| #097 | 18/09 | sexta | Adversidade na infância e dor crônica | Bussières et al., 2023, *Eur J Psychotraumatology* 14(2) · 57 estudos, **N=826.452** · aOR=1,45 [1,38·1,53] · **gradiente: 1 ACE aOR 1,29 [1,22·1,37] · 4+ aOR 1,95 [1,73·2,19]** · associação, viés de recordação declarado |
-| #098 | 19/09 | sábado | A bola da sorte que nunca existiu | Damisch, Stoberock & Mussweiler, 2010, *Psych Science* · N=28, d=0,83 · Calin-Jageman & Caldwell, 2014, *Social Psychology* 45(3) · pré-registrada, **N=124, d=0,05 n.s.** · **BF de replicação 0,175** · Schimmack 2016: R-Index 0,13 |
+| Dia | Data | Semana | Tema | Fonte central | ×0,80 | Estado dos 4 artefatos |
+|---|---|---|---|---|---|---|
+| #099 | 20/09 | domingo | O relógio do fôlego | Mandsager 2018 | não | notebook, Substack, carrossel; legenda com rascunho |
+| #100 | 21/09 | segunda | Descobrir quem é depois de escolher | Stinebrickner 2014 + INEP 2024 | não | notebook; Substack, carrossel e legenda a confirmar |
+| #101 | 22/09 | terça | Bocejo contagioso | Norscia & Palagi 2011 | não | notebook, Substack; carrossel e legenda a confirmar |
+| #102 | 23/09 | quarta | Efeito disposição | Odean 1998 | não | calibrado, auditoria feita; artefatos a confirmar |
+| #103 | 24/09 | quinta | A fila errada | Lu, Musalem et al. 2013 | não | notebook; Substack a reescrever |
+| #104 | 25/09 | sexta | Mega-Sena sem memória (1º cabalístico) | Caixa (cópia pública até 3.005) | não | notebook, CSV, Substack; carrossel e legenda a confirmar |
+| #105 | 26/09 | sábado | Arrepio na música (3 camadas) | Fleurian & Pearce 2021 + Bannister 2020 | sim (camadas 1-2) | notebook, Substack, carrossel, legenda (regerar com a camada 3) |
+| #106 | 27/09 | domingo | **EM ABERTO** | — | — | nada |
+| #107 | 28/09 | segunda | Entregar no prazo prometido | Buehler, Griffin & Ross 1994 + Flyvbjerg 2002 | não | pronto (produzido pela Ana); conferir fontes |
+| #108 | 29/09 | terça | **EM ABERTO** (o azarão foi para o #213) | — | — | nada |
+| #109 | 30/09 | quarta | O elevador no sentido errado (2º cabalístico) | Gamow & Stern 1958; Knuth 1969 (não consultado, declarado) | não | calibrado em 25/09: fórmula (k−1)/(n−1), simulação de vários elevadores (dois ainda dão 70,3%), eventos discretos do elevador que volta ao térreo (andar 10 → 98,9%, andar 4 → 93,1%, contra 27,3% da geometria); três prédios (Gamow 7 andares, residencial 12 com 2 elevadores, torre 20 com 4); corda com o #103; não queimar o dia do ônibus |
+| #110 | 01/10 | quinta | reservado a cuidador e mortalidade ou depois | Roth 2013, Perkins 2013, O'Reilly 2015 | não | validar |
 
-**Rotação de assinatura, sem repetir poder** (alerta 32 atendido): comparação de
-proporções (#088) · equação de rede (#089) · contraste de g entre domínios (#090) ·
-η² minúsculo declarado (#091) · RR com IC (#092) · medida por sensor antes-depois
-(#093) · proporção modal com IC (#094) · entropia de Shannon (#095) · BF e
-trim-and-fill (#096) · gradiente dose-resposta (#097) · BF de replicação (#098).
+**A confirmar com a Ana:** o que de fato foi publicado nos quatro canais de #099 a
+#105. Este arquivo registra fontes, não publicação; o dashboard é a fonte da verdade da
+publicação.
 
-**Fator ×0,80: nenhum dos onze dias recebe.** Motivos por dia: registro
-administrativo de elenco (#088) · propriedade estrutural de rede (#089) ·
-meta-análises de tamanhos de efeito (#090, #096) · painel longitudinal com
-comparação (#091) · coortes com desfecho objetivo (#092, #097) · medida objetiva
-por sensor (#093) · classificação de trajetória (#094) · registro passivo de antena
-(#095) · experimentos com atribuição aleatória (#098). A nota específica entra em
-cada notebook.
+**Pontes internas a declarar nos notebooks (modelo do #013):** #101 → #015 · #102 →
+#052 · #103 → #109 · #105 → #084 e #160 · #107 → #045, #031, #100 · #109 → #103.
 
-## Autores novos previstos para #088 a #098 (confirmar no fechamento de cada dia)
+---
 
-Gibbs, Jarvis e Dufur (2012); Fumarco e Rossi (2017); Feld (1991); Coleman (1961,
-base de dados); Gu (2025); Starcke e Brand (2016); Forbes (2024); Nawijn, Marchand,
-Veenhoven e Vingerhoets (2010); Lee (2019, PNAS); Bernstein e Turban (2018);
-Galatzer-Levy, Huang e Bonanno (2018); Song, Qu, Blumm e Barabási (2010); Lu (2013);
-Dijksterhuis, Bos, Nordgren e van Baaren (2006); Nieuwenstein (2015); Calvillo e
-Penaloza (2009); Bussières (2023); Damisch, Stoberock e Mussweiler (2010);
-Calin-Jageman e Caldwell (2014). Nenhum aparecia nos dias #001 a #087.
+# RESERVAS VALIDADAS (não perder)
 
-**Reuso de nome deliberado, declarar no notebook:** Rozanski no #092 já apareceu no
-#064 (Cohen, Bavishi e Rozanski, 2016); estudo diferente.
+## Com notebook pronto (renumerar ao usar)
+| Material | Fontes | Notas |
+|---|---|---|
+| Quem pede o divórcio | Rosenfeld 2018 + Lucas 2005 | ×0,80 sim; calibrado em 10/09 sem gancho pessoal; candidato a domingo; alerta 23 (Gottman fora) |
+| A curva U da felicidade (`dia-100-a-curva-u.ipynb` v4 + Substack) | Blanchflower 2021 (145 países, nadir 47,2/48,2) + Weiss 2012 (símios, N=508) | emocional; o fundo da curva está a três anos da Ana |
+| A correção reduz, não zera (`dia-101-mudar-de-ideia.ipynb` + carrossel + legenda + 2 Substacks) | Chan 2017 (k=52, N=6.878); Wood & Porter 2019; Costello 2024 | adiado por Ana para "bem lá pra frente"; conta na cota de disputas; corda #061 (Albarracín) |
+| ACEs e dor crônica (gaveta-aces-*, 10 arquivos) | Bussières 2023 (N=826.452); Senaratne 2025 | "muito pesado" para Ana em 18/09 |
+| O azarão do hóquei (`dia-088-a-reversao-do-azarao.ipynb`) → **#213** | Gibbs, Jarvis & Dufur 2012; Fumarco 2017; citar Barnsley 1985, nunca Gladwell | continuação de #062 |
+| Previsão afetiva (`dia-054-serei-feliz-quando.ipynb`) | Gilbert & Wilson; Brickman 1978 (já central no #080: declarar) | separar bem do #041 |
 
-## Pontes internas a declarar nos notebooks (modelo do #013)
+## Com dia marcado
+| Dia | Tema | Fontes | Notas |
+|---|---|---|---|
+| #160 | A palavra muda a resposta (proibir/permitir) | Rugg 1941 POQ 5(1) 54% vs 75%; Holleman 1999/2000 (média 14 pp, DP 9,85); Holleman 2006 Q&Q 40(1), 10 experimentos, N=1.054, 7 pp, inversão no exp. 6 | ×0,80 não; assinatura P(inversão)=Φ(−14/9,85)=7,8%; abertura com Sloboda 1991 (90/62/31); **ponte obrigatória com o #072**; pendência 15 |
+| #161 | Idade relativa no Brasil | Oliveira & Menezes Filho 2018, ANPEC, Censo Escolar BH, N=36.718, RDD | continuação de #062; alerta 12 sobre microdados |
+| #213 | O azarão do hóquei | ver acima | |
+| #110 ou depois | Cuidador e mortalidade | Roth 2013, Perkins 2013, O'Reilly 2015 | não empilhar com outro dia de mortalidade na semana |
+| dezembro | Gasto pró-social | Dunn, Aknin & Norton | colisão com #025/#026 (mesmo laboratório): só com ângulo declarado |
+| meados de outubro | Morar junto antes de casar | a validar | pedido da Ana |
+| outubro | Olfato e memória | a validar | distância do #084 |
 
-- **#088 → #062 e #087:** continuação declarada. Citar Barnsley 1985, nunca Gladwell
-  (alerta 13).
-- **#089 → #083:** par temático deliberado. Declarar o cuidado do Feld: vale para a
-  média, não para todo indivíduo.
-- **#090 → #051 e #058:** cortisol já apareceu duas vezes. Objeto novo: a fenda entre
-  reação do corpo (g=1,25) e mudança de decisão (d=0,19).
-- **#091 → #047:** lá o paradoxo das férias era duração retrospectiva; aqui é
-  felicidade antecipatória. Uma linha resolve.
-- **#092 → #064:** declarar o reuso do nome Rozanski e manter Sharot fora (alerta 9).
-- **#094 → #010:** o #010 foi crescimento pós-traumático; este é trajetória de
-  resiliência. Construtos diferentes, declarar no corpo.
-- **#095 → #051:** lá a previsibilidade acalmava o corpo; aqui ela descreve o
-  comportamento.
-- **#096 → #039, #013 e #042:** no #039 a disputa era intuição contra fórmula; aqui é
-  deliberação inconsciente contra consciente. No #013 fazer nada funcionava; aqui o
-  "não pensar resolve melhor" morreu. No #042 sono foi privação, não conselho.
-- **#098 → #053 e #051:** ângulo distinto: desempenho sob pressão, não atribuição de
-  sorte (#053) nem ansiedade e ritual (#051, Lang como apoio).
+## Validados sem dia (prateleira)
+| Tema | Fontes | Notas |
+|---|---|---|
+| Abraço e resfriado | Sheldon Cohen, Janicki-Deverts, Turner & Doyle 2015, *Psych Science* 26(2), N=404, 14 noites de entrevista, exposição a rinovírus em quarentena; abraço explica 32% do efeito protetor do apoio | validado 25/09; ×0,80 não; alerta 45 (nome completo); candidato a domingo |
+| Cachorro e sobrevida | Kramer, Mehmood & Suen 2019, *Circ Cardiovasc Qual Outcomes* 12(10), 10 estudos, 3.837.005 pessoas, 10,1 anos, 530.515 óbitos; RR 0,76 [0,67; 0,86] por qualquer causa, −31% cardiovascular; contraditório Owen et al. 2020 (só razões brutas foram agrupáveis) | validado 25/09; ×0,80 não; terceiro dia de mortalidade num domingo, cuidado |
+| Cachorro e dono se parecem | Roy & Christenfeld 2004 (45 pares, 28 juízes; 16 de 25 raça, nada nos vira-latas); Levine 2005; Nakajima 2009/2013; Payne & Jaffe 2005 | descartado por Ana em 25/09 ("muito fraco"); alerta 47 |
+| Mães a distância | China 2015 (68,77 mi de crianças, ~69% com a mãe longe); Graham & Jordan 2011 CHAMPSEA N=3.876; Lin et al. 2025 *Pediatric Research* (78 estudos, N=394.308) | recusado por Ana em 22/09 ("muito triste"); cordas #014 e #100 |
+| Ninho vazio | Gorchoff 2008 | a validar do zero |
+| Escrita expressiva | Frattaroli 2006 *Psych Bulletin* 132(6), 146 estudos, N=10.994, r=0,075 [0,052; 0,098] | ×0,80 não; "efeito pequeno defendido como pequeno" |
+| Sobrevivência dos 100 dias | Oscarsson 2020; Norcross 2002 | ver #100; ×0,80 sim |
+| Hora extra não paga | TUC, estatística oficial | só com a exceção de fonte de indústria declarada (alerta 27) |
+| Repetição espaçada | Cepeda et al. 2006 | oferecido em 18/09 |
+| Dose mínima de natureza | White et al. 2019 | oferecido em 18/09 |
+| Princípio de Peter; 10 mil horas | a validar | recusados para o #100, anotados por pedido da Ana; alerta 13 sobre Gladwell |
+| Feedback que piora | Kluger & DeNisi 1996 + Wisniewski 2020 | Ana não quer neste bloco |
+| As horas para virar amigo | Hall 2019 | Ana não quer neste bloco; alertas 37 e 41 |
+| Solidão e mortalidade | Holt-Lunstad 2010/2015 | longe de #085 e #092; alerta 8 |
+| Álcool no corpo | a validar | livre; ângulo: taxa de eliminação fixa |
+| Benefícios do sono | a validar | Walker queimado; precisa de desfecho objetivo |
+| O ônibus que nunca chega (paradoxo da inspeção) | a validar | cabalístico natural; não queimar pelo #109 |
+| Entropia de Shannon e termodinâmica | par de reserva do #095 | |
+| Carteira perdida | Cohn et al. 2019 | oferecido em 22/09 |
+| Casais que se parecem | Horwitz et al. 2023 | oferecido em 22/09 |
+| Detecção de mentira | Bond & DePaulo 2006 | oferecido em 22/09 |
+| Primeira noite fora de casa | Tamaki et al. 2016 | oferecido em 22/09 |
+| Humor por dia da semana | Gallup | oferecido em 22/09; vizinho do #058 |
+| Procrastinar a própria vida | O'Donoghue & Rabin 1999; Laibson 1997 | Steel e Sirois já centrais no #044 |
+| A verdade que se lê e não se compartilha | Hart 2009 (já #061); Festinger | reuso a declarar |
 
-*365 Probabilidades - livro-caixa de fontes. Atualizado em 02/09/2026.*
+---
+
+# NOTAS DE JANELA
+
+**#086-#098:** 13 dias consecutivos completos (seg 07/09 a sáb 19/09), 52 artefatos.
+Cota de disputas fechada com #096 + #098. Pares e cordas: #087/#093 (par selado);
+#094/#010; #092/#064; #089/#083; #097/#014; #095 conceito virgem (entropia). Regras
+nascidas: modelo próprio (alerta 50); capas em linguagem de mesa (a partir do #095:
+pergunta direta ou promessa invertida, jargão só como isca dourada na última linha;
+referências aprovadas #088, #090, #093); forma da virada biográfica (inquietação →
+número → companhia anti-heroica; terceiros contidos); marcadores de IA a caçar ("acho
+fascinante", "extremamente interessante"); "a resposta seria sim", títulos curtos e
+universais.
+
+**#099-#107:** primeira série dos cabalísticos aberta no #104; auditoria de método
+pedida por Ana antes de todo Substack desde o #101; dois temas trocados em cima da
+produção (#101 e #106); um dia desmembrado (#105 → #160). Nenhum dia de disputa até
+25/09. Dois dias sem tema (#106 e #108).
+
+*365 Probabilidades - livro-caixa de fontes. Consolidado em 25/09/2026.*

@@ -234,6 +234,16 @@ sobrenome repete; usar nome do coautor nas citações. *Sloboda* e *Nusbaum* sa�
 #105 como camada própria e voltam no #160 (a palavra muda a resposta): reuso declarado
 por construção. *Kahneman & Tversky 1979* no #107: ver o alerta do Kahneman.
 
+## Autores novos registrados em #108 a #110 — sem colisão
+Cepeda, Pashler, Vul, Wixted e Rohrer (2006 e 2008); Ebbinghaus (1885); Gamow e Stern
+(1958); Knuth (1969, não consultado); Philpot, Liebst, Bernasco e Lindegaard (2019);
+Fischer, Krueger, Greitemeyer, Vogrincic, Kastenmüller, Heene, Wicher e Kainbacher
+(2011); Manning e Collins (2007); Darley e Latané (1968). Nenhum aparecia nos dias #001
+a #107. Varredura feita em 25 e 26/09 antes de propor cada tema.
+
+**ATENÇÃO, nome repetido: Mark Levine.** Ele assina as DUAS fontes do #110 (Philpot 2019
+e Manning 2007). É deliberado, são trabalhos diferentes do mesmo pesquisador sobre o
+mesmo caso, e está declarado no notebook. Mesma regra do Fendel no #070.
 ## Temas queimados, não reabrir
 
 | Tema | Motivo |
@@ -1859,6 +1869,139 @@ a validação acima foi feita em paralelo; se o notebook usar N, revista ou núm
 diferente, o notebook manda e esta linha é corrigida. Ver pendência 18.
 
 ---
+### Dia #108 - 2026-09-29 - forma: CURVA COM PLATÔ + REGRA DE BOLSO
+**Pergunta:** Qual a probabilidade de você lembrar, daqui a um mês, do que estudou
+ontem? (Aprendizagem)
+**Fonte central 1:** Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T. & Rohrer, D.
+(2006). "Distributed Practice in Verbal Recall Tasks: A Review and Quantitative
+Synthesis". *Psychological Bulletin*. **839 avaliações em 317 experimentos, tirados de
+184 artigos.** Espaçar venceu concentrar em **259 dos 271** confrontos diretos. Teste
+final: concentrado 36,7%, espaçado 47,3%. Tamanho de efeito **d = 0,69**.
+**Fonte central 2:** Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T. & Pashler, H.
+(2008). "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention".
+*Psychological Science*. **N = 1.354**, 32 fatos obscuros, intervalos de revisão de 0 a
+105 dias, prazos de teste de uma semana a um ano, **26 combinações**.
+**Antecedente:** Ebbinghaus (1885), citado como origem, sem número usado.
+
+**Âncoras do 2008 (A CONFERIR NO NOTEBOOK):** prazos testados de 7, 35, 70 e 350 dias,
+com ótimos de 1 dia, 11 dias, 21 dias e 21 dias. Ganhos de revisar na hora certa contra
+revisar no mesmo dia: 10%, 59%, 111% e 77%. **O 77% é menor que o 111% e desmente a
+leitura de que o prêmio cresce sempre; o texto precisa declarar o platô.**
+
+**Modelo (três contas próprias):**
+1. Tradução das proporções: de cada 100 coisas, **63 somem** com estudo concentrado e
+   **53** com espaçado. Conferido: 100 − 36,7 = 63,3 e 100 − 47,3 = 52,7.
+2. Beta com prior de Jeffreys sobre 259 de 271: **95,4%, IC 95% [92,6% · 97,6%]**.
+   Conferido de forma independente.
+3. A crista: intervalo ótimo em função do prazo, com vinte mil curvas sorteadas a partir
+   da incerteza de cada ótimo. **A faixa é nossa, não dos autores.**
+   Mais o teste de que uma lei de potência única não serve: prevê 11 dias onde o
+   observado foi 21, e 39 dias onde o observado também foi 21.
+4. CLES do d = 0,69: **69 em 100 duelos**. Conferido: Φ(0,69/√2) = 68,7%. **A semelhança
+   entre o d e o percentual é coincidência e precisa ser declarada**, ou o leitor lê
+   como erro de digitação.
+
+**×0,80:** não se aplica. Lembrança medida em teste com gabarito.
+
+**PENDÊNCIA DE RIGOR ABERTA:** o texto trazia "onze dias" no parágrafo do estudo e "nove
+dias" na lista prática. A reconstrução adotada é que os onze são o ótimo publicado para
+o prazo de 35 dias e os nove são interpolação da crista para 30 dias. **Isso é leitura
+nossa e precisa ser confirmada contra o notebook antes do commit.**
+
+**Nota de numeração:** este dia substituiu a lei de Benford, que estava marcada para o
+#108 em 25/09 e saiu em 26/09. Ver Reservas.
+
+**Commit:** Dia #108 - Repetição espaçada [Aprendizagem | Crista de retenção com platô |
+Cepeda et al. 2006 e 2008].
+
+---
+
+### Dia #109 - 2026-09-30 - forma: A PREMISSA QUE NENHUM PRÉDIO CUMPRE
+**Pergunta:** Qual a probabilidade de o elevador chegar no sentido errado? (Estrutural)
+**Segundo dia da série dos cabalísticos.** Bloco de abertura: "A conta que ninguém faz".
+**Fonte:** Gamow, G. & Stern, M. (1958). *Puzzle-Math*. Viking Press. Origem do paradoxo
+do elevador e da fórmula geométrica **P(sentido errado) = (k − 1) / (n − 1)**, para quem
+está no andar k de um prédio de n andares e quer descer.
+**Citado e NÃO CONSULTADO, declarado no notebook e no Substack:** Knuth, D. E. (1969).
+"The Gamow-Stern Elevator Problem". *Journal of Recreational Mathematics* 2, 131-137.
+Nenhum número do dia vem dele.
+
+**Modelo (três camadas, tudo conta própria, semente 42, 400.000 viagens):**
+1. A fórmula aplicada a três prédios: Gamow de 7 andares, residencial de 12, torre de 20.
+2. Vários elevadores em posições independentes, o primeiro a chegar. Prédio de 12, andar
+   10: **81,9% com um carro, 70,2% com dois, 58,2% com quatro.**
+3. Eventos discretos do prédio real: elevador ocioso volta ao térreo e fica lá 90% do
+   tempo. **A INVERSÃO COMPLETA:** a geometria sobe de 9,1% (andar 2) a 100% (andar 12);
+   a simulação desce de **98,3%** (andar 2) a **91,2%** (andar 12). Nenhum andar abaixo
+   de 91%. O andar que a fórmula elege como o melhor lugar do prédio é o pior.
+4. Sensibilidade de 0% a 100% de tempo no térreo: com 0% todo andar dá 50,1%; com 50%,
+   87,9% no andar 2; com 90%, 98,3%.
+
+**×0,80:** não se aplica. Geometria fechada e simulação própria.
+
+**ATENÇÃO OBRIGATÓRIA, declarada nas limitações:** a fórmula e a simulação **respondem a
+perguntas diferentes**. A fórmula descreve a posição do carro num instante sorteado; a
+simulação descreve o sentido do carro nas vezes em que ele cruza o seu andar. Com posição
+uniforme a simulação dá 50% em todo andar, e não o valor da fórmula. **O que se compara é
+a direção das duas curvas, nunca ponto a ponto.**
+
+**Ponte interna:** #103 (a fila errada). Lá a armadilha era a informação que falta na hora
+de escolher; aqui não há escolha, a armadilha está na posição de repouso do sistema.
+**Cuidado registrado:** não queimar o dia do ônibus (paradoxo da inspeção).
+**Sem gancho pessoal**, por decisão da Ana.
+**Arquivo:** dia-109-elevador.ipynb, pasta modelos/dias-091-120/. Quatro gráficos:
+01-a-formula, 02-varios-elevadores, 03-a-inversao, 04-o-terreo.
+**Commit:** Dia #109 - O elevador no sentido errado [Estrutural | Geometria contra
+simulação de eventos discretos | Gamow & Stern 1958].
+
+---
+
+### Dia #110 - 2026-10-01 - forma: DUAS PERGUNTAS QUE PARECEM UMA SÓ
+**Pergunta:** Qual a probabilidade de alguém te ajudar se você precisar na rua?
+(Comportamental)
+**Fonte central:** Philpot, R., Liebst, L. S., Levine, M., Bernasco, W. & Lindegaard,
+M. R. (2019). "Would I Be Helped? Cross-National CCTV Footage Shows That Intervention Is
+the Norm in Public Conflicts". *American Psychologist* 75(1), 66-75. **219 conflitos
+públicos reais** gravados por câmeras de vigilância: Amsterdã 63, Cidade do Cabo 61,
+Lancaster 95. Intervenção em **90,9%** (199 de 219); média de **3,76 pessoas** por
+conflito (DP 3,01); **cada espectador a mais AUMENTA a chance de ajuda**, razão de
+chances 1,1 por pessoa, p = 0,008.
+**Contrapeso:** Fischer, P., Krueger, J. I., Greitemeyer, T., Vogrincic, C.,
+Kastenmüller, A., Frey, D., Heene, M., Wicher, M. & Kainbacher, M. (2011).
+"The Bystander-Effect". *Psychological Bulletin* 137(4), 517-537. **105 tamanhos de
+efeito, mais de 7.700 participantes, g = −0,35**, atenuado quando a situação é percebida
+como perigosa.
+**Desmonte do mito fundador:** Manning, R., Levine, M. & Collins, A. (2007). "The Kitty
+Genovese Murder and the Social Psychology of Helping: The Parable of the 38 Witnesses".
+*American Psychologist* 62(6), 555-562. **PENDENTE: revista e ano confirmados, volume e
+páginas não vistos impressos.**
+**Darley & Latané (1968)** entra como origem experimental do conceito, sem número usado.
+
+**Modelo (quatro camadas, conta própria):**
+1. Beta de Jeffreys sobre 199 de 219: **90,9% observado, posterior 90,7%, IC 95%
+   [86,5% · 94,1%]**. P(acima de 80%) = 100%.
+2. A reconciliação. O g traduzido por deslocamento probit sobre uma **hipótese declarada**
+   de quanto alguém sozinho ajudaria: com 65%, a chance cai para **51,4%** (13,6 pp).
+   Agregando por P(alguém) = 1 − (1 − q)^m: dois presentes **76,4%**, três 88,5%, cinco
+   **97,3%**. Sensibilidade com 50% e 75%: conclusão inalterada.
+3. O limiar: para um grupo de dez socorrer menos do que uma pessoa sozinha, a chance
+   individual precisaria cair **mais de 80%** (84% a 88% conforme a base). A queda medida
+   é de treze pontos.
+4. **A fenda declarada como conteúdo:** com independência o modelo prevê acima de 98%,
+   e o observado foi 90,9%. A diferença é o tamanho da dependência entre as pessoas, e é
+   a parte do efeito espectador que sobrevive. **A premissa de independência é falsa e é
+   usada de propósito, como régua.**
+
+**×0,80:** não se aplica. Codificação de vídeo por observadores e meta-análise de efeitos.
+
+**Gancho:** sem gancho pessoal. A abertura parte de uma afirmação ouvida por Ana, a de
+que as câmeras teriam acabado com o efeito espectador. **Nenhuma fonte testa essa tese**,
+e o texto declara isso duas vezes, na abertura e no insight. Ninguém comparou rua filmada
+com rua sem câmera.
+**Arquivo:** dia-110-espectador.ipynb, pasta modelos/dias-091-120/. Quatro gráficos:
+01-nove-em-dez, 02-duas-medidas, 03-o-limiar, 04-a-fenda.
+**Commit:** Dia #110 - O efeito espectador ao contrário [Comportamental | Agregação
+bayesiana e limiar | Philpot et al. 2019].
 
 # PARTE 2B - ALERTA DE DATA
 
@@ -2044,7 +2187,45 @@ Herdados da triagem de 11/08/2026 e acumulados desde então. Nunca reabrir.
     ao descrever a regra oficial.
 54. **Reticências:** proibidas no texto escrito pelo assistente; liberadas quando são da
     voz da própria Ana (regra de 18/09). Nunca removê-las dela em revisão.
-
+55. **O qui-quadrado carrega N como fator multiplicativo.** Com amostra grande, desvio
+    irrelevante vira rejeição. Sempre que um dia usar qui-quadrado sobre N grande, a
+    régua de distância (SSD, desvio máximo em pontos percentuais) entra junto.
+    Referência: Kossovsky 2021, *Stats* 4(2). Demonstrado no material do Benford.
+56. **A lei de Benford NÃO serve para detectar fraude eleitoral.** Deckert, Myagkov &
+    Ordeshook 2011, *Political Analysis* 19(3): o tamanho da seção é limitado por
+    desenho e não cresce multiplicando, então o primeiro dígito não tem por que seguir a
+    lei; o teste acusa eleições limpas e deixa passar manipulação real. Mebane 2011
+    defende o segundo dígito em desenhos específicos. Se o tema voltar, os dois lados
+    entram e nenhuma eleição específica é citada.
+57. **Vocabulário: usar "atraso", nunca "extrapolação".** Extrapolar, em estatística, é
+    estender um modelo além da faixa dos dados, e não é o sentido pretendido.
+    Alternativas aceitas: "fator de atraso" e "derrapagem". "Estouro" recusado por Ana.
+58. **Cachorro e dono (Roy & Christenfeld 2004) descartado com número.** Análise de
+    poder de 26/09 sobre a tabela por par: com 25 pares o desenho precisava de
+    EXATAMENTE 16 reconhecidos para significar a 5% (base 42,5%), e foi o que achou; o
+    poder para detectar o próprio efeito (53,7% por juiz) é de **36%**. Nos 20
+    vira-latas, efeito mínimo detectável de +6,9 pp com 80% de poder, e **35%** de poder
+    para um efeito do tamanho do grupo de raça. Julgamentos agrupados: raça 376/700 =
+    53,7% [50,0 · 57,4], vira-lata 280/560 = 50,0% [45,9 · 54,1]. Posterior hierárquica
+    53,9% [47,6 · 60,1], P(acima do acaso) = 89%; diferença entre grupos +3,8 pp
+    [−5,5 · +13,0], 79%. **Se voltar, volta como dia sobre a fragilidade de um achado
+    famoso, nunca como dia sobre cachorro.**
+59. **Registro de vocabulário, fixado por Ana em 26/09.** Nem chulo, nem popular demais,
+    nem rebuscado. A régua é o português neutro e preciso: a palavra certa, sem gíria de
+    um lado e sem ornamento do outro.
+    Fora: expressão coloquial e de conversa ("numa sentada", "do zero", "tacada", "na
+    lata"), e o vulgar em qualquer contexto. Fora também o sinônimo erudito escolhido
+    por soar culto quando existe a palavra comum e exata.
+    Dentro: a palavra técnica quando é a correta e o leitor acompanha ("atraso",
+    "derrapagem", "intervalo", "prazo"), e a imagem concreta quando ela faz trabalho de
+    argumento ("sem uma hora a mais na cadeira", "onde o elevador dorme"). Imagem que só
+    enfeita cai junto com o resto.
+    **Não conflita com a regra de capas (#095):** lá o alvo é a manchete, aqui é o corpo.
+60. **Erro de sujeito com o verbo "cair", pego por Ana duas vezes no #110.** Quem cai é
+    a chance, nunca a pessoa. "Essa pessoa cai para 51,4%" está errado; o certo é "a
+    chance dela cai" ou "essa chance vai de 65% para 51,4%". E quando a resposta esperada
+    é de alta, não usar "cai" na pergunta: "aparece mais ou menos socorro?" em vez de
+    "a chance de alguém ajudar cai?". **Verbo neutro em pergunta de direção aberta.**
 ---
 
 # PARTE 5 - ROTINA
@@ -2088,7 +2269,19 @@ Ao fechar cada dia, antes do commit:
 | 19 | **Guinness:** notebooks do #083 e do #085 ausentes no GitHub; números com dois notebooks: #032, #038, #039, #041, #043, #086 | alta, dossiê |
 | 20 | **`claude/temas_futuros.md` desatualizado:** ainda lista como não usados o paradoxo da amizade (#089), o paradoxo de Simpson (#066), Layton 2018 (#062) e a ilusão do fim da história (#041). Limpar na próxima revisão do banco | baixa |
 | 21 | **#106 (dom 27/09) sem tema** | alta, é depois de amanhã |
-
+| 24 | ~~#108 (ter 29/09) sem tema~~ **RESOLVIDA em 26/09**: repetição espaçada
+       (Cepeda 2006 e 2008). A lei de Benford, que ocupava o dia desde 25/09, saiu e foi
+       para as reservas com o dia inteiro pronto | fechada |
+| 25 | **#108:** confirmar os prazos testados do Cepeda 2008 (a reconstrução adotada é
+       7, 35, 70 e 350 dias) e de onde sai o "nove dias" da lista prática | antes do commit |
+| 26 | **#107:** Little e Flyvbjerg entram no Substack e no slide 6 do carrossel sem
+       revista nem ano | antes do commit |
+| 27 | **#107:** o melhor caso (27,4 dias) aparece no gráfico 1 e não no texto | baixa |
+| 28 | **#107:** varrer "extrapolação" dentro do notebook (prints e rótulos de eixo) e
+       trocar por "atraso", conforme o alerta 57 | antes do Run All |
+| 29 | **#110:** Manning, Levine & Collins 2007, confirmar volume e páginas
+       (62(6), 555-562 não visto impresso) | antes do commit |
+| 30 | **#111 em diante sem grade.** O calendário acaba no #110 | alta |
 ---
 
 # CALENDÁRIO DO BLOCO #099 A #110
@@ -2107,9 +2300,9 @@ emocional, segunda trabalho e produtividade. Resumo semanal só no Substack, aos
 | #105 | 26/09 | sábado | Arrepio na música (3 camadas) | Fleurian & Pearce 2021 + Bannister 2020 | sim (camadas 1-2) | notebook, Substack, carrossel, legenda (regerar com a camada 3) |
 | #106 | 27/09 | domingo | **EM ABERTO** | — | — | nada |
 | #107 | 28/09 | segunda | Entregar no prazo prometido | Buehler, Griffin & Ross 1994 + Flyvbjerg 2002 | não | pronto (produzido pela Ana); conferir fontes |
-| #108 | 29/09 | terça | **EM ABERTO** (o azarão foi para o #213) | — | — | nada |
-| #109 | 30/09 | quarta | O elevador no sentido errado (2º cabalístico) | Gamow & Stern 1958; Knuth 1969 (não consultado, declarado) | não | calibrado em 25/09: fórmula (k−1)/(n−1), simulação de vários elevadores (dois ainda dão 70,3%), eventos discretos do elevador que volta ao térreo (andar 10 → 98,9%, andar 4 → 93,1%, contra 27,3% da geometria); três prédios (Gamow 7 andares, residencial 12 com 2 elevadores, torre 20 com 4); corda com o #103; não queimar o dia do ônibus |
-| #110 | 01/10 | quinta | reservado a cuidador e mortalidade ou depois | Roth 2013, Perkins 2013, O'Reilly 2015 | não | validar |
+| #108 | 29/09 | terça | Repetição espaçada | Cepeda et al. 2006 e 2008 | não | notebook e Substack prontos (Ana); carrossel e legenda a fazer |
+| #109 | 30/09 | quarta | O elevador no sentido errado (2º cabalístico) | Gamow & Stern 1958 | não | quatro artefatos prontos (26/09) |
+| #110 | 01/10 | quinta | O efeito espectador ao contrário | Philpot et al. 2019 + Fischer et al. 2011 | não | quatro artefatos prontos (26/09) |
 
 **A confirmar com a Ana:** o que de fato foi publicado nos quatro canais de #099 a
 #105. Este arquivo registra fontes, não publicação; o dashboard é a fonte da verdade da
@@ -2131,7 +2324,13 @@ publicação.
 | ACEs e dor crônica (gaveta-aces-*, 10 arquivos) | Bussières 2023 (N=826.452); Senaratne 2025 | "muito pesado" para Ana em 18/09 |
 | O azarão do hóquei (`dia-088-a-reversao-do-azarao.ipynb`) → **#213** | Gibbs, Jarvis & Dufur 2012; Fumarco 2017; citar Barnsley 1985, nunca Gladwell | continuação de #062 |
 | Previsão afetiva (`dia-054-serei-feliz-quando.ipynb`) | Gilbert & Wilson; Brickman 1978 (já central no #080: declarar) | separar bem do #041 |
-
+| Tema | Fonte | Estado |
+|---|---|---|
+| **A lei de Benford (o primeiro dígito)** | Benford 1938, *Proc. Am. Philos. Soc.* 78(4), 551-572 (N=20.229, 20 conjuntos) + Newcomb 1881 + Hill 1995 + Kossovsky 2021 + Deckert 2011 | **DIA INTEIRO PRONTO, SEM NÚMERO.** Notebook `dia-108-lado-preferido.ipynb` e Substack entregues em 26/09. Renumerar: nome do arquivo, cabeçalho, rodapé e os quatro PNGs. Achado central: qui-quadrado rejeita a lei com os dados do próprio Benford (p = 0,000026) enquanto nenhum dígito erra 1 pp; ponto de quebra em N = 8.950 |
+| A mão quente ressuscitada | Miller & Sanjurjo 2018, *Econometrica* 86(6) | validado em 26/09. Viés de seleção de 15 pp; corrigindo Gilovich, Vallone & Tversky 1985, o efeito vai de +3 para **+13 pp** (26 jogadores, p<0,01); torneio de três pontos **+8 pp** (33 jogadores). **É dia de disputa, conta na cota.** Colisões a declarar: Gilovich (#038) e Tversky (#081) |
+| Quanto do seu dia é automático | Wood, Quinn & Kashy 2002, *JPSP* 83(6), 1281-1297 | validado em 26/09. Estudo 1 N=70 (35%), Estudo 2 N=209 (**43%**). "Habitual" = autorrelato de "quase todo dia" + "mesmo lugar", NÃO automaticidade medida. **×0,80 SIM.** Saída para tema de hábito sem tocar em Lally |
+| A ilusão de saber como as coisas funcionam | Rozenblit & Keil 2002, *Cognitive Science* 26(5) | validado com ressalva. Doze estudos, N de 12 a 54. **Perfil de amostra pequena, o mesmo que derrubou o dia do cachorro.** Se montar, ancorar em Fernbach et al. 2013, *Psych Science*. Único dos quatro que desinfla o leitor, precisa de fecho construtivo |
+| Cuidador e mortalidade | Roth 2013, Perkins 2013, O'Reilly 2015 | **nunca validado.** Estava reservado ao #110 e foi preterido pelo espectador |
 ## Com dia marcado
 | Dia | Tema | Fontes | Notas |
 |---|---|---|---|
@@ -2190,5 +2389,30 @@ universais.
 pedida por Ana antes de todo Substack desde o #101; dois temas trocados em cima da
 produção (#101 e #106); um dia desmembrado (#105 → #160). Nenhum dia de disputa até
 25/09. Dois dias sem tema (#106 e #108).
+**#106-#110 (25 e 26/09):** cinco dias fechados em dois dias de produção. O #106 levou
+quatro temas até fechar (cachorro e dono, choro e corpo, a presença de quem já se foi,
+a felicidade é a distância). O #108 trocou de tema depois de o Benford estar pronto.
+
+**Lições registradas na janela:**
+1. **Resultado nulo sem cálculo de poder derruba o dia** (alerta 18 aplicado ao cachorro,
+   alerta 58). O julgamento da Ana de que o modelo estava "fraco" foi confirmado por
+   número, não por impressão.
+2. **Quando a Ana diz que uma seção ficou estranha, o problema costuma ser etapa
+   escondida, não ordem.** No modelo do #110 havia três: um número inventado (o 65%)
+   apresentado como medido, jargão não traduzido ("o g", "agregar") e uma multiplicação
+   invisível. A correção foi mostrar a conta: 48,6% vezes 48,6% dá 23,6%, sobra 76,4%.
+3. **A frase-chave de um modelo às vezes não está escrita em lugar nenhum.** No #110 ela
+   era "basta uma pessoa agir; para dar errado, todas precisam falhar ao mesmo tempo",
+   e sem ela o leitor não acompanhava nada.
+4. **Verificação de overflow do carrossel só vale medida pelas bordas do conteúdo.**
+   Com `justify-content:center` o `scrollHeight` colapsa e o teste passa falso.
+5. **Capa por afirmação, não por pergunta, nos três carrosséis da janela** (#107 "Esse
+   projeto não vai atrasar", #109 "Você aperta para descer. Ele chega subindo.", #110
+   "Se você precisar, ninguém vai parar."). Pergunta o leitor responde de cabeça e segue
+   rolando; afirmação ele precisa discordar, e para discordar precisa parar.
+6. **A legenda abre com a mesma frase da capa**, para carrossel e legenda baterem no feed.
+
+**Cota de dias de disputa do bloco #101-#110: ZERADA.** O Benford ia abri-la e saiu.
+Nenhum dos dez dias teve a forma "achado famoso com disputa metodológica".
 
 *365 Probabilidades - livro-caixa de fontes. Consolidado em 25/09/2026.*

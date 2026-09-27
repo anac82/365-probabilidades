@@ -38,3 +38,7 @@ id,criada_em,dia,texto,urgencia,resolvida,resolvida_em
 37,2026-09-25,110,"[pendência 29 do livro-caixa] #110: Manning, Levine & Collins 2007, confirmar volume e páginas (62(6), 555-562 não visto impresso)",antes_do_commit,0,
 38,2026-09-25,111,[pendência 30 do livro-caixa] #111 em diante sem grade. O calendário acaba no #110,alta,0,
 39,2026-09-27,83,"Os notebooks do #083 (dia083_rede_v2.ipynb) e do #085 (dia085_coincidencia.ipynb) estão no GitHub, mas fora do padrão de nome dia-NNN-tema.ipynb; renomear para o dossiê",dossie,0,
+40,2026-09-27,111,"Colar no notebook do #111 as duas linhas de desvio padrao na camada 3 (pessoas.std e std/mean), senao o 22,1 pp fica so no registro e nao sai impresso no Run All.",antes_do_commit,0,
+41,2026-09-27,111,#111 NAO passou pelo portao 3. O Substack foi reescrito varias vezes em 27/09 e nunca foi submetido a segunda IA; nao existe PDF exportado nem tabela de validacao externa.,alta,0,
+42,2026-09-27,111,"#111: carrossel e legenda foram produzidos ANTES do portao 3, ordem invertida na esteira. Se a segunda IA apontar BLOQUEIA no texto, os seis slides terao sido feitos sobre versao nao validada.",media,0,
+43,2026-09-27,111,"#111: portao 1 cumprido pela metade. Ana respondeu pergunta do dia e ×0,80; a terceira pergunta de calibracao (gancho pessoal) nunca foi feita, e ela acabou escrevendo o gancho sozinha.",baixa,0,

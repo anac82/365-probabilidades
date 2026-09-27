@@ -1,0 +1,131 @@
+dia,data_publicacao,pergunta,capa,tipo,forma,rotacao,x080,gancho,cordas,notebook,pasta,status,commit_msg
+1,2026-06-14,Qual a probabilidade de você estar no emprego certo?,,Risco,MAGNITUDE,,,,,dia-001-emprego-errado.ipynb,modelos/mes-01-janeiro,publicado,
+2,2026-06-15,Título do Modelo,,Preditivo / Risco / Otimização,MAGNITUDE,,sim,,,dia-002-probabilidade-arrependimento.ipynb,modelos/mes-01-janeiro,publicado,
+3,2026-06-16,,,,MAGNITUDE,,sim,,,dia-003-amizades-renda.ipynb,modelos/mes-01-janeiro,publicado,
+4,2026-06-17,Qual a probabilidade de você ser mais corajosa do que pensa depois dos 40?,,Preditivo,CONTRASTE,,sim,,,dia-004-coragem.ipynb,modelos/mes-01-janeiro,publicado,
+5,2026-06-18,Qual a probabilidade de o seu salário atual te fazer feliz?,,Preditivo,ARCO,,sim,,,dia-005-salario-felicidade.ipynb,modelos/mes-01-janeiro,publicado,
+6,2026-06-19,Qual a probabilidade de disciplina prever seu sucesso melhor que inteligência?,,Comportamento,MAGNITUDE,,sim,,,dia-006-conscienciosidade.ipynb,modelos/mes-01-janeiro,publicado,
+7,2026-06-20,Qual a probabilidade de você estar feliz agora?,,Comportamento,MAGNITUDE,,sim,,,dia-007-percepcao-felicidade.ipynb,modelos/mes-01-janeiro,publicado,
+8,2026-06-21,Qual a probabilidade de você transmitir mais características suas para seus filhos do que imagina?,,Preditivo,MAGNITUDE,,sim,,,dia-008-hereditariedade.ipynb,modelos/mes-01-janeiro,publicado,
+9,2026-06-22,Qual a probabilidade de você estar trabalhando horas que não produzem nada?,,Risco,GRADIENTE,,sim,,,dia-009-horas-produtividade.ipynb,modelos/mes-01-janeiro,publicado,
+10,2026-06-23,Qual a probabilidade de você descobrir que aguenta mais do que imaginava depois de uma perda?,,Comportamento,MAGNITUDE,,sim,,,dia-010-crescimento-pos-perda.ipynb,modelos/mes-01-janeiro,publicado,
+11,2026-06-24,Qual a probabilidade de o seu jeito de se apegar decidir quanto tempo seu relacionamento vai durar?,,Preditivo,MAGNITUDE,,sim,,,dia-011-estilos-apego.ipynb,modelos/mes-01-janeiro,publicado,
+12,2026-06-25,Qual a probabilidade de você sair do piloto automático?,,Comportamento,MAGNITUDE,,sim,,,dia-012-piloto-automatico.ipynb,modelos/mes-01-janeiro,publicado,
+13,2026-06-26,Qual a probabilidade de fazer nada ser a melhor forma de resolver algo?,,Comportamento,CONTRASTE,,sim,,,dia-013-ciencia-do-nao-fazer-nada.ipynb,modelos/mes-01-janeiro,publicado,
+14,2026-06-27,Qual a probabilidade de a distância não destruir o vínculo materno?,,Comportamento,EFEITO MORTO,,,,,dia-014-vinculo-a-distancia.ipynb,modelos/mes-01-janeiro,publicado,
+15,2026-06-28,Qual a probabilidade de a felicidade de alguém que você nem conhece estar te afetando agora?,,Comportamento,MECANISMO,,sim,,,dia-015-contagio-emocional.ipynb,modelos/mes-01-janeiro,publicado,
+16,2026-06-29,"Qual a probabilidade de recomeçar ser a decisão certa, não o medo?",,Preditivo,CONTRASTE,,sim,,,dia-016-recomeco-carreira.ipynb,modelos/mes-01-janeiro,publicado,
+17,2026-06-30,Qual a probabilidade de uma única falha te fazer desistir de tudo?,,Comportamento,GRADIENTE,,sim,,,dia-017-what-the-hell-effect.ipynb,modelos/mes-01-janeiro,publicado,
+18,2026-07-01,Qual a probabilidade de o seu senso de humor estar te protegendo da morte?,,Preditivo,MAGNITUDE,,sim,,,dia-018-humor-longevidade.ipynb,modelos/mes-01-janeiro,publicado,
+19,2026-07-02,"Qual a probabilidade de quem reclama com você não querer, na verdade, ser ajudado?",,Comportamento,MAGNITUDE,,sim,,,dia-019-reclamacao-sem-solucao.ipynb,modelos/mes-01-janeiro,publicado,
+20,2026-07-03,Qual a probabilidade de fazer duas coisas ao mesmo tempo te deixar mais lenta nas duas?,,Mito,EFEITO MORTO,,sim,,,dia-020-multitarefa.ipynb,modelos/mes-01-janeiro,publicado,
+21,2026-07-04,"Qual a probabilidade de ter mais opções te deixar com menos satisfação, não mais?",,Mito,PARADOXO,,sim,,,dia-021-paradoxo-escolha.ipynb,modelos/mes-01-janeiro,publicado,
+22,2026-07-05,"Qual a probabilidade de você tratar seu ""eu"" de 10 anos pra frente como um completo estranho?",,Comportamento,MECANISMO,,sim,,,dia-022-eu-futuro.ipynb,modelos/mes-01-janeiro,publicado,
+23,2026-07-06,Qual a probabilidade de o seu trabalho existir daqui a 10 anos?,,Preditivo,ARCO,,sim,,,dia-023-futuro-trabalho.ipynb,modelos/mes-01-janeiro,publicado,
+24,2026-07-07,Qual a probabilidade de você precisar de mais do que 3 a 5 amigos próximos pra se sentir bem?,,Comportamento,MECANISMO,,sim,,,dia-024-amizades.ipynb,modelos/mes-01-janeiro,publicado,
+25,2026-07-08,Qual a probabilidade de gastar dinheiro pra ganhar tempo te deixar mais feliz do que comprar coisas?,,Preditivo,CONTRASTE,,sim,,,dia-025-comprar-tempo.ipynb,modelos/mes-01-janeiro,publicado,
+26,2026-07-09,"Qual a probabilidade de uma experiência nova virar lembrança duradoura, mesmo num cérebro que já viu de tudo?",,Comportamental / Neurociência,MAGNITUDE,,sim,,,dia-026-lembranca-distinta.ipynb,modelos/mes-01-janeiro,publicado,
+27,2026-07-10,Qual a probabilidade de você estar confiante numa informação que está simplesmente errada?,,Comportamental / Metacognição,ASSIMETRIA,,nao,,,dia-027-dunning-kruger.ipynb,modelos/mes-01-janeiro,publicado,
+28,2026-07-11,Qual a probabilidade de a gratidão diária mudar como você se sente?,,Comportamental / Bem-estar,CONTRASTE,,nao,,,dia-028-gratidao-diaria.ipynb,modelos/mes-01-janeiro,publicado,
+29,2026-07-12,Qual a probabilidade de a dor deste momento estar te enganando sobre o futuro?,,Comportamental / Previsão Afetiva,CONTRASTE,,sim,,,dia-029-viesduracao.ipynb,modelos/mes-01-janeiro,publicado,
+30,2026-07-13,Qual a probabilidade de a coisa que está tirando seu sono hoje nunca acontecer?,,Comportamental / Previsão,MAGNITUDE,,nao,,,dia-030-preocupacao.ipynb,modelos/mes-01-janeiro,publicado,
+31,2026-07-14,Qual a probabilidade de um projeto pessoal chegar até o fim?,,Comportamental / Persistência,GRADIENTE,,sim,,,dia-031-curva-abandono.ipynb,modelos/dias-031-060,publicado,
+32,2026-07-15,Qual a probabilidade de o hábito da leitura te dar mais de um ano de vida?,,Longevidade / Hábito,MAGNITUDE,,sim,,,dia-032-leitura-longevidade.ipynb,modelos/dias-031-060,publicado,
+33,2026-07-16,Qual a probabilidade de o seu corpo estar pagando a conta da sua resiliência?,,Fisiológico / Estresse crônico,MAGNITUDE,,nao,,,dia-033-carga-alostatica.ipynb,modelos/dias-031-060,publicado,
+34,2026-07-17,Qual a probabilidade de menos exercício ser melhor pro seu humor do que você imagina?,,Comportamental / Fisiologia,GRADIENTE,,,,,dia-034-exercicio-humor.ipynb,modelos/dias-031-060,publicado,
+35,2026-07-18,Qual a probabilidade de dois momentos definirem uma vida inteira na sua memória?,,Cognitivo / Viés de memória,MECANISMO,,,,,dia-035-peak-end-rule.ipynb,modelos/dias-031-060,publicado,
+36,2026-07-19,"Qual a probabilidade de um hábito levar 66 dias, e não 21, para se formar?",,Comportamental / Formação de hábito,GRADIENTE,,sim,,,dia-036-formacao-habito.ipynb,modelos/dias-031-060,publicado,
+37,2026-07-20,Qual a probabilidade de dormir mal uma noite mudar como você percebe ameaças no dia seguinte?,,Comportamento,MAGNITUDE,,sim,,,dia-037-sono-emocoes.ipynb,modelos/dias-031-060,publicado,
+38,2026-07-21,Qual a probabilidade de ninguem ter reparado naquilo que te constrangeu?,,Comportamental,CONTRASTE,,,,,dia-038-efeito-holofote.ipynb,modelos/dias-031-060,publicado,
+39,2026-07-22,Qual a probabilidade de a sua intuicao ganhar de uma formula simples?,,Decisao,CONTRASTE,,,,,dia-039-intuicao-vs-formula.ipynb,modelos/dias-031-060,publicado,
+40,2026-07-23,"Qual a probabilidade de conversar com um estranho deixar seu dia melhor, não pior?",,Contraintuitivo,CONTRASTE,,nao,,,dia-040-conversar-com-estranhos.ipynb,modelos/dias-031-060,publicado,
+41,2026-07-24,Qual a probabilidade de você mudar mais nos próximos 10 anos do que imagina?,,Preditivo,CONTRASTE,,,,,dia-041-ilusao-fim-da-historia.ipynb,modelos/dias-031-060,publicado,
+42,2026-07-25,Qual a probabilidade de sentir saudade estar te fazendo bem?,,Emocional,CONTRASTE,,nao,,,dia-042-saudade-que-faz-bem.ipynb,modelos/dias-031-060,publicado,
+43,2026-07-26,Qual a probabilidade de o seu corpo ter esquecido menos do que você sentiu?,,Comportamental,CONTRASTE,,nao,,,dia-043-corpo-esqueceu.ipynb,modelos/dias-031-060,publicado,
+44,2026-07-27,Qual a probabilidade de a sua procrastinação não ter nada a ver com preguiça?,,Comportamental,EFEITO MORTO,,nao,,,dia-044-procrastinacao.ipynb,modelos/dias-031-060,publicado,
+45,2026-07-28,Qual a probabilidade de uma única frase te fazer cumprir o que você planejou?,,Comportamental,CONTRASTE,,nao,,,dia-045-implementacao.ipynb,modelos/dias-031-060,publicado,
+46,2026-07-29,Qual a probabilidade de você decidir melhor se pensar como se a vida fosse de outra pessoa?,,Comportamental,ASSIMETRIA,,nao,,,dia-046-paradoxo-salomao.ipynb,modelos/dias-031-060,publicado,
+47,2026-07-30,📋 Painel de Publicação — Dia #047,,,MECANISMO,,nao,,,dia-047-percepcao-tempo.ipynb,modelos/dias-031-060,publicado,
+48,2026-07-31,📋 Painel de Publicação — Dia #048,,,CONTRASTE,,nao,,,dia-048-efeito-pratfall.ipynb,modelos/dias-031-060,publicado,
+49,2026-08-01,Qual a probabilidade de o seu gesto gentil valer muito mais do que você imagina?,,Comportamental,ASSIMETRIA,,,,,dia-049-gentileza-subestimada.ipynb,modelos/dias-031-060,publicado,
+50,2026-08-02,Qual a probabilidade de segunda-feira ser mais poderosa do que você pensa?,,Comportamental,MAGNITUDE,,nao,,,dia-050-fresh-start.ipynb,modelos/dias-031-060,publicado,
+51,2026-08-03,📋 Painel de Publicação — Dia #051,,,GRADIENTE,,nao,,,dia-051-previsibilidade-acalma.ipynb,modelos/dias-031-060,publicado,
+52,2026-08-04,📋 Painel de Publicação — Dia #052,,,CONTRASTE,,nao,,,dia-052-custo-afundado.ipynb,modelos/dias-031-060,publicado,
+53,2026-08-05,Qual a probabilidade de a sorte ter decidido mais da sua carreira do que você admite?,,Comportamental,MECANISMO,,nao,,,dia-053-sorte-vs-competencia.ipynb,modelos/dias-031-060,publicado,
+54,2026-08-06,Qual a probabilidade de o silêncio de quem está perto não ser sobre você?,,Comportamental,CONTRASTE,,nao,,,dia-054-lacos-fracos.ipynb,modelos/dias-031-060,publicado,
+55,2026-08-07,Qual a probabilidade de a síndrome do impostor ser real?,,Comportamental,PARADOXO,,,,,dia-055-sindrome-impostor.ipynb,modelos/dias-031-060,publicado,
+56,2026-08-08,Qual a probabilidade de uma só decisão ter mudado todo o resto da sua vida?,,Comportamental,MECANISMO,,nao,,,dia-056-efeito-borboleta.ipynb,modelos/dias-031-060,publicado,
+57,2026-08-09,Qual a probabilidade de o que um pai deixa continuar agindo mesmo depois que ele se vai?,,Preditivo,MAGNITUDE,,nao,,,dia-057-pai-presente.ipynb,modelos/dias-031-060,publicado,
+58,2026-08-10,Qual a probabilidade de você odiar a segunda-feira pelo motivo errado?,,Comportamental,EFEITO MORTO,,sim,,,dia-058-segunda-motivo-errado.ipynb,modelos/dias-031-060,publicado,
+59,2026-08-11,Qual a probabilidade de quem fala menos numa reunião ser visto como mais competente?,,Comportamental,MAGNITUDE,,,,,dia-059-fala-menos-competente_2.ipynb,modelos/dias-031-060,publicado,
+60,2026-08-12,Qual a probabilidade de a disciplina já ter virado identidade no dia 60?,,Comportamental,GRADIENTE,,nao,,,dia-060-disciplina-identidade.ipynb,modelos/dias-031-060,publicado,
+61,2026-08-13,Qual a probabilidade de você preferir se sentir certo a estar certo?,,Preditivo,MAGNITUDE,,nao,,,dia-061-sentir-se-certo_2.ipynb,modelos/dias-061-090,publicado,
+62,2026-08-14,Qual a probabilidade de ser o mais novo da sala custar um diagnóstico?,,Comportamental,ARTEFATO DE MEDIDA,,nao,,,dia-062-mais-novo-da-sala.ipynb,modelos/dias-061-090,publicado,
+63,2026-08-15,Qual a probabilidade de você ser menos ético do que acha que é?,,Comportamental,CONTRASTE,,nao,,,dia-063-prever-a-si-mesmo.ipynb,modelos/dias-061-090,publicado,
+64,2026-08-16,Qual a probabilidade de ter um porquê mudar a sua data de morte?,,Preditivo,MAGNITUDE COM ATENUAÇÃO,,nao,,,dia-064-proposito-e-mortalidade.ipynb,modelos/dias-061-090,publicado,
+65,2026-08-17,Qual a probabilidade de uma lembrança sua nunca ter acontecido?,,Comportamental,PROPORÇÃO,,nao,,,dia-065-memoria-implantada.ipynb,modelos/dias-061-090,publicado,
+66,2026-08-18,Qual a probabilidade de o mesmo dado provar duas coisas opostas?,,Metodológico,ARTEFATO DE AGREGAÇÃO,,nao,,,dia-066-paradoxo-de-simpson.ipynb,modelos/dias-061-090,publicado,
+67,2026-08-19,Qual a probabilidade de a hora da consulta mudar o seu tratamento?,,Comportamental,GRADIENTE AO LONGO DO DIA,,nao,,,dia-067-fadiga-de-decisao.ipynb,modelos/dias-061-090,publicado,
+68,2026-08-20,Qual a probabilidade de a euforia da corrida não ser endorfina?,,Experimental,EFEITO NULO COM CÁLCULO DE PODER,,nao,,,dia-068-euforia-da-corrida.ipynb,modelos/dias-061-090,publicado,
+69,2026-08-21,Qual a probabilidade de a forma como você se descreve valer mais que o seu desempenho?,,Experimental,TRADUÇÃO DE COEFICIENTE,,nao,,,dia-069-o-preco-da-descricao.ipynb,modelos/dias-061-090,publicado,
+70,2026-08-22,Qual a probabilidade de um remédio que você sabe ser falso funcionar?,,Experimental,FENDA ENTRE MEDIDAS,,nao,,,dia-070-placebo-aberto.ipynb,modelos/dias-061-090,publicado,
+71,2026-08-23,Qual a probabilidade de o tempo que você passa com seu filho mudar algo?,,Comportamental,EFEITO MÍNIMO DETECTÁVEL,,nao,,,dia-071-tempo-com-os-filhos.ipynb,modelos/dias-061-090,publicado,
+72,2026-08-24,"Qual a probabilidade de você ter burnout, dependendo de quem pergunta?",,Metodológico,RÉGUA E PONTO DE CORTE,,nao,,,dia-072-burnout-142-definicoes.ipynb,modelos/dias-061-090,publicado,
+73,2026-08-25,Qual a probabilidade de correr destruir o seu joelho?,,Preditivo,CURVA EM U COM INTERVALOS QUE CRUZAM O 1,,nao,,,dia-073-corrida-e-joelho.ipynb,modelos/dias-061-090,publicado,
+74,2026-08-26,Qual a probabilidade de existir uma porta que se fecha aos 17 anos?,,Preditivo,DUAS LEITURAS DO MESMO DADO,,nao,,,dia-074-porta-que-se-fecha.ipynb,modelos/dias-061-090,publicado,
+75,2026-08-27,Qual a probabilidade de o seu paladar mudar a 10 mil metros?,,Experimental,ESPECIFICIDADE E CONTROLES NEGATIVOS,,nao,,,dia-075-paladar-a-10-mil-metros.ipynb,modelos/dias-061-090,publicado,
+76,2026-08-28,Qual a probabilidade de o seu relógio biológico não ter 24 horas?,,Preditivo,ASSIMETRIA DIRECIONAL,,nao,,,dia-076-relogio-de-24-2-horas.ipynb,modelos/dias-061-090,publicado,
+77,2026-08-29,Qual a probabilidade de a sua mala não chegar com você?,,Descritivo,TAXA CONTRA CONTAGEM,,nao,,,dia-077-a-mala-nao-chegar.ipynb,modelos/dias-061-090,publicado,
+78,2026-08-30,Qual a probabilidade de a sua boa notícia testar o relacionamento mais que uma briga?,,Experimental,CONVERGÊNCIA ENTRE MÉTODOS,,nao,,,dia-078-a-boa-noticia.ipynb,modelos/dias-061-090,publicado,
+79,2026-08-31,"Qual a probabilidade de o seu caráter depender da situação, e não de quem você é?",,Metodológico,AGREGAÇÃO (SPEARMAN-BROWN),,nao,,,dia-079-pessoa-ou-situacao.ipynb,modelos/dias-061-090,publicado,
+80,2026-09-01,Qual a probabilidade de a esteira hedônica ser uma invenção de 22 pessoas?,,Preditivo,PODER RETROSPECTIVO E CONTA REVERSA,,nao,,,dia-080-a-esteira-hedonica.ipynb,modelos/dias-061-090,publicado,
+81,2026-09-02,Qual a probabilidade de a mesma decisão mudar só porque mudou a frase?,,Experimental,REPLICAÇÃO EM MASSA (o clássico que NÃO caiu),,nao,,,dia-081-enquadramento.ipynb,modelos/dias-061-090,publicado,
+82,2026-09-03,Qual a probabilidade de o caçula ser mesmo o mais criativo da família?,,Preditivo,"TRADUÇÃO DE r=0,02",,nao,,,dia-082-ordem-de-nascimento.ipynb,modelos/dias-061-090,publicado,
+83,2026-09-04,Qual a probabilidade de você já ter conhecido a maior parte da sua turma?,,Descritivo,ARITMÉTICA DA JANELA + SENSIBILIDADE,,nao,,,dia083_rede_v2.ipynb,modelos/dias-061-090,publicado,
+84,2026-09-05,Qual a probabilidade de o seu gosto musical ter sido decidido aos 14 anos?,,Descritivo,PICO DE REMINISCÊNCIA (descritivo com conta própria),,nao,,,dia-084-o-gosto-aos-14.ipynb,modelos/dias-061-090,publicado,
+85,2026-09-06,Qual a probabilidade de uma coincidência boa acontecer justamente com você?,,Metodológico,TRADUÇÃO DE r + CONCORDÂNCIA NO EXTREMO,,nao,,,dia085_coincidencia.ipynb,modelos/dias-061-090,publicado,
+86,2026-09-07,Qual a probabilidade de começar no ano errado custar dez anos?,,Carreira,MEIA-VIDA COM EQUAÇÃO,,nao,,,dia-086-primeiro-emprego-em-recessao.ipynb,modelos/dias-061-090,publicado,
+87,2026-09-08,Qual a probabilidade de trabalhar de pijama render mais?,,Trabalho,ANATOMIA DE UM EFEITO,,nao,,,dia-087-home-office-experimento.ipynb,modelos/dias-061-090,publicado,
+88,2026-09-09,Qual a probabilidade de você ler pior na tela?,,Cognição,TAMANHO HONESTO + FOREST,,nao,,,dia-088-papel-contra-tela.ipynb,modelos/dias-061-090,publicado,
+89,2026-09-10,Qual a probabilidade de os seus amigos terem mais amigos que você?,,Redes,EQUAÇÃO VERIFICADA (SEMENTE 42),,nao,,,dia-089-paradoxo-da-amizade.ipynb,modelos/dias-061-090,publicado,
+90,2026-09-11,Qual a probabilidade de o estresse mudar as suas decisões?,,Decisão,CONTRASTE DE MAGNITUDES + CLES (refeito em duas camadas),,nao,,,dia-090-estresse-corpo-decisao.ipynb,modelos/dias-061-090,publicado,
+91,2026-09-12,Qual a probabilidade de a felicidade estar na mala ainda fechada?,,Bem-estar,ASSIMETRIA + NULOS ELEGANTES,,nao,,,dia-091-a-viagem-antes-da-viagem.ipynb,modelos/dias-091-120,publicado,
+92,2026-09-13,Qual a probabilidade de o otimismo alongar a sua vida?,,Longevidade,POSTERIOR NO LOG-RR + GOMPERTZ,,nao,,,dia-092-otimismo-e-longevidade.ipynb,modelos/dias-091-120,publicado,
+93,2026-09-14,Qual a probabilidade de o escritório aberto ter matado a conversa?,,Trabalho,ORÇAMENTO DE CONVERSA + CONTRASTE DE CANAIS (refeito em duas camadas),,nao,,,dia-093-escritorio-aberto.ipynb,modelos/dias-091-120,publicado,
+94,2026-09-15,Qual a probabilidade de você aguentar o pior e seguir de pé?,,Resiliência,POSTERIOR ANTI-INFLAÇÃO + DIRICHLET + SALA DE 30,,nao,,,dia-094-trajetoria-resiliente.ipynb,modelos/dias-091-120,publicado,
+95,2026-09-16,Qual a probabilidade de os seus próximos passos serem previsíveis?,,Comportamento,EQUAÇÃO DE FANO RESOLVIDA + SENSIBILIDADE,,nao,,,dia-095-previsibilidade.ipynb,modelos/dias-091-120,publicado,
+96,2026-09-17,"Qual a probabilidade de ""durma sobre o assunto"" ser um conselho furado?",,Decisão,DISPUTA (1ª do bloco) - POSTERIOR + ESCADA EM DUELOS,,nao,,,dia-096-durma-sobre-o-assunto.ipynb,modelos/dias-091-120,publicado,
+97,2026-09-18,Qual a probabilidade de a segunda cultura do seu filho ser um presente?,,Identidade,MITO ENTERRADO COM MAGNITUDE HONESTA,,nao,,,dia-097-biculturalismo.ipynb,modelos/dias-091-120,publicado,
+98,2026-09-19,Qual a probabilidade de o seu amuleto da sorte funcionar?,,Crença,DISPUTA (2ª e última do bloco) - BF DE REPLICAÇÃO,,nao,,,dia-098-bola-da-sorte.ipynb,modelos/dias-091-120,publicado,
+99,2026-09-20,Qual a probabilidade de o seu fôlego saber quanto tempo você tem?,,Saúde,RELÓGIO BIOLÓGICO POR APTIDÃO CARDIORRESPIRATÓRIA,domingo_emocional,nao,,,dia-099-o-folego.ipynb,modelos/dias-091-120,publicado,
+100,2026-09-21,Qual a probabilidade de você só descobrir quem é depois de escolher?,,Comportamental,MARCO · CURVA DE DESCOBERTA DEPOIS DA ESCOLHA,segunda_trabalho,nao,,,dia-100-descobrir-depois-de-escolher.ipynb,modelos/dias-091-120,publicado,
+101,2026-09-22,Qual a probabilidade de você bocejar só de ver alguém bocejar?,,Comportamental,GRADIENTE DO AFETO EM PROPORÇÕES,livre,nao,,,dia-101-bocejo.ipynb,modelos/dias-091-120,publicado,
+102,2026-09-23,Qual a probabilidade de você vender a coisa certa e segurar a errada?,,Comportamental,ASSIMETRIA PURA (PGR CONTRA PLR),livre,nao,,,dia-102-vender-a-coisa-certa.ipynb,modelos/dias-091-120,publicado,
+103,2026-09-24,Qual a probabilidade de você escolher a fila errada?,,Comportamental,"A ESCOLHA PELO COMPRIMENTO, NÃO PELA VELOCIDADE",livre,nao,,,dia-103-fila-errada.ipynb,modelos/dias-091-120,publicado,
+104,2026-09-25,Qual a probabilidade de a Mega-Sena lembrar quais números já saíram?,,Cabalístico,SIMULAÇÃO PRÓPRIA CONTRA DADO OFICIAL (1º cabalístico),livre,nao,,,dia-104-mega-sena-memoria.ipynb,modelos/dias-091-120,publicado,
+105,2026-09-26,Qual a probabilidade de uma música te dar arrepio?,,Descritivo,PREVALÊNCIA CORRIGIDA + CONTAGEM DE LABORATÓRIO (três camadas),sabado_leve,sim,,,dia-105-arrepio-na-musica.ipynb,modelos/dias-091-120,publicado,
+106,2026-09-27,"Qual a probabilidade de a sua felicidade depender do que você esperava, e não do que aconteceu?",,Emocional,,domingo_emocional,nao,,,dia-106-a-felicidade-e-a-distancia.ipynb,modelos/dias-091-120,publicado,
+107,2026-09-28,Qual a probabilidade de você entregar no prazo que prometeu?,,,,segunda_trabalho,nao,,,,,calibrado,calendário 25/09: Entregar no prazo prometido · pronto (produzido pela Ana); conferir fontes
+108,2026-09-29,"Qual a probabilidade de você lembrar, daqui a um mês, do que estudou",,,,livre,nao,,,,,calibrado,calendário 25/09: Repetição espaçada · notebook e Substack prontos (Ana); carrossel e legenda a fazer
+109,2026-09-30,Qual a probabilidade de o elevador chegar no sentido errado? (Estrutural),,,,livre,nao,,,,,calibrado,calendário 25/09: O elevador no sentido errado (2º cabalístico) · quatro artefatos prontos (26/09)
+110,2026-10-01,Qual a probabilidade de alguém te ajudar se você precisar na rua?,,,,livre,nao,,,,,calibrado,calendário 25/09: O efeito espectador ao contrário · quatro artefatos prontos (26/09)
+160,,A palavra muda a resposta (proibir/permitir),,,,,,,,,,calibrado,"marcado: fontes Rugg 1941 POQ 5(1) 54% vs 75%; Holleman 1999/2000 (média 14 pp, DP 9,85); Holleman 2006 Q&Q 40(1), 10 experimentos, N=1.054, 7 pp, inversão no exp. 6. ×0,80 não; assinatura P(inversão)=Φ(−14/9,85)=7,8%; abertura com Sloboda 1991 (90/62/31); **ponte obrigatória com o #072**; pendência 15"
+161,,Idade relativa no Brasil,,,,,,,,,,calibrado,"marcado: fontes Oliveira & Menezes Filho 2018, ANPEC, Censo Escolar BH, N=36.718, RDD. continuação de #062; alerta 12 sobre microdados"
+213,,O azarão do hóquei,,,,,,,,,,calibrado,marcado: fontes ver acima. 
+901,,Qual a probabilidade de feedback negativo estar piorando quem você queria ajudar?,,Comportamental / Organizacional,,,,,,dia-032-feedback-negativo.ipynb,modelos/dias-031-060,gaveta,número provisório; arquivo no repo com o mesmo número do dia #032
+902,,Qual a probabilidade de acreditar que vai dar certo mudar o resultado?,,Preditivo / Comportamental,,,,,,dia-038-acreditar-em-si.ipynb,modelos/dias-031-060,gaveta,número provisório; arquivo no repo com o mesmo número do dia #038
+903,,"Qual a probabilidade de voce ser julgada por recusar um convite, enquanto um homem recusando a mesma coisa nao seria?",,Comportamental,,,,,,dia-039-recusa-e-julgamento.ipynb,modelos/dias-031-060,gaveta,número provisório; arquivo no repo com o mesmo número do dia #039
+904,,Qual a probabilidade de 20 minutos de soneca mudarem seu desempenho no resto do dia?,,Comportamento,,,,,,dia-041-soneca.ipynb,modelos/dias-031-060,gaveta,número provisório; arquivo no repo com o mesmo número do dia #041
+905,,Qual a probabilidade de o seu gesto gentil valer muito mais do que você imagina?,,Comportamental,,,,,,dia-043-gentileza-subestimada.ipynb,modelos/dias-031-060,gaveta,número provisório; arquivo no repo com o mesmo número do dia #043
+906,,Qual a probabilidade de o ano em que você se formou ainda estar no seu salário?,,Preditivo,,,,,,dia-086-formar-se-em-recessao.ipynb,modelos/dias-061-090,gaveta,número provisório; arquivo no repo com o mesmo número do dia #086
+907,,Quem pede o divórcio,,,,,,,,,,gaveta,"reserva com material pronto; renumerar ao usar. ×0,80 sim; calibrado em 10/09 sem gancho pessoal; candidato a domingo; alerta 23 (Gottman fora)"
+908,,A curva U da felicidade,,,,,,,,dia-100-a-curva-u.ipynb,,gaveta,reserva com material pronto; renumerar ao usar. emocional; o fundo da curva está a três anos da Ana
+909,,"A correção reduz, não zera",,,,,,,,dia-101-mudar-de-ideia.ipynb,,gaveta,"reserva com material pronto; renumerar ao usar. adiado por Ana para ""bem lá pra frente""; conta na cota de disputas; corda #061 (Albarracín)"
+910,,ACEs e dor crônica,,,,,,,,,,gaveta,"reserva com material pronto; renumerar ao usar. ""muito pesado"" para Ana em 18/09"
+911,,O azarão do hóquei,,,,,,,,dia-088-a-reversao-do-azarao.ipynb,,gaveta,reserva com material pronto; renumerar ao usar. continuação de #062
+912,,Previsão afetiva,,,,,,,,dia-054-serei-feliz-quando.ipynb,,gaveta,reserva com material pronto; renumerar ao usar. separar bem do #041
+913,,A lei de Benford,,,,,,,,,,gaveta,"reserva com material pronto; renumerar ao usar. DIA INTEIRO PRONTO, SEM NÚMERO. Notebook `dia-108-lado-preferido.ipynb` e Substack entregues em 26/09. Renumerar: nome do arquivo, cabeçalho, rodapé e os quatro PNGs. Achado central: qui-quadrado rejeita a lei com os dados do próprio Benford (p = 0,000026) enquanto nenhum dígito erra 1 pp; ponto de "
+914,,A mão quente ressuscitada,,,,,,,,,,gaveta,"reserva com material pronto; renumerar ao usar. validado em 26/09. Viés de seleção de 15 pp; corrigindo Gilovich, Vallone & Tversky 1985, o efeito vai de +3 para +13 pp (26 jogadores, p<0,01); torneio de três pontos +8 pp (33 jogadores). É dia de disputa, conta na cota. Colisões a declarar: Gilovich (#038) e Tversky (#081)"
+915,,Quanto do seu dia é automático,,,,,,,,,,gaveta,"reserva com material pronto; renumerar ao usar. validado em 26/09. Estudo 1 N=70 (35%), Estudo 2 N=209 (43%). ""Habitual"" = autorrelato de ""quase todo dia"" + ""mesmo lugar"", NÃO automaticidade medida. ×0,80 SIM. Saída para tema de hábito sem tocar em Lally"
+916,,A ilusão de saber como as coisas funcionam,,,,,,,,,,gaveta,"reserva com material pronto; renumerar ao usar. validado com ressalva. Doze estudos, N de 12 a 54. Perfil de amostra pequena, o mesmo que derrubou o dia do cachorro. Se montar, ancorar em Fernbach et al. 2013, *Psych Science*. Único dos quatro que desinfla o leitor, precisa de fecho construtivo"
+917,,Cuidador e mortalidade,,,,,,,,,,gaveta,reserva com material pronto; renumerar ao usar. nunca validado. Estava reservado ao #110 e foi preterido pelo espectador

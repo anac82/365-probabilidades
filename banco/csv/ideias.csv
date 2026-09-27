@@ -1,0 +1,40 @@
+id,criada_em,texto,origem,data_alvo,rotacao,status
+1,2026-09-25,Quem pede o divórcio | fontes: Rosenfeld 2018 + Lucas 2005,ana,,,reserva
+2,2026-09-25,"A curva U da felicidade (`dia-100-a-curva-u.ipynb` v4 + Substack) | fontes: Blanchflower 2021 (145 países, nadir 47,2/48,2) + Weiss 2012 (símios, N=508)",ana,,,reserva
+3,2026-09-25,"A correção reduz, não zera (`dia-101-mudar-de-ideia.ipynb` + carrossel + legenda + 2 Substacks) | fontes: Chan 2017 (k=52, N=6.878); Wood & Porter 2019; Costello 2024",ana,,,reserva
+4,2026-09-25,"ACEs e dor crônica (gaveta-aces-*, 10 arquivos) | fontes: Bussières 2023 (N=826.452); Senaratne 2025",ana,,,reserva
+5,2026-09-25,"O azarão do hóquei (`dia-088-a-reversao-do-azarao.ipynb`) → #213 | fontes: Gibbs, Jarvis & Dufur 2012; Fumarco 2017; citar Barnsley 1985, nunca Gladwell",ana,,,reserva
+6,2026-09-25,Previsão afetiva (`dia-054-serei-feliz-quando.ipynb`) | fontes: Gilbert & Wilson; Brickman 1978 (já central no #080: declarar),ana,,,reserva
+7,2026-09-25,"A lei de Benford (o primeiro dígito) | fontes: Benford 1938, *Proc. Am. Philos. Soc.* 78(4), 551-572 (N=20.229, 20 conjuntos) + Newcomb 1881 + Hill 1995 + Kossovsky 2021 + Deckert 2011",ana,,,reserva
+8,2026-09-25,"A mão quente ressuscitada | fontes: Miller & Sanjurjo 2018, *Econometrica* 86(6)",ana,,,reserva
+9,2026-09-25,"Quanto do seu dia é automático | fontes: Wood, Quinn & Kashy 2002, *JPSP* 83(6), 1281-1297",ana,,,reserva
+10,2026-09-25,"A ilusão de saber como as coisas funcionam | fontes: Rozenblit & Keil 2002, *Cognitive Science* 26(5)",ana,,,reserva
+11,2026-09-25,"Cuidador e mortalidade | fontes: Roth 2013, Perkins 2013, O'Reilly 2015",ana,,,reserva
+12,2026-09-25,"Gasto pró-social | fontes: Dunn, Aknin & Norton",ana,dezembro,,reserva
+13,2026-09-25,Morar junto antes de casar | fontes: a validar,ana,meados de outubro,,reserva
+14,2026-09-25,Olfato e memória | fontes: a validar,ana,outubro,,reserva
+15,2026-09-25,"Abraço e resfriado | fontes: Sheldon Cohen, Janicki-Deverts, Turner & Doyle 2015, *Psych Science* 26(2), N=404, 14 noites de entrevista, exposição a rinovírus em quarentena; abraço explica 32% do efeito protetor do apoio",ana,,,reserva
+16,2026-09-25,"Cachorro e sobrevida | fontes: Kramer, Mehmood & Suen 2019, *Circ Cardiovasc Qual Outcomes* 12(10), 10 estudos, 3.837.005 pessoas, 10,1 anos, 530.515 óbitos; RR 0,76 [0,67; 0,86] por qualquer causa, −31% cardiovascular; contraditório Owen et al. 2020 (só razões brutas foram agrupáveis)",ana,,,reserva
+17,2026-09-25,"Cachorro e dono se parecem | fontes: Roy & Christenfeld 2004 (45 pares, 28 juízes; 16 de 25 raça, nada nos vira-latas); Levine 2005; Nakajima 2009/2013; Payne & Jaffe 2005",ana,,,descartada
+18,2026-09-25,"Mães a distância | fontes: China 2015 (68,77 mi de crianças, ~69% com a mãe longe); Graham & Jordan 2011 CHAMPSEA N=3.876; Lin et al. 2025 *Pediatric Research* (78 estudos, N=394.308)",ana,,,descartada
+19,2026-09-25,Ninho vazio | fontes: Gorchoff 2008,ana,,,reserva
+20,2026-09-25,"Escrita expressiva | fontes: Frattaroli 2006 *Psych Bulletin* 132(6), 146 estudos, N=10.994, r=0,075 [0,052; 0,098]",ana,,,reserva
+21,2026-09-25,Sobrevivência dos 100 dias | fontes: Oscarsson 2020; Norcross 2002,ana,,,reserva
+22,2026-09-25,"Hora extra não paga | fontes: TUC, estatística oficial",ana,,,reserva
+23,2026-09-25,Repetição espaçada | fontes: Cepeda et al. 2006,ana,,,reserva
+24,2026-09-25,Dose mínima de natureza | fontes: White et al. 2019,ana,,,reserva
+25,2026-09-25,Princípio de Peter; 10 mil horas | fontes: a validar,ana,,,descartada
+26,2026-09-25,Feedback que piora | fontes: Kluger & DeNisi 1996 + Wisniewski 2020,ana,,,descartada
+27,2026-09-25,As horas para virar amigo | fontes: Hall 2019,ana,,,descartada
+28,2026-09-25,Solidão e mortalidade | fontes: Holt-Lunstad 2010/2015,ana,,,reserva
+29,2026-09-25,Álcool no corpo | fontes: a validar,ana,,,reserva
+30,2026-09-25,Benefícios do sono | fontes: a validar,ana,,,reserva
+31,2026-09-25,O ônibus que nunca chega (paradoxo da inspeção) | fontes: a validar,ana,,,reserva
+32,2026-09-25,Entropia de Shannon e termodinâmica | fontes: par de reserva do #095,ana,,,reserva
+33,2026-09-25,Carteira perdida | fontes: Cohn et al. 2019,ana,,,reserva
+34,2026-09-25,Casais que se parecem | fontes: Horwitz et al. 2023,ana,,,reserva
+35,2026-09-25,Detecção de mentira | fontes: Bond & DePaulo 2006,ana,,,reserva
+36,2026-09-25,Primeira noite fora de casa | fontes: Tamaki et al. 2016,ana,,,reserva
+37,2026-09-25,Humor por dia da semana | fontes: Gallup,ana,,,reserva
+38,2026-09-25,Procrastinar a própria vida | fontes: O'Donoghue & Rabin 1999; Laibson 1997,ana,,,reserva
+39,2026-09-25,A verdade que se lê e não se compartilha | fontes: Hart 2009 (já #061); Festinger,ana,,,reserva

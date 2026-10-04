@@ -284,3 +284,22 @@ id,fonte_id,dia,papel,x080_aplicado,reuso_declarado,nota
 283,277,106,central,0,0,
 284,278,106,apoio,0,0,
 285,279,111,central,0,0,Unica fonte do dia. Saida registrada para tema de habito sem tocar em Lally (queimada desde o #060).
+286,280,104,central,0,0,Retroativo: o #104 usou a mesma base e ela nao estava registrada em fontes. Angulo do #104: a maquina tem memoria? Nao.
+287,280,112,central,0,0,"Reuso declarado da base do #104, com objeto diferente."
+288,281,113,central,0,0,
+289,282,115,central,0,0,
+290,283,114,central,0,0,
+291,284,116,central,0,0,
+292,285,116,apoio,0,0,
+293,286,117,central,0,0,
+294,287,117,apoio,0,0,Régua de validação da base (2003 a 2007).
+295,288,117,contraste,0,0,Ligas europeias 2019/20; exposição diferente da temporada inteira vazia de 2020 no Brasil.
+296,289,118,central,0,0,Sobrenome repetido com o #066 (P. J. Bickel 1975). Pessoas diferentes; nota de autoria no notebook.
+297,290,118,apoio,0,0,"Camada 5, dado brasileiro próprio."
+298,291,119,central,0,0,
+299,292,119,apoio,0,0,
+300,293,119,apoio,0,0,Só o resumo; não entra no modelo.
+301,294,119,contrapeso,0,0,
+302,295,119,conceito,0,0,
+303,296,120,central,0,0,
+304,297,120,conceito,0,0,

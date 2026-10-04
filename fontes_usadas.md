@@ -1,5 +1,7 @@
 # FONTES USADAS - 365 PROBABILIDADES
-### Livro-caixa de fontes primárias dos dias #001 a #107, calendário até #110 e reservas
+### Livro-caixa de fontes primárias dos dias #001 a #120, calendário até #121 e reservas
+**Atualizado em 03/10/2026:** entraram o #106 (que estava em aberto) e os dias #111 a #120, extraídos dos notebooks em `modelos/dias-091-120/`; alertas 61 a 66; pendências 31 a 38; calendário #111-#121. O #121 ainda não tem notebook no repositório. O banco `banco/365.db` recebeu as mesmas entradas no mesmo dia.
+
 **Versão consolidada de 25/09/2026.** Substitui, num arquivo só, `fontes_usadas.md`
 (25/08), `fontes_usadas_novo.md` (10/09) e `fontes_usadas_16set.md` (16/09). Os três
 eram versões encadeadas do mesmo texto (cada um continha o anterior por inteiro); nada
@@ -23,9 +25,9 @@ visível para o leitor.
 **Como manter:** ao fechar cada dia, acrescentar a linha na PARTE 2 e os autores na
 PARTE 1. Leva um minuto e evita o retrabalho de descobrir a colisão depois de publicar.
 
-**Índice:** Parte 1 (alertas de reuso) · Parte 2 (fontes por dia, #001 a #107) ·
+**Índice:** Parte 1 (alertas de reuso) · Parte 2 (fontes por dia, #001 a #120) ·
 Parte 2B (alerta de data) · Parte 3 (dias sem bloco de fontes) · Parte 4 (alertas
-permanentes 1-54) · Parte 5 (rotina) · Pendências abertas · Calendário #099-#110 ·
+permanentes 1-66) · Parte 5 (rotina) · Pendências abertas · Calendário #099-#110 e #111-#121 ·
 Reservas validadas · Notas de janela.
 
 ---
@@ -244,6 +246,31 @@ a #107. Varredura feita em 25 e 26/09 antes de propor cada tema.
 **ATENÇÃO, nome repetido: Mark Levine.** Ele assina as DUAS fontes do #110 (Philpot 2019
 e Manning 2007). É deliberado, são trabalhos diferentes do mesmo pesquisador sobre o
 mesmo caso, e está declarado no notebook. Mesma regra do Fendel no #070.
+## Autores novos registrados em #106 e #111 a #120 — sem colisão
+Rutledge, Skandali, Dayan e Dolan (2014) e Blain e Rutledge (2020), no #106; Wood, Quinn
+e Kashy (2002); Caixa Econômica Federal (mesma base do #104); Sheldon Cohen,
+Janicki-Deverts, Turner e Doyle (2015); Brollo e Troiano (2016); Cohn, Maréchal,
+Tannenbaum e Zünd (2019); IBGE (Censo 2022, Censo 2010, PNAD 2014); CBF (base pública da
+Série A); Pollard, Silva e Medeiros (2008); Bryson, Dolton, Reade, Schreyer e Singleton
+(2021); J. Eric Bickel e Kim (2008); INMET (avisos e estação A705); Tamaki, Bang,
+Watanabe e Sasaki (2016); Wick, Combertaldi e Rasch (2024); Ding, Chen, Dai e Li (2022);
+Sprajcer, Gupta, Roach e Sargent (2022); Agnew, Webb e Williams (1966); Easterlin (2001).
+
+**Atenção a quatro nomes:**
+- **Bickel.** P. J. Bickel assina o #066 (Berkeley, 1975). J. Eric Bickel assina o #118
+  (previsão do tempo, 2008). Pessoas diferentes; a nota de autoria está no notebook do
+  #118. Citar sempre com o coautor e o ano.
+- **Cohn não é Cohen.** Alain Cohn assina o #115. Sheldon Cohen assina o #113. Randy
+  Cohen assina o #064 e o #092.
+- **Caixa (Mega-Sena)** foi usada no #104 e no #112, com objetos diferentes e ponte
+  declarada nos dois.
+- **IBGE** é fonte central do #116 (Censo) e do #120 (PNAD 2014), bases diferentes. No
+  #009 entrou a PNAD Contínua 2023.
+
+**Wood, Quinn & Kashy 2002** saiu da reserva ("quanto do seu dia é automático") e virou
+o #111. **Sheldon Cohen 2015** (abraço), **Cohn 2019** (carteira) e **Tamaki 2016**
+(primeira noite) saíram da prateleira e viraram #113, #115 e #119.
+
 ## Temas queimados, não reabrir
 
 | Tema | Motivo |
@@ -1816,12 +1843,27 @@ prevalência.
 as mesmas 83 pessoas: espinha 90%, pele 62%, tremor 31%) saiu deste dia e virou o
 **#160**. Ana achou o texto do modelo "meio bagunçado" com ela dentro.
 
-### Dia #106 - 2026-09-27 (domingo) - EM ABERTO
-**Tema a definir.** Rotação: domingo emocional. O cachorro (Roy & Christenfeld 2004) foi
-descartado por Ana em 25/09 ("muito fraco"). Opções validadas na prateleira, sem
-escolha: abraço e resfriado (Sheldon Cohen 2015), cachorro e sobrevida (Kramer 2019),
-curva U (notebook pronto), quem pede o divórcio (notebook pronto), ninho vazio (Gorchoff
-2008), escrita expressiva (Frattaroli 2006). Ver Reservas.
+### Dia #106 - 2026-09-27 (domingo) - forma: EQUAÇÃO PUBLICADA + SIMULAÇÃO DE MECANISMO
+**Qual a probabilidade de a sua felicidade depender do que você esperava, e não do que aconteceu?** (Emocional)
+
+**Fontes:** Rutledge, R. B., Skandali, N., Dayan, P. & Dolan, R. J. (2014), "A
+computational and neural model of momentary subjective well-being", *PNAS* 111(33),
+12252-12257: **26 participantes** no laboratório (com fMRI) e **18.420** no aplicativo
+*The Great Brain Experiment*. A riqueza acumulada no jogo não prevê a felicidade do
+momento; expectativas recentes e erros de previsão preveem. Blain, B. & Rutledge, R. B.
+(2020), "Momentary subjective well-being depends on learning and not reward", *eLife*
+9:e57977, **N=75**: a equação explica 58% a 62% da variação do humor; fator de
+esquecimento γ = 0,59 a 0,63.
+**Modelo:** a equação publicada, literal, e uma simulação com ela: duas pessoas jogam o
+mesmo jogo, terminam com o mesmo dinheiro, uma esperava pouco e a outra muito. Três
+gráficos (mesmo-jogo, equacao, duelos).
+**×0,80:** não (escala de humor contra resultado objetivo do jogo, dentro da pessoa).
+**Pendência declarada no notebook:** os pesos e o r² exatos do artigo de 2014 não foram
+lidos no texto completo; a simulação usa γ = 0,6 do eLife 2020 e pesos ilustrativos
+declarados (alerta 25).
+**Histórico:** o dia levou quatro temas até fechar (cachorro e dono, choro e corpo, a
+presença de quem já se foi, a felicidade é a distância).
+**Arquivo:** dia-106-a-felicidade-e-a-distancia.ipynb. Publicado.
 
 ### Dia #107 - 2026-09-28 (segunda) - forma: PIOR QUE O PIOR CENÁRIO
 **Qual a probabilidade de você entregar no prazo que prometeu?** (Trabalho · planejamento)
@@ -2002,6 +2044,233 @@ com rua sem câmera.
 01-nove-em-dez, 02-duas-medidas, 03-o-limiar, 04-a-fenda.
 **Commit:** Dia #110 - O efeito espectador ao contrário [Comportamental | Agregação
 bayesiana e limiar | Philpot et al. 2019].
+
+---
+
+### Dia #111 - 2026-10-02 (sexta) - forma: O NÚMERO CERTO QUE NÃO DESCREVE NINGUÉM
+**Qual a probabilidade de o seu dia acontecer sem você?** (Comportamental)
+
+**Fonte única:** Wood, W., Quinn, J. M. & Kashy, D. A. (2002), "Habits in Everyday Life:
+Thought, Emotion, and Action", *JPSP* 83(6), 1281-1297. Estudo 1: **N=70**, um dia, 9,58
+anotações por pessoa, proporção habitual **M = 0,35, DP = 0,19**. Estudo 2: **N=209**,
+dois dias, 20,74 anotações por pessoa, **M = 0,43, DP = 0,19**. Os autores atribuem o
+43% maior à mudança de protocolo (no Estudo 2 a pessoa podia registrar vários
+comportamentos por sinal). PDF conferido em 27/09.
+**Modelo (quatro camadas):** a média contada por anotação e por pessoa (Jeffreys contra
+o intervalo pela unidade certa); teste de 35% contra 43% contando pessoas, com a
+correlação intraclasse derivada do DP publicado; Beta pelo método dos momentos (média
+43%, DP 19) para a distribuição entre pessoas; simulação de dez momentos por pessoa,
+semente 42, 500 mil sorteios.
+**×0,80:** não, com motivo declarado: aqui o autorrelato **é** a medida ("quase todo dia,
+no mesmo lugar" é a definição da variável). Segue a decisão do #063.
+**Ponte:** #006 (disciplina). **Saída para tema de hábito sem tocar em Lally.**
+**Atenção:** o banco guarda as camadas da versão de 27/09 (rho assumido em 0,20); o
+notebook publicado deriva a correlação intraclasse. Ver pendência 31.
+**Arquivo:** dia-111-dia-automatico.ipynb.
+
+### Dia #112 - 2026-10-03 (sábado) - forma: DADO OFICIAL CONTRA COMPORTAMENTO HUMANO (cabalístico)
+**Qual a probabilidade de você ter que dividir o prêmio?** (Cabalístico)
+
+**Fonte:** Caixa Econômica Federal, resultados oficiais da Mega-Sena, concursos 1 a
+3.005. Campos: números sorteados, data, `ganhadores_6_acertos`, `arrecadacao_total`.
+**Cópia pública, não o arquivo oficial baixado**, como no #104. Arrecadação só a partir
+de 2009: **1.936 concursos** entram no modelo.
+**Modelo (seis camadas):** taxa de ganhadores por real arrecadado segundo quantos dos
+seis números sorteados são ≤31, com IC exato de Poisson; regressão de contagem com
+deslocamento pela arrecadação (Poisson com superdispersão e Binomial Negativa, com e sem
+efeito de ano e Mega da Virada); reamostragem por concurso (semente 42); robustez sem os
+16 concursos sem nenhum número ≤31; dia e mês (números ≤12); tradução em dinheiro de
+duas apostas com a mesma chance de ganhar. Registrado no banco: razão de taxas por
+número ≤31 de **1,378 [1,271; 1,495]**, φ = 1,53.
+**×0,80:** não (contagem administrativa).
+**Ponte obrigatória:** #104 (a máquina tem memória? não; os apostadores têm).
+**Regra de voz:** nunca escrever que jogar números acima de 31 aumenta a chance de
+ganhar. Aumenta a fatia esperada do prêmio se ganhar.
+**Arquivo:** dia-112-premio-dividido.ipynb. Commit feito em 03/10.
+
+### Dia #113 - 2026-10-04 (domingo) - forma: REPRODUÇÃO DOS DADOS ORIGINAIS
+**Qual a probabilidade de um abraço te proteger de um resfriado?** (Emocional)
+
+**Fonte:** **Sheldon Cohen**, Janicki-Deverts, D., Turner, R. B. & Doyle, W. J. (2015),
+"Does Hugging Provide Stress-Buffering Social Support? A Study of Susceptibility to
+Upper Respiratory Infection and Illness", *Psychological Science* 26(2), 135-147.
+**N=404** adultos expostos experimentalmente a vírus respiratório em quarentena; 14
+entrevistas noturnas antes. **Dados individuais:** Dryad, doi:10.5061/dryad.g7b40,
+convertidos para `dados113/hugging2015_analitico.csv`.
+**Modelo (quatro camadas, todas sobre os dados depositados):** exposição, infecção e
+doença clínica (315 infectados, 127 com resfriado clínico); reprodução da regressão
+logística com 14 covariáveis, coeficiente a coeficiente; a Figura 4 refeita
+(probabilidade prevista de infecção por nível de atrito e de abraço); a atenuação do
+coeficiente do apoio percebido.
+**×0,80:** não (infecção medida em laboratório; abraço e atrito são a exposição).
+**Linguagem:** associação. O desenho aleatorizou o vírus, não os abraços.
+**Divergência registrada e não resolvida:** o artigo reporta atenuação de 32%; a conta
+sobre os dados depositados dá 26,7%. Os dois números são reportados.
+**Precedente:** primeiro dia em que os dados individuais da fonte foram baixados e o
+modelo publicado foi refeito. Passou por revisão externa (segunda IA), 21 pontos no banco.
+**Ponte:** #070. **Regra do nome completo** (alerta 45).
+**Arquivo:** dia-113-abraco-resfriado.ipynb.
+
+### Dia #114 - 2026-10-05 (segunda) - forma: PENALIDADE MEDIDA + MODELO DE RENOVAÇÃO
+**Qual a probabilidade de uma prefeita ser reeleita?** (Institucional)
+
+**Fonte:** Brollo, F. & Troiano, U. (2016), "What happens when a woman wins an election?
+Evidence from close races in Brazil", *Journal of Development Economics* 122, 28-45,
+doi:10.1016/j.jdeveco.2016.04.003. Descontinuidade de regressão em **723 corridas
+apertadas** entre um homem e uma mulher, eleições municipais de 2000 e 2004. **O N vem
+da versão de working paper** (CAGE WP 161 / MPRA 52244, 2013). Achados do resumo: 29% a
+35% menos episódios de corrupção nas auditorias sorteadas da CGU; cerca de 60% mais
+transferências para investimento; menos doação de campanha; **20 pontos percentuais a
+menos de reeleição**.
+**Modelo (conta própria):** renovação dos cargos em estado estável, com a regra de uma
+única reeleição consecutiva: s* = w(1 + r_f) / (1 + w·r_f + (1 − w)·r_m), r_f = r_m − 0,20.
+Com entrada paritária o estado estável é **46,3%** (déficit de 3,7 pontos, entre 3,3 e
+4,0 para qualquer r_m plausível). Sem a regra de uma reeleição o déficit daria 7,7.
+**×0,80:** não (auditoria e registro eleitoral).
+**Limites declarados:** efeito perto do empate, não média de todas as prefeitas;
+coeficientes do artigo, descontinuidade não refeita; mandatos de 2001 a 2008, nada sobre
+eleição ou candidatura atual.
+**Arquivo:** dia-114-prefeita-reeleicao.ipynb. Três gráficos.
+
+### Dia #115 - 2026-10-06 (terça) - forma: DESCRITIVA COM DADOS ORIGINAIS
+**Qual a probabilidade de alguém devolver a sua carteira?** (Comportamental)
+
+**Fonte:** Cohn, A., Maréchal, M. A., Tannenbaum, D. & Zünd, C. L. (2019), "Civic
+honesty around the globe", *Science* 365(6448), 70-73. **N=17.303 carteiras, 355
+cidades, 40 países.** Dados individuais: Harvard Dataverse, doi:10.7910/DVN/YKBODN.
+Previsões: 299 participantes. Brasil: **399 carteiras em 8 cidades**.
+**Números registrados no banco:** devolução de 39,9% sem dinheiro, 51,0% com US$13,45 e
+72,0% com US$94,15; aumento em 38 de 40 países. Brasil: 34,0% [27,7; 40,8] sem dinheiro
+e 48,7% [41,9; 55,7] com; posição 25 de 40, com intervalo sobreposto ao de dez países.
+**Modelo:** posterior de Jeffreys por taxa; comparações na diferença entre posteriores,
+não por sobreposição de intervalos; ranking com intervalo; palpite contra resultado.
+**×0,80:** não (comportamento observado em campo).
+**Regra de voz:** a posição do Brasil no ranking não é o achado; mostrar o intervalo.
+**Pedido da Ana registrado aqui (30/09):** o dia não precisa invalidar número nem ter
+achado fantástico; basta responder a pergunta.
+**Arquivo:** dia-115-carteira-perdida.ipynb + `dados115/`.
+
+### Dia #116 - 2026-10-07 (quarta) - forma: RESPOSTA DIRETA COM DADO PÚBLICO (fase 2)
+**Qual a probabilidade de alguém passar a vida inteira na mesma cidade?** (Demográfico)
+
+**Fontes:** IBGE, Censo Demográfico 2022, resultados da amostra, **tabela SIDRA 3182**
+(pessoas que já residiram fora do município, por tempo de residência, sexo e idade),
+períodos 2010 e 2022, dados de 2022 preliminares; Censo 2022, universo, **tabela SIDRA
+9514**, N = 203.080.756; Censo 2010, **tabela SIDRA 200**, N = 190.755.799. Consulta em
+03/10/2026.
+**Números:** pessoas de 70 anos ou mais que nunca moraram em outro município: **34,4%**
+em 2022 (37,4% em 2010). De 40 a 44 anos: 52,6% já moraram fora. 67,6% de quem mudou
+está há dez anos ou mais no município atual.
+**Modelo (quatro camadas):** o número do dia; curva de saturação por idade,
+P(já mudou) = 0,700 × (1 − e^(−0,0342 × idade)), R² = 0,995; sala de 30 pessoas em 200
+mil sorteios (semente 42): 10,3 nunca saíram entre os de 70+; mulheres e homens.
+**×0,80:** não (Censo).
+**Gancho pessoal:** as cidades em que a Ana morou, com Bauru na saída e na volta.
+**Limite declarado:** os 34,4% descrevem a geração que hoje tem 70 anos; não é previsão
+para quem tem 40.
+**Primeiro dia da fase 2** (a pergunta nasce da vida da Ana e o dado vem depois).
+**Arquivo:** dia-116-vida-inteira-na-mesma-cidade.ipynb.
+
+### Dia #117 - 2026-10-08 (quinta) - forma: PROBABILIDADE SIMPLES + EXPERIMENTO NATURAL
+**Qual a probabilidade de o time da casa ganhar?** (Probabilidade simples)
+
+**Dados:** resultados da Série A do Campeonato Brasileiro, 2003 a 2024, **8.785 jogos**.
+Base pública compilada dos registros da CBF (repositório `adaoduque/Brasileirao_Dataset`,
+arquivo `campeonato-brasileiro-full.csv`). **Não é a base oficial.** Conferida por
+temporada, data, placar e coerência do vencedor.
+**Fontes de comparação:** Pollard, R., Silva, C. D. & Medeiros, N. C. (2008), "Home
+advantage in football in Brazil", *Brazilian Journal of Soccer Science* 1(1), 3-10,
+2.326 jogos de 2003 a 2007: 65,2% dos pontos com o mandante; 0,115 gol por 1.000 km.
+Bryson, A., Dolton, P., Reade, J. J., Schreyer, D. & Singleton, C. (2021), *Economics
+Letters* 198, 109664, 6.481 jogos em 23 ligas, 1.498 sem público: um terço a menos de
+amarelos para o visitante, sem efeito significativo em vitórias, gols ou pontos.
+**Números:** mandante vence **49,6%**, empata 26,4%, visitante vence 24,0%. Em 2020, sem
+público, 45,0% (5,7 pp abaixo dos dezessete anos com público; 3,5 pp abaixo dos três
+anos anteriores). De 2022 a 2024, 46,1%. Clássicos estaduais: 44,8%.
+**Modelo (cinco camadas):** probabilidade com intervalo; validação da base contra
+Pollard 2008; 2020 sem público; viagem do visitante (cerca de 0,07 gol por 1.000 km);
+temporada simulada (o efeito vale menos de três pontos; o acaso de 19 jogos, cerca de
+vinte). Semente 42.
+**×0,80:** não (registro de placar).
+**Arquivo:** dia-117-time-da-casa.ipynb + `campeonato-brasileiro-full.csv`.
+
+### Dia #118 - 2026-10-09 (sexta) - forma: CALIBRAÇÃO DE PREVISÃO + DADO BRASILEIRO PRÓPRIO
+**Qual a probabilidade de a previsão do tempo estar exagerando a chuva?** (Preditivo)
+
+**Fonte central:** Bickel, J. E. & Kim, S. D. (2008), "Verification of The Weather
+Channel Probability of Precipitation Forecasts", *Monthly Weather Review* 136(12),
+4867-4881. **N = 169.163 previsões**, 42 cidades dos Estados Unidos, 02/11/2004 a
+16/01/2006; para o mesmo dia, N = 17.338. Previsões de 20% para o mesmo dia (4.930):
+choveu em **5,5%**. Média anunciada 23,2% contra 18,0% observados. Ganho sobre a média
+histórica de 35,9% no mesmo dia, 0,4% com sete dias, negativo com oito e nove.
+**Fonte brasileira (camada 5):** INMET, avisos meteorológicos consultados um a um
+(`apiprevmet3.inmet.gov.br/avisos/rss/ID`, IDs 50000 a 55931; 5.927 lidos, 5 com erro) e
+dados históricos da **estação automática A705 (Bauru)**, arquivos de 2025 e 2026.
+**392 dias** com medição válida entre 01/03/2025 e 31/08/2026. Consulta em 03/10/2026.
+**Números de Bauru:** choveu em **56 de 99 dias com aviso de chuva (56,6% [46,7; 66,0])**
+e em 32 de 293 dias sem aviso (10,9% [7,7; 14,9]). Aviso do tipo Tempestade: 32 de 44
+(72,7%). Dias com aviso: 86,9% da chuva medida.
+**Modelo (cinco camadas):** Jeffreys sobre os 20% com sensibilidade de amostra efetiva
+([3,2; 8,9] no pior caso); cem dias de 20% (2 a 10 dias de chuva); reta da antecedência
+(zero em 6,7 dias); acerto reconstruído com corte em 50% (87,1% contra 82,0% de "nunca
+chove", reconstrução nossa); Bauru.
+**×0,80:** não (chuva registrada em estação).
+**Nota de autoria:** J. Eric Bickel não é o P. J. Bickel do #066.
+**Limites declarados:** período de 12/10/2025 a 17/03/2026 fora (alerta 62); regra de 12
+horas de aviso é nossa; a tabela diária foi montada fora do notebook
+(`dia-118-inmet-bauru-diario.csv`); aviso não é probabilidade (alerta 63).
+**Arquivo:** dia-118-previsao-do-tempo.ipynb, cinco gráficos. Carrossel e legenda a fazer.
+
+### Dia #119 - 2026-10-10 (sábado) - forma: MECANISMO COM N PEQUENO DECLARADO
+**Qual a probabilidade de metade do seu cérebro ficar de vigia esta noite?** (Sono, sábado leve)
+
+**Fonte central:** Tamaki, M., Bang, J. W., Watanabe, T. & Sasaki, Y. (2016), "Night
+Watch in One Brain Hemisphere during Sleep Associated with the First-Night Effect in
+Humans", *Current Biology* 26(9), 1190-1194. **35 jovens** em três experimentos (n = 11,
+13 e 11). Hemisfério esquerdo com menos ondas lentas na noite 1 (**d = 0,8**);
+assimetria correlacionada com a latência (**r = −0,68**); **mais de 80% dos despertares**
+por sons ao hemisfério esquerdo; tudo some na noite 2. Lido no PDF.
+**Apoio:** Wick, A. Z., Combertaldi, S. L. & Rasch, B. (2024), *Sleep* 47(10), zsae179,
+**N = 45**: latência 20,4 contra 14,0 min; sono total 438,1 contra 450,7 min. Ding, L.,
+Chen, B., Dai, Y. & Li, Y. (2022), *Sleep Medicine* 89, 159-165, 53 estudos, N = 1.422:
+**só o resumo foi acessível, magnitudes não entram no modelo**.
+**Contrapeso:** Sprajcer, M., Gupta, C., Roach, G. & Sargent, C. (2022), *Chronobiology
+International* 39(12), 1567-1573, **N = 124**: sem diferença na quantidade de sono, só
+na profundidade.
+**Origem do termo:** Agnew, Webb & Williams (1966), *Psychophysiology* 2(3), 263-266.
+**Modelo (quatro camadas):** d traduzido em duelos (71 em 100, IC do d [0,12; 1,48]);
+Monte Carlo da vigia contra o acaso; poder do desenho (cerca de 67%); custo para quem
+viaja (cerca de 6 horas de sono por ano em 30 noites fora). Semente 42.
+**×0,80:** não (polissonografia e neuroimagem).
+**Pontes:** #042 e #075. Walker não é citado.
+**Arquivo:** dia-119-primeira-noite.ipynb.
+
+### Dia #120 - 2026-10-11 (domingo) - forma: PROBABILIDADE SIMPLES SOBRE TABELA OFICIAL
+**Qual a probabilidade de você chegar mais longe que os seus pais?** (Probabilidade simples)
+
+**Dados:** IBGE, *PNAD 2014, Mobilidade sócio-ocupacional* (divulgação de 16/11/2016).
+Cerca de **58 mil pessoas** com informação sobre a ocupação do pai quando tinham 15
+anos. **Percentuais publicados, sem contagem por célula.**
+**Números:** mobilidade ascendente **47,4%**, imobilidade 33,4%, descendente 17,2%. Pai
+no campo: 7,5% chegam ao estrato de dirigentes e profissionais; pai profissional: 59,0%.
+Pai sem instrução: 4,0% dos filhos com superior; pai com superior: 69,1%.
+**Fonte de conceito, sem número:** Easterlin, R. A. (2001), "Income and Happiness:
+Towards a Unified Theory", *Economic Journal* 111(473), 465-484.
+**Modelo (cinco camadas):** a escada por origem; subir, ficar ou descer; cadeia de
+Markov com a matriz de 2014 (a origem deixaria de pesar em cerca de três gerações,
+leitura e não previsão); o degrau da escola; mil crianças de cada origem. Semente 42.
+**×0,80:** não aplicado (ocupação e instrução declaradas em pesquisa domiciliar oficial).
+**PENDENTE ANTES DO COMMIT:** a ordem das colunas da matriz foi reconstruída por
+extração do PDF e precisa ser conferida visualmente. A célula da História ainda traz o
+marcador da abertura da Ana. Stutzer 2004 ficou de fora por não ter sido conferido.
+**Arquivo:** dia-120-mais-longe-que-os-pais.ipynb.
+
+### Dia #121 - 2026-10-12 (segunda) - SEM NOTEBOOK NO REPOSITÓRIO
+**Qual a probabilidade de você perceber que estão mentindo para você?**
+
+Em 03/10/2026 não havia notebook do #121 em `modelos/`. A fonte validada na prateleira
+para este tema é Bond & DePaulo (2006), *Personality and Social Psychology Review*
+10(3). **As fontes do dia só entram aqui depois de conferidas no notebook.**
 
 # PARTE 2B - ALERTA DE DATA
 
@@ -2226,6 +2495,28 @@ Herdados da triagem de 11/08/2026 e acumulados desde então. Nunca reabrir.
     chance dela cai" ou "essa chance vai de 65% para 51,4%". E quando a resposta esperada
     é de alta, não usar "cai" na pergunta: "aparece mais ou menos socorro?" em vez de
     "a chance de alguém ajudar cai?". **Verbo neutro em pergunta de direção aberta.**
+
+**Acrescentados em 03/10/2026:**
+
+61. **Dois Bickel.** P. J. Bickel (#066, Berkeley 1975) e J. Eric Bickel (#118, previsão
+    do tempo 2008) são pessoas diferentes. Citar com coautor e ano.
+62. **Estação A705 do INMET (Bauru): chuva sem registro confiável de 12/10/2025 a
+    17/03/2026.** De janeiro a meados de março de 2026 o campo está vazio. De 12/10 a
+    31/12/2025 há dezenas de horas seguidas de 0,2 mm decrescente, padrão de pluviômetro
+    entupido. Qualquer dia futuro com chuva de Bauru exclui esse período ou usa outra
+    estação.
+63. **Aviso do INMET não é probabilidade de chuva.** Dá para contar em quantos dias com
+    aviso choveu; não dá para medir calibração. O aviso cobre uma região (mediana de
+    1.718 municípios nos avisos que incluíam Bauru) e a estação mede um ponto.
+64. **Fase 2 do projeto, aberta por Ana em 02/10/2026.** A pergunta nasce de algo da
+    vida dela e o dado vem depois. Três caminhos: estudo direto; dado público com
+    análise própria; modelo próprio simples com premissas declaradas. O dia não precisa
+    derrubar um número. Primeiros dias: #116, #117, #118, #120.
+65. **Cohn não é Cohen.** Alain Cohn (#115); Sheldon Cohen (#113); Randy Cohen (#064 e
+    #092).
+66. **IBGE: registrar a tabela exata a cada uso** (número SIDRA ou nome do suplemento).
+    Censo 2022 e 2010 no #116; PNAD 2014 (mobilidade) no #120; PNAD Contínua 2023 no #009.
+
 ---
 
 # PARTE 5 - ROTINA
@@ -2281,7 +2572,15 @@ Ao fechar cada dia, antes do commit:
        trocar por "atraso", conforme o alerta 57 | antes do Run All |
 | 29 | **#110:** Manning, Levine & Collins 2007, confirmar volume e páginas
        (62(6), 555-562 não visto impresso) | antes do commit |
-| 30 | **#111 em diante sem grade.** O calendário acaba no #110 | alta |
+| 30 | ~~#111 em diante sem grade~~ **RESOLVIDA em 03/10**: calendário #111-#121 abaixo | fechada |
+| 31 | **#111:** as camadas gravadas no banco descrevem a versão de 27/09 (rho assumido em 0,20); regravar a partir do notebook publicado | média |
+| 32 | **#114:** o N de 723 corridas vem do working paper de 2013; conferir no artigo de 2016 | baixa |
+| 33 | **#117:** `campeonato-brasileiro-full.csv` precisa entrar no commit do dia | antes do commit |
+| 34 | **#118:** commitar `dia-118-inmet-bauru-diario.csv` e o gráfico 05; frase da abertura a confirmar com a Ana; carrossel e legenda a fazer | antes do commit |
+| 35 | **#120:** conferir a ordem das colunas da matriz contra o PDF do IBGE; trocar o marcador da História pela abertura da Ana | antes do commit |
+| 36 | **#121:** sem notebook no repositório; registrar fontes aqui e no banco quando existir | alta |
+| 37 | **#113:** atenuação publicada (32%) contra 26,7% recalculados; escrever aos autores ou procurar erratum | média |
+| 38 | **Dias #107 a #112** têm commit e seguem sem linha em `publicacoes` no banco; atualizar com os links do dashboard | dossiê |
 ---
 
 # CALENDÁRIO DO BLOCO #099 A #110
@@ -2310,6 +2609,33 @@ publicação.
 
 **Pontes internas a declarar nos notebooks (modelo do #013):** #101 → #015 · #102 →
 #052 · #103 → #109 · #105 → #084 e #160 · #107 → #045, #031, #100 · #109 → #103.
+
+---
+
+# CALENDÁRIO DO BLOCO #111 A #121
+
+Estado em 03/10/2026. Pasta: `modelos/dias-091-120/` até o #120; `modelos/dias-121-150/`
+a partir do #121.
+
+| Dia | Data | Semana | Tema | Fonte central | ×0,80 | Notebook |
+|---|---|---|---|---|---|---|
+| #111 | 02/10 | sexta | O dia automático | Wood, Quinn & Kashy 2002 | não | commit feito |
+| #112 | 03/10 | sábado | O prêmio dividido (cabalístico) | Caixa, concursos 1 a 3.005 | não | commit feito |
+| #113 | 04/10 | domingo | Abraço e resfriado | Sheldon Cohen et al. 2015 | não | pronto |
+| #114 | 05/10 | segunda | A prefeita e a reeleição | Brollo & Troiano 2016 | não | pronto |
+| #115 | 06/10 | terça | A carteira perdida | Cohn et al. 2019 | não | pronto |
+| #116 | 07/10 | quarta | A vida inteira na mesma cidade | IBGE, Censo 2022 | não | pronto |
+| #117 | 08/10 | quinta | O time da casa | Série A 2003-2024 (base pública) | não | pronto |
+| #118 | 09/10 | sexta | A previsão que exagera a chuva | Bickel & Kim 2008 + INMET | não | pronto; carrossel e legenda a fazer |
+| #119 | 10/10 | sábado | A primeira noite fora de casa | Tamaki et al. 2016 | não | pronto |
+| #120 | 11/10 | domingo | Mais longe que os pais | IBGE, PNAD 2014 | não | pronto; conferência pendente |
+| #121 | 12/10 | segunda | Perceber a mentira | a registrar | — | não está no repositório |
+
+Este arquivo registra fontes, não publicação. O dashboard é a fonte da verdade da
+publicação.
+
+**Saíram da reserva e viraram dia:** "quanto do seu dia é automático" (#111), abraço e
+resfriado (#113), carteira perdida (#115), primeira noite fora de casa (#119).
 
 ---
 
@@ -2415,4 +2741,4 @@ a felicidade é a distância). O #108 trocou de tema depois de o Benford estar p
 **Cota de dias de disputa do bloco #101-#110: ZERADA.** O Benford ia abri-la e saiu.
 Nenhum dos dez dias teve a forma "achado famoso com disputa metodológica".
 
-*365 Probabilidades - livro-caixa de fontes. Consolidado em 25/09/2026.*
+*365 Probabilidades - livro-caixa de fontes. Consolidado em 25/09/2026, atualizado em 03/10/2026.*

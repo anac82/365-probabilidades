@@ -303,3 +303,24 @@ id,fonte_id,dia,papel,x080_aplicado,reuso_declarado,nota
 302,295,119,conceito,0,0,
 303,296,120,central,0,0,
 304,297,120,conceito,0,0,
+305,298,121,central,0,0,"Ritmos lidos em fonte secundária, declarado no notebook."
+306,299,121,apoio,0,0,Fonte secundária do ritmo de 76 por hora.
+307,300,121,apoio,0,0,Fonte secundária do ritmo de 76 por hora.
+308,301,121,apoio,0,0,Fonte secundária da faixa de uma a três por minuto e dos 25 pedidos de explicação por hora.
+309,302,122,central,0,0,
+310,303,122,apoio,0,0,"Lido em fonte secundária; entra só como referência, sem modelo."
+311,304,122,apoio,0,0,Fonte secundária de Morris et al. (2005).
+312,305,123,central,0,0,INEP já foi apoio no #100 com outra base (Indicadores de Trajetória). Sem colisão de dado.
+313,306,123,apoio,0,0,
+314,307,123,conceito,0,0,
+315,308,124,central,0,0,
+316,309,124,contraste,0,0,Lido em fonte secundária. Os 12% e as 30 vezes não fecham; o notebook declara e não decide.
+317,310,124,apoio,0,0,Fonte secundária de Provine & Fischer (1989).
+318,311,125,central,0,0,"Quarta base do IBGE na fase 2 (Censo no #116, PNAD 2014 no #120, PNS 2019 aqui)."
+319,312,126,central,0,0,
+320,313,126,apoio,0,0,Denominador das taxas.
+321,314,126,apoio,0,0,"Camada 5, SUS e rede particular."
+322,315,126,apoio,0,0,"Referência do tamanho do fenômeno, não tendência."
+323,316,126,apoio,0,0,Referência internacional de tendência.
+324,317,127,central,0,0,
+325,318,127,apoio,0,0,

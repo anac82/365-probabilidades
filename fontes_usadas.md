@@ -2265,12 +2265,159 @@ extração do PDF e precisa ser conferida visualmente. A célula da História ai
 marcador da abertura da Ana. Stutzer 2004 ficou de fora por não ter sido conferido.
 **Arquivo:** dia-120-mais-longe-que-os-pais.ipynb.
 
-### Dia #121 - 2026-10-12 (segunda) - SEM NOTEBOOK NO REPOSITÓRIO
-**Qual a probabilidade de você perceber que estão mentindo para você?**
+### Dia #121 - 2026-10-12 (segunda) - forma: PROCESSO DE POISSON SOBRE RITMO MEDIDO
+**Qual a probabilidade de uma criança passar cinco minutos sem fazer uma pergunta?** (Comportamental, Dia das Crianças)
 
-Em 03/10/2026 não havia notebook do #121 em `modelos/`. A fonte validada na prateleira
-para este tema é Bond & DePaulo (2006), *Personality and Social Psychology Review*
-10(3). **As fontes do dia só entram aqui depois de conferidas no notebook.**
+**Fonte central:** Chouinard, M. M. (2007), "Children's Questions: A Mechanism for
+Cognitive Development", *Monographs of the Society for Research in Child Development*
+72(1), 1-129. Estudo 1: transcrições de **quatro crianças**, de 1 ano e 2 meses a 5 anos
+e 1 mês (base CHILDES). **Desenho lido no resumo oficial; a monografia completa não foi
+lida.**
+**De onde vêm os ritmos (fontes secundárias, declaradas):** 76 perguntas de busca de
+informação por hora em Kurkul, Dwyer & Corriveau (2022), *Early Childhood Research
+Quarterly* 58, 231-241, e Vlach & Lazaroff (2022), *Frontiers in Psychology* 13, 892298;
+de uma a três perguntas por minuto e cerca de 25 pedidos de explicação por hora em
+Harris, P. L. (2015), *Educational Leadership*, setembro de 2015.
+**Modelo (cinco camadas):** silêncio pela Poisson (1 minuto 28,2%, 5 minutos **0,18%**,
+1 em 563); espera (mediana de 33 segundos; 7,4 horas até o primeiro silêncio de cinco
+minutos); rajadas por mistura Gama-Poisson (de 0,18% a 13,6%); Monte Carlo de uma tarde
+de três horas (silêncio de cinco minutos em 32,8%); conta de bolso até os cinco anos
+(cerca de 27 mil pedidos de explicação). Semente 42.
+**×0,80:** não (contagem em transcrição).
+**PENDENTE:** o notebook foi commitado em 12/10 com o marcador da abertura na célula da
+História. A abertura da Ana está no Substack.
+**Arquivo:** dia-121-cinco-minutos-sem-pergunta.ipynb, em `modelos/dias-121-150/`.
+
+O tema antes anotado para este dia (perceber a mentira, Bond & DePaulo 2006) não foi
+produzido e volta para a prateleira.
+
+### Dia #122 - 2026-10-13 (terça) - forma: PROPORÇÃO DE LABORATÓRIO + DISTRIBUIÇÃO ENTRE PESSOAS
+**Qual a probabilidade de você lembrar o nome de quem acabou de conhecer?** (Comportamental)
+
+**Fonte central:** Murray, C. A., Tarlow, M., Rissman, J. & Shams, L. (2022),
+"Multisensory encoding of names via name tags facilitates remembering", *Applied
+Cognitive Psychology*, publicação online, 1-15, DOI 10.1002/acp.4012. Estudantes da
+UCLA, **78 participantes analisados** (36 no experimento de vídeo e 42 no de foto, por
+subtração dos excluídos). Nomes lembrados três minutos depois, sem crachá: **0,24**
+(DP 0,11) e **0,19** (DP 0,13); com crachá: 0,29 e 0,27 (d = 0,44 e d = 0,57). Lido no
+texto completo.
+**Apoio, lido em fonte secundária:** Morris, P. E., Fritz, C. O., Jackson, L., Nichol, E.
+& Roberts, E. (2005), *Applied Cognitive Psychology* 19(6), 779-798. Festa real, teste
+de 24 a 72 horas depois: 16% dos nomes sem técnica e 24% com recuperação espaçada.
+Percentuais lidos em Brédart (2019), *European Psychologist* 24(4). **N da festa não
+localizado.** Era a fonte central prevista; virou apoio por falta do PDF.
+**Modelo (cinco camadas):** chance de um nome (**21,3%**, faixa de 19% a 24%); Beta
+entre pessoas (95% entre 4% e 43%); Monte Carlo de um jantar com dez apresentações (2,1
+nomes; nenhum em 16,1%); ganho do crachá (+5 e +8 pontos); referência da festa.
+Semente 42.
+**×0,80:** não (teste de memória corrigido por avaliadores).
+**PENDENTE ANTES DO COMMIT:** a abertura do jantar ainda é marcador no notebook, no
+Substack e na legenda.
+**Arquivo:** dia-122-nome-de-quem-conheceu.ipynb.
+
+### Dia #123 - 2026-10-14 (quarta) - forma: PROBABILIDADE SIMPLES SOBRE REGISTRO ADMINISTRATIVO
+**Qual a probabilidade de a IA que você usa ter sido feita por uma mulher?** (Probabilidade simples, dia do livro)
+
+**Dados:** INEP, *Censo da Educação Superior*, microdados de **2022 e 2024**, tabela de
+cursos, área CINE de Computação e TIC. Em 2024, **489.067 ingressantes** (21,3% mulheres)
+e **100.488 concluintes** (**19,2%** mulheres); em 2022, 20,4% e 15,3%. No ensino
+superior inteiro, 59,5% dos concluintes de 2024. Resumo em
+`inep_censo_superior_computacao_por_sexo.csv`.
+**Apoio:** Stathoulopoulos, K. & Mateos-Garcia, J. (2019), *Gender Diversity in AI
+Research*, Nesta. 74.407 artigos de IA no arXiv; **13,8%** de autoras; 25,4% dos artigos
+com ao menos uma. **Relatório, não artigo revisado por pares; gênero inferido pelo nome.**
+**Fonte de conceito:** Caliskan, A., Bryson, J. J. & Narayanan, A. (2017), *Science*
+356(6334), 183-186. ρ = 0,90 em 50 ocupações.
+**Modelo (cinco camadas):** Jeffreys sobre as contagens; diferença de 2022 para 2024
+(+3,82 pontos entre concluintes, [3,44; 4,19]); curso a curso; a pergunta nas duas
+leituras, com sorteio de equipe; intervalo do ρ por z de Fisher ([0,83; 0,94]).
+**×0,80:** não (contagem administrativa).
+**Reuso a registrar:** INEP já foi apoio no #100, com outra base (Indicadores de
+Trajetória).
+**PENDENTE ANTES DO COMMIT:** marcador da abertura no notebook; commitar o CSV do INEP.
+**Arquivo:** dia-123-feita-por-uma-mulher.ipynb.
+
+### Dia #124 - 2026-10-15 (quinta) - forma: CONTAGEM DE DIÁRIO + VARIAÇÃO ENTRE PESSOAS CALIBRADA
+**Qual a probabilidade de você rir sozinho?** (Emocional)
+
+**Fonte central:** Martin, R. A. & Kuiper, N. A. (1999), "Daily occurrence of laughter:
+relationships with age, gender, and Type A personality", *Humor: International Journal
+of Humor Research* 12(4), 355-384. **N = 80** adultos (50 mulheres e 30 homens), diário
+de três dias. De 17 a 18 risadas por dia, de 0 a 89; **cerca de 12% a sós**. **Números
+lidos na descrição da tabela, arredondados; tabela e desvio padrão não lidos.**
+**Contraste, lido em fonte secundária:** Provine, R. R. & Fischer, K. R. (1989),
+*Ethology* 83(4), 295-305, origem da frase das 30 vezes, lida em Wood, Templeton,
+Morrel, Schubert & Wheatley (2022), *Philosophical Transactions of the Royal Society B*
+377(1863), 20210187.
+**Modelo (cinco camadas):** de cada cem risadas (12, entre [6,3; 20,4] por pessoa); 2,11
+risadas a sós por dia (87,9% se todos rissem no mesmo ritmo); variação entre pessoas
+calibrada pelo dia de 89 risadas (**72,3%**, de 66,4% a 76,5%); Monte Carlo de uma
+semana (5,1 dias em 7); os 12% contra as 30 vezes (exigiria 80% do tempo a sós).
+Semente 42.
+**×0,80:** não (diário de comportamento, como no #111).
+**Ponte:** #018. **Autor:** este Wood não é a Wendy Wood do #111.
+**PENDENTE ANTES DO COMMIT:** marcador da abertura no notebook.
+**Arquivo:** dia-124-rir-sozinho.ipynb.
+
+### Dia #125 - 2026-10-16 (sexta) - forma: PROBABILIDADE SIMPLES SOBRE PESQUISA OFICIAL
+**Qual a probabilidade de a sua rua ter mais cachorros do que gatos?** (Probabilidade simples)
+
+**Dados:** IBGE, *Pesquisa Nacional de Saúde 2019*, **108.457 domicílios** entrevistados.
+SIDRA 4930 (cachorro, **46,1%** [45,5; 46,7]), 4931 (gato, **19,3%** [18,9; 19,7]) e
+4932 (vacinação contra a raiva, 72,0% dos 39,4 milhões com cachorro ou gato). Por
+diferença: só cachorro 34,6%, só gato 7,8%, os dois 11,5%, nenhum 46,1%. Resumo em
+`pns2019_cachorro_gato.csv`.
+**Modelo:** multinomial exata para a rua de dez casas (**87,9%** com mais cachorro,
+7,7% de empate, 4,5% com mais gato), conferida por Monte Carlo de 200 mil ruas;
+incerteza do IBGE carregada (86,9% a 88,9%); curva de 1 a 40 casas; urbano, rural e
+os 27 estados (de 98,5% em Goiás a 59,2% em Alagoas). Semente 42.
+**×0,80:** não (fato da casa, com intervalo publicado pelo IBGE).
+**PENDENTE ANTES DO COMMIT:** commitar o CSV da PNS.
+**Arquivo:** dia-125-mais-cachorros-que-gatos.ipynb.
+
+### Dia #126 - 2026-10-17 (sábado) - forma: TENDÊNCIA EM REGISTRO ADMINISTRATIVO, POR TRECHO
+**Qual a probabilidade de as crianças de hoje se machucarem menos do que as de antes?** (Tendência)
+
+**Dados:** Ministério da Saúde, DataSUS, *SIH/SUS*, Morbidade Hospitalar, internações
+por fratura de 0 a 14 anos, **1992 a 2025**, em três trechos (CID-9 até 1997; CID-10
+até 2007; tabela nova desde 2008). De 2008 a 2025, **1.334.049 internações**. Consulta
+em 11/10/2026. IBGE, *Projeções da População* (edição 2024), como denominador. ANS,
+beneficiários de planos de assistência médica de 0 a 14 anos, 2008 a 2025.
+**Apoio:** coorte de nascimentos de Pelotas de 1993, *Osteoporosis International*
+(2009), DOI 10.1007/s00198-009-0889-y, 4.452 crianças, **14,2%** com ao menos uma
+fratura até os 11 anos (**autores não registrados no notebook**). Lempesis et al.
+(2017), *Acta Orthopaedica* 88(4), 440-445.
+**Modelo (seis camadas):** contagem e taxa (153,4 por 100 mil em 2008, 163,6 em 2019,
+198,5 em 2025); regressão log-linear por trecho (2008 a 2019: **+0,80% ao ano** [+0,54;
++1,05], P(queda) menor que 0,1%); seis grupos de sexo e idade, nenhum em queda; fratura
+contra as outras internações; SUS e rede particular (cobertura de planos de 17,0% para
+23,5%; taxa por criança sem plano de 185 para 260); chance até os 15 anos (meninos
+4,0%, meninas 1,7%).
+**×0,80:** não (registro administrativo).
+**PENDENTE ANTES DO COMMIT:** commitar os dois CSVs e o gráfico 05; completar a citação
+de Pelotas. O `dia-126-serie-longa.csv` da pasta recebeu a coluna da ANS em 12/10.
+**Arquivo:** dia-126-criancas-se-machucam-menos.ipynb.
+
+### Dia #127 - 2026-10-18 (domingo) - forma: COMPORTAMENTO OBSERVADO + INTERVENÇÃO MEDIDA
+**Qual a probabilidade de você mandar a mensagem para aquele amigo?** (Comportamental)
+
+**Fonte central:** Aknin, L. B. & Sandstrom, G. M. (2024), "People are surprisingly
+hesitant to reach out to old friends", *Communications Psychology* 2, 34. Sete estudos,
+**N = 2.458**. 90,9% perderam contato com um amigo de quem gostam; mandaram a mensagem
+**27,8%** (Estudo 3, N = 453) e **36,8%** (Estudo 4, N = 604); praticar antes levou de
+31% para 53% (Estudo 7, N = 194).
+**Apoio:** Liu, P. J., Rim, S., Min, L. & Min, K. E. (2023), "The surprise of reaching
+out: Appreciated more than we think", *JPSP* 124(4), 754-771. Estudo 4a (N = 201),
+d = 0,32; replicação independente (N = 742), d = 0,25.
+**Modelo (cinco camadas):** Jeffreys sobre quem manda (**32,9%** [30,1; 35,8]);
+posterior da diferença do treino (+22,0 pontos [8,4; 35,2]); cadeia de hoje (29,9%);
+quatro domingos (77,3% sem treino, 95,1% com); probabilidade de superioridade (59 em
+cem). Contagens reconstruídas dos percentuais. Semente 42.
+**×0,80:** não (comportamento observado).
+**Vizinhança de tema:** #040 e #049, declarada no notebook. Ana apontou em 12/10 que o
+tema já tinha passado. **Autor:** este Liu não é o do #004.
+**PENDENTE ANTES DO COMMIT:** a abertura do notebook difere da do Substack agendado.
+**Arquivo:** dia-127-mensagem-para-o-amigo.ipynb.
 
 # PARTE 2B - ALERTA DE DATA
 
@@ -2629,7 +2776,7 @@ a partir do #121.
 | #118 | 09/10 | sexta | A previsão que exagera a chuva | Bickel & Kim 2008 + INMET | não | pronto; carrossel e legenda a fazer |
 | #119 | 10/10 | sábado | A primeira noite fora de casa | Tamaki et al. 2016 | não | pronto |
 | #120 | 11/10 | domingo | Mais longe que os pais | IBGE, PNAD 2014 | não | pronto; conferência pendente |
-| #121 | 12/10 | segunda | Perceber a mentira | a registrar | — | não está no repositório |
+| #121 | 12/10 | segunda | Cinco minutos sem pergunta | Chouinard 2007, em fontes secundárias | não | commit feito |
 
 Este arquivo registra fontes, não publicação. O dashboard é a fonte da verdade da
 publicação.
@@ -2637,6 +2784,20 @@ publicação.
 **Saíram da reserva e viraram dia:** "quanto do seu dia é automático" (#111), abraço e
 resfriado (#113), carteira perdida (#115), primeira noite fora de casa (#119).
 
+
+# CALENDÁRIO DO BLOCO #121 A #127
+
+Estado em 12/10/2026. Pasta: `modelos/dias-121-150/`. Registrado no banco na mesma data.
+
+| Dia | Data | Semana | Tema | Fonte central | ×0,80 | Notebook |
+|---|---|---|---|---|---|---|
+| #121 | 12/10 | segunda | Cinco minutos sem pergunta | Chouinard 2007, em fontes secundárias | não | commit feito, com marcador na abertura |
+| #122 | 13/10 | terça | O nome de quem acabou de conhecer | Murray et al. 2022 | não | pronto; abertura a inserir |
+| #123 | 14/10 | quarta | A IA feita por uma mulher | INEP, Censo da Educação Superior 2022 e 2024 | não | pronto; abertura a inserir no notebook |
+| #124 | 15/10 | quinta | Rir sozinho | Martin & Kuiper 1999 | não | pronto; abertura a inserir no notebook |
+| #125 | 16/10 | sexta | Mais cachorros do que gatos | IBGE, PNS 2019 | não | pronto |
+| #126 | 17/10 | sábado | Fraturas de crianças | DataSUS, SIH/SUS 1992 a 2025 | não | notebook e Substack; carrossel não localizado |
+| #127 | 18/10 | domingo | A mensagem para o amigo antigo | Aknin & Sandstrom 2024 | não | pronto; abertura do notebook difere do Substack |
 ---
 
 # RESERVAS VALIDADAS (não perder)

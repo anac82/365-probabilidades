@@ -23,7 +23,7 @@ id,criada_em,dia,texto,urgencia,resolvida,resolvida_em
 22,2026-09-25,96,[pendência 12 do livro-caixa] #096: N por estudo da meta de Nieuwenstein o forest não foi desenhado,,1,2026-09-25
 23,2026-09-25,85,[pendência 13 do livro-caixa] Pergunta exata do #085 não registrada; conferir no cabeçalho do notebook,baixa,1,2026-09-27
 24,2026-09-25,99,"[pendência 14 do livro-caixa] #099: pergunta exata e números do Mandsager 2018 (N, HR por faixa, seguimento) não registrados aqui; extrair do notebook",media,0,
-25,2026-09-25,160,[pendência 15 do livro-caixa] #160: número de experimentos da meta-análise de Holleman 1999/2000 não localizado; declarar como limitação ou abrir a tese,antes_do_commit,0,
+25,2026-09-25,918,[pendência 15 do livro-caixa] #160: número de experimentos da meta-análise de Holleman 1999/2000 não localizado; declarar como limitação ou abrir a tese,antes_do_commit,0,
 26,2026-09-25,102,"[pendência 16 do livro-caixa] #102: Prates, Costa & Santos 2019 (B3) por validar, se a linha brasileira entrar",antes_do_commit,0,
 27,2026-09-25,101,[pendência 17 do livro-caixa] #101: correspondência exata das faixas 85 / 52 / 39 com as categorias do Norscia & Palagi 2011; conferir no notebook,baixa,0,
 28,2026-09-25,107,[pendência 18 do livro-caixa] #107: conferir o bloco Fontes do notebook pronto contra a entrada da Parte 2 (validado em paralelo em 25/09),antes_do_commit,0,
@@ -67,3 +67,4 @@ id,criada_em,dia,texto,urgencia,resolvida,resolvida_em
 66,2026-10-12,126,"#126: a fonte da coorte de Pelotas está no bloco Fontes sem autores, volume e páginas (só título, revista, ano e DOI). Completar a citação antes do commit.",antes_do_commit,0,
 67,2026-10-12,126,#126: carrossel e legenda não localizados nos registros desta data.,media,0,
 68,2026-10-12,127,"#127: a célula da História do notebook traz a abertura antiga (""Tem um nome que aparece de vez em quando...""), e o Substack agendado usa outra (as lembranças das redes sociais). Decidir se o notebook acompanha o Substack antes do commit.",antes_do_commit,0,
+69,2026-11-12,154,#154 (regra dos cinco segundos) e #155 (cachorro e estresse): fontes não registradas; os notebooks não estão no repositório. Registrar ao publicar.,alta,0,

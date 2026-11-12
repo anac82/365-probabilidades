@@ -1,5 +1,7 @@
 # FONTES USADAS - 365 PROBABILIDADES
-### Livro-caixa de fontes primárias dos dias #001 a #120, calendário até #121 e reservas
+### Livro-caixa de fontes primárias dos dias #001 a #160 e reservas
+**Atualizado em 12/11/2026:** entraram os dias #128 a #152, extraídos dos notebooks em `modelos/dias-121-150/` e `modelos/dias-151-180/`, e os dias #153 a #160, registrados a partir das conversas de montagem (ainda sem notebook no repositório). O bloco novo está no fim do arquivo ("BLOCO #128 A #160"). As reservas antigas do #160 (a palavra muda a resposta) e do #161 (idade relativa no Brasil) foram para a gaveta do banco como #918 e #919. O banco `banco/365.db` e as planilhas em `banco/csv/` receberam as mesmas entradas.
+
 **Atualizado em 03/10/2026:** entraram o #106 (que estava em aberto) e os dias #111 a #120, extraídos dos notebooks em `modelos/dias-091-120/`; alertas 61 a 66; pendências 31 a 38; calendário #111-#121. O #121 ainda não tem notebook no repositório. O banco `banco/365.db` recebeu as mesmas entradas no mesmo dia.
 
 **Versão consolidada de 25/09/2026.** Substitui, num arquivo só, `fontes_usadas.md`
@@ -2903,3 +2905,238 @@ a felicidade é a distância). O #108 trocou de tema depois de o Benford estar p
 Nenhum dos dez dias teve a forma "achado famoso com disputa metodológica".
 
 *365 Probabilidades - livro-caixa de fontes. Consolidado em 25/09/2026, atualizado em 03/10/2026.*
+
+---
+
+# BLOCO #128 A #160 (registrado em 12/11/2026)
+
+Dias #128 a #152: fontes copiadas do bloco de fontes de cada notebook publicado. Dias #153 a #160: fontes registradas a partir das conversas de montagem; conferir contra o notebook no dia do commit. O que este bloco não registra: se carrossel, legenda, Substack e Instagram de cada dia foram publicados (o dashboard é a fonte da verdade da publicação).
+
+## Calendário #128 a #160
+
+| Dia | Data | Semana | Pergunta | Fonte central | ×0,80 | Estado |
+|---|---|---|---|---|---|---|
+| #128 | 19/10 | segunda | Qual a probabilidade de você chegar ao trabalho em quinze minutos? | IBGE 2022 | não | notebook no repositório |
+| #129 | 20/10 | terça | Qual a probabilidade de você perceber que estão mentindo para você? | Bond 2006 | parcial | notebook no repositório |
+| #130 | 21/10 | quarta | Qual a probabilidade de uma casa no Brasil ainda não ter banheiro? | IBGE 2022 | não | notebook no repositório |
+| #131 | 22/10 | quinta | Qual a probabilidade de uma ação sorteada perder para a renda fixa? | Bessembinder 2018 | não | notebook no repositório |
+| #132 | 23/10 | sexta | Qual a probabilidade de você apertar a soneca amanhã cedo? | Mattingly 2022 | parcial | notebook no repositório |
+| #133 | 24/10 | sábado | Qual a probabilidade de uma grande descoberta nascer depois dos 40? | Jones 2011 | não | notebook no repositório |
+| #134 | 25/10 | domingo | Qual a probabilidade de segurar o choro fazer mal? | Hu 2014 | não | notebook no repositório |
+| #135 | 26/10 | segunda | Qual a probabilidade de "não tenho tempo" ser a sua desculpa para não se exercitar? | Reichert 2007 | sim | notebook no repositório |
+| #136 | 27/10 | terça | Qual a probabilidade de nascerem mais bebês na lua cheia? | SINASC 2024 | não | notebook no repositório |
+| #137 | 28/10 | quarta | Qual a probabilidade de você achar que mês que vem vai ter mais tempo? | Zauberman 2005 | não | notebook no repositório |
+| #138 | 29/10 | quinta | Qual a probabilidade de um exame positivo estar errado? | Manrai 2014 | não | notebook no repositório |
+| #139 | 30/10 | sexta | Qual a probabilidade de quem ganha mais sentir mais falta de tempo? | Hamermesh 2007 | parcial | notebook no repositório |
+| #140 | 31/10 | sábado | Qual a probabilidade de o seu vizinho acreditar em bruxaria? | Gershman 2022 | sim | notebook no repositório |
+| #141 | 01/11 | domingo | Qual a probabilidade de as pessoas com quem você conta hoje ainda estarem aí daqui a sete anos? | Mollenhorst 2014 | não | notebook no repositório |
+| #142 | 02/11 | segunda | Qual a probabilidade de o seu sobrenome desaparecer? | Galton 1875 | não | notebook no repositório |
+| #143 | 03/11 | terça | Qual a probabilidade de um governador do Rio ser preso? | Base própria 2026 | não | notebook no repositório |
+| #144 | 04/11 | quarta | Qual a probabilidade de a falta de tempo ser o que te afasta dos livros? | Bone 2025 | parcial | notebook no repositório |
+| #145 | 05/11 | quinta | Qual a probabilidade de nascerem mais gêmeos hoje do que em qualquer outra época? | SINASC 2024 | não | notebook no repositório |
+| #146 | 06/11 | sexta | Qual a probabilidade de tempo livre demais te deixar menos feliz? | Sharif 2021 | não | notebook no repositório |
+| #147 | 07/11 | sábado | Qual a probabilidade de você ganhar se trocar de porta? | Granberg 1995 | não | notebook no repositório |
+| #148 | 08/11 | domingo | Qual a probabilidade de você lembrar do sonho amanhã de manhã? | Elce 2025 | não | notebook no repositório |
+| #149 | 09/11 | segunda | Qual a probabilidade de cada centímetro a mais valer dinheiro? | Judge 2004 | não | notebook no repositório |
+| #150 | 10/11 | terça | Qual a probabilidade de a sua dor de cabeça ser falta de café? | Silverman 1992 | não | notebook no repositório |
+| #151 | 11/11 | quarta | Qual a probabilidade de você escolher a tarefa urgente em vez da importante? | Zhu 2018 | parcial | notebook no repositório |
+| #152 | 12/11 | quinta | Qual a probabilidade de você correr melhor só porque o tênis é novo? | Hébert-Losier 2025 | não | notebook no repositório |
+| #153 | 13/11 | sexta | Qual a probabilidade de a sexta-feira 13 ser mais perigosa do que qualquer outra sexta? | PRF 2025 | não | sem notebook no repositório |
+| #154 | 14/11 | sábado | Qual a probabilidade de a regra dos cinco segundos te salvar? | a registrar | não | sem notebook no repositório |
+| #155 | 15/11 | domingo | Qual a probabilidade de o seu cachorro saber que você está estressado antes de você dizer? | a registrar | a registrar | sem notebook no repositório |
+| #156 | 16/11 | segunda | Qual a probabilidade de dormir até tarde no sábado compensar a semana? | Depner 2019 | a registrar | sem notebook no repositório |
+| #157 | 17/11 | terça | Qual a probabilidade de alguém ser canhoto? | Papadatou-Pastou 2020 | não | notebook e Substack entregues em conversa, sem commit |
+| #158 | 18/11 | quarta | Qual a probabilidade de "estou sem tempo" ser um símbolo de status? | Bellezza 2017 | não | notebook e Substack entregues em conversa, sem commit |
+| #159 | 19/11 | quinta | Qual a probabilidade de as oito horas de sono serem uma invenção moderna? | Yetish 2015 | não | notebook e Substack entregues em conversa, sem commit |
+| #160 | 20/11 | sexta | Qual a probabilidade de a cor da pele mudar o tratamento que uma pessoa recebe? | Dias 2017 | parcial | notebook e Substack entregues em conversa, sem commit |
+
+## Fontes por dia
+
+### #128 · Qual a probabilidade de você chegar ao trabalho em quinze minutos?
+- **IBGE, Censo Demográfico 2022, resultados da amostra, deslocamento para trabalho (2022).** Tabelas SIDRA 10331 (tempo de deslocamento) e 10332 (meio de transporte). SIDRA. N = 71.227.656; pessoas ocupadas que trabalham fora de casa; Brasil, doze capitais e Bauru. Papel: central.
+
+### #129 · Qual a probabilidade de você perceber que estão mentindo para você?
+- **Bond, C. F., Jr. & DePaulo, B. M. (2006).** Accuracy of deception judgments. Personality and Social Psychology Review 10(3), 214-234. N = 24.483; 206 estudos, 384 amostras de juízes; acerto 53,46%. Papel: central.
+- **DePaulo, B. M., Kashy, D. A., Kirkendol, S. E., Wyer, M. M. & Epstein, J. A. (1996).** Lying in everyday life. Journal of Personality and Social Psychology 70(5), 979-995. N = 147; diário de 7 dias: 77 universitários e 70 adultos. Papel: apoio. ×0,80 aplicado.
+- **Serota, K. B., Levine, T. R. & Boster, F. J. (2010).** The prevalence of lying in America. Human Communication Research 36, 2-25. N = 1.000; 998 analisados; 59,9% sem mentira em 24 h. Papel: apoio. ×0,80 aplicado.
+
+### #130 · Qual a probabilidade de uma casa no Brasil ainda não ter banheiro?
+- **IBGE, Censo Demográfico 2022, resultados do universo (2022).** Tabelas SIDRA 6806 e 9397 (banheiro); Censos 2010 (SIDRA 1395) e 2000 (SIDRA 1438). SIDRA. N = 72.456.368; domicílios em 2022; 202.083.020 moradores. Papel: central.
+
+### #131 · Qual a probabilidade de uma ação sorteada perder para a renda fixa?
+- **Bessembinder, H. (2018).** Do stocks outperform Treasury bills?. Journal of Financial Economics 129(3), 440-457. N = 25.967; ações ordinárias CRSP, 1926 a 2016. Papel: central.
+- **Bessembinder, H., Chen, T.-F., Choi, G. & Wei, K. C. J. (2023).** Long-term shareholder returns: evidence from 64,000 global stocks. Financial Analysts Journal 79(3). N não registrado; cerca de 64 mil ações, 42 países, 1990 a 2020. Papel: apoio.
+
+### #132 · Qual a probabilidade de você apertar a soneca amanhã cedo?
+- **Mattingly, S. M., Martinez, G., Young, J., Cain, M. K. & Striegel, A. (2022).** Snoozing: an examination of a common method of waking. Sleep 45(10), zsac184. N = 450; 1.994 manhãs de 385 pessoas; tabela 1 soma 260 adeptos e o texto diz 257. Papel: central. ×0,80 aplicado.
+- **Sundelin, T., Landry, S. & Axelsson, J. (2023).** Is snoozing losing?. Journal of Sleep Research, doi 10.1111/jsr.14054. N = 1.732; survey com 1.732 e laboratório com 31; lido no resumo e em fonte secundária. Papel: apoio.
+
+### #133 · Qual a probabilidade de uma grande descoberta nascer depois dos 40?
+- **Jones, B. F. & Weinberg, B. A. (2011).** Age dynamics in scientific creativity. PNAS 108(47), 18910-18914. N = 525; laureados com o Nobel, 1900 a 2008. Papel: central.
+- **Li, J., Yin, Y., Fortunato, S. & Wang, D. (2019).** A dataset of publication records for Nobel laureates. Scientific Data 6, 33. N = 546; 874 artigos premiados de 546 laureados. Papel: apoio.
+- **Fundação Nobel, API pública (api.nobelprize.org) (2026).** laureate.csv. api.nobelprize.org. N não registrado; data de nascimento, categoria e ano de cada laureado. Papel: apoio.
+
+### #134 · Qual a probabilidade de segurar o choro fazer mal?
+Cordas declaradas: #010, #018.
+- **Hu, T., Zhang, D., Wang, J., Mistry, R., Ran, G. & Wang, X. (2014).** Relation between emotion regulation and mental health: a meta-analysis review. Psychological Reports 114(2), 341-362. N = 21.150; 48 estudos, 51 amostras; lido no resumo. Papel: central.
+- **Chapman, B. P., Fiscella, K., Kawachi, I., Duberstein, P. & Muennig, P. (2013).** Emotion suppression and mortality risk over a 12-year follow-up. Journal of Psychosomatic Research 75(4), 381-385. N = 729; 111 mortes; declarada como frágil. Papel: apoio.
+
+### #135 · Qual a probabilidade de "não tenho tempo" ser a sua desculpa para não se exercitar?
+Cordas declaradas: #068, #073, #099.
+- **Reichert, F. F., Barros, A. J. D., Domingues, M. R. & Hallal, P. C. (2007).** The role of perceived personal barriers to engagement in leisure-time physical activity. American Journal of Public Health 97(3), 515-519. N = 3.100; Pelotas, 2003, adultos de 20 anos ou mais. Papel: central. ×0,80 aplicado.
+- **Cruz, M. S., Garcia, L. M. T., Andrade, D. R. & Florindo, A. A. (2018).** Barreiras à prática de atividade física no tempo de lazer. Revista Brasileira de Atividade Física & Saúde 23, e0041. N = 889; Ermelino Matarazzo (SP), 2007; barreiras só entre inativos. Papel: contraste. ×0,80 aplicado.
+
+### #136 · Qual a probabilidade de nascerem mais bebês na lua cheia?
+- **Ministério da Saúde, SINASC, microdados 2019-2024 (OpenDataSUS) (2024).** Nascidos vivos por dia e tipo de parto. OpenDataSUS. N = 15.745.215; nascidos vivos em 2.192 dias; contagem própria. Papel: central.
+- **Kuss, O. & Kuehn, A. (2008).** Lunar cycle and the number of births: a spectral analysis of 4,071,669 births. Acta Obstetricia et Gynecologica Scandinavica 87(12), 1378-1379. N = 4.071.669; Baden-Württemberg, 1966 a 2003; p = 0,688. Papel: apoio.
+- **Arliss, J. M., Kaplan, E. N. & Galvin, S. L. (2005).** The effect of the lunar cycle on frequency of births and birth complications. American Journal of Obstetrics and Gynecology 192(5), 1462-1464. N = 564.039; Carolina do Norte, 1997 a 2001. Papel: apoio.
+
+### #137 · Qual a probabilidade de você achar que mês que vem vai ter mais tempo?
+Cordas declaradas: #022, #107.
+- **Zauberman, G. & Lynch, J. G., Jr. (2005).** Resource slack and propensity to discount delayed investments of time versus money. Journal of Experimental Psychology: General 134(1), 23-37. N não registrado; sete estudos com estudantes; Exp. 1 N=76, Exp. 5 N=264, Exp. 6 N=48, Exp. 7 N=130, estudo natural N=178. Papel: central.
+
+### #138 · Qual a probabilidade de um exame positivo estar errado?
+- **Manrai, A. K., Bhatia, G., Strymish, J., Kohane, I. S. & Jain, S. H. (2014).** Medicine's uncomfortable relationship with math: calculating positive predictive value. JAMA Internal Medicine 174(6), 991-993. N = 61; 14 de 61 acertaram; réplica de Casscells et al. 1978 (N=60). Papel: central.
+- **Casscells, W., Schoenberger, A. & Graboys, T. B. (1978).** Interpretation by physicians of clinical laboratory results. New England Journal of Medicine 299(18), 999-1001. N = 60; 11 acertos. Papel: apoio.
+- **Morgan, D. J., Pineles, L., Owczarzak, J. et al. (2021).** Accuracy of practitioner estimates of probability of diagnosis before and after testing. JAMA Internal Medicine 181(6), 747-755. N = 553; 553 completaram de 723 convidados. Papel: apoio.
+
+### #139 · Qual a probabilidade de quem ganha mais sentir mais falta de tempo?
+Cordas declaradas: #025, #153.
+- **Hamermesh, D. S. & Lee, J. (2007).** Stressed out on four continents: time crunch or yuppie kvetch?. Review of Economics and Statistics 89(2), 374-383 (lido no NBER WP 10186, 2003). N não registrado; cinco pesquisas domiciliares: Austrália 13.969 adultos, Alemanha ~12 mil domicílios, Coreia ~17 mil, Canadá 2.444, EUA 2.399. Papel: central. ×0,80 aplicado.
+
+### #140 · Qual a probabilidade de o seu vizinho acreditar em bruxaria?
+- **Gershman, B. (2022).** Witchcraft beliefs around the world: an exploratory analysis. PLOS ONE 17(11), e0276872. N não registrado; 95 países e territórios, mais de 140 mil pessoas (pesquisas do Pew, 2008-2017). Papel: central. ×0,80 aplicado.
+- **Pew Research Center (2014).** Religion in Latin America, capítulo 3. Pew Research Center. N não registrado; Brasil 51%; N da amostra brasileira não lido (piso de 1.000 no intervalo). Papel: apoio. ×0,80 aplicado.
+
+### #141 · Qual a probabilidade de as pessoas com quem você conta hoje ainda estarem aí daqui a sete anos?
+- **Mollenhorst, G., Völker, B. & Flap, H. (2014).** Changes in personal relationships: how social contexts affect the emergence and discontinuation of relationships. Social Networks 37, 65-80. N = 1.007; 1.007 na onda 1 e 600 reentrevistadas; lido no capítulo 6 da tese de Mollenhorst (Utrecht, 2009). Papel: central.
+- **Fischer, C. S. & Offer, S. (2020).** Who is dropped and why? Methodological and substantive accounts for network loss. Social Networks 61, 78-86. N não registrado; cerca de 1.000 (UCNets); lido no resumo. Papel: apoio.
+- **Wellman, B., Wong, R. Y., Tindall, D. & Nazer, N. (1997).** A decade of network change. Social Networks 19(1), 27-50. N = 33; 33 pessoas, 162 laços íntimos; citado pela tese de Mollenhorst. Papel: apoio.
+
+### #142 · Qual a probabilidade de o seu sobrenome desaparecer?
+Cordas declaradas: #136, #147.
+- **Galton, F. & Watson, H. W. (1875).** On the probability of the extinction of families. Journal of the Anthropological Institute 4, 138-144. N não registrado; modelo original; lido na reimpressão. Papel: central.
+- **IBGE, Censo Demográfico 2022, Fecundidade e migração, resultados preliminares da amostra (2025).** Taxa de fecundidade total 1,55; por cor ou raça. IBGE. N não registrado; lido no release oficial. Papel: apoio.
+- **Ministério da Saúde, SINASC, microdados 2019-2024 (OpenDataSUS) (2024).** Nascidos vivos por dia e tipo de parto. OpenDataSUS. N = 15.745.215; razão de sexo ao nascer. Papel: apoio. Reuso declarado (reuso da contagem do #136).
+- **Statistics Korea, Censo 2015 (2015).** Sobrenomes na Coreia do Sul. Statistics Korea. N não registrado; Kim 21,5%, Lee 14,7%, Park 8,4%. Papel: apoio.
+- **Yoshida, H. (Universidade de Tohoku) (2024).** Projeção do sobrenome Sato. divulgada na imprensa. N não registrado; só cobertura de imprensa; ilustração, não dado. Papel: apoio.
+
+### #143 · Qual a probabilidade de um governador do Rio ser preso?
+- **Base própria: governadores eleitos de RJ, SP, MG e ES desde 1982 (2026).** Registros públicos de prisão conferidos em fontes abertas em 27/10/2026. base própria. N = 9; 9 governadores eleitos do RJ; SP 7, MG 9, ES 7. Papel: central.
+- **SENAPPEN, SISDEPEN, 17º ciclo (jul-dez/2024) (2024).** População sob sanção penal em 31/12/2024. SISDEPEN. N = 905.316; 670.265 em celas. Papel: apoio.
+
+### #144 · Qual a probabilidade de a falta de tempo ser o que te afasta dos livros?
+- **Bone, J. K., Bu, F., Sonke, J. K. & Fancourt, D. (2025).** The decline in reading for pleasure over 20 years of the American Time Use Survey. iScience 28(9), 113288. N = 236.270; ATUS 2003-2023 (sem 2020). Papel: central.
+- **Instituto Pró-Livro, Itaú Cultural e Ipec (2024).** Retratos da Leitura no Brasil, 6ª edição. Instituto Pró-Livro. N = 5.504; 208 municípios; números lidos em divulgações, não no relatório. Papel: apoio. ×0,80 aplicado.
+- **U.S. Bureau of Labor Statistics (2026).** American Time Use Survey 2025, Activity Summary (atussum_2025.dat). BLS. N = 6.146; diários de pessoas de 15 anos ou mais; análise própria. Papel: apoio.
+
+### #145 · Qual a probabilidade de nascerem mais gêmeos hoje do que em qualquer outra época?
+Cordas declaradas: #136, #147.
+- **Ministério da Saúde, SINASC, microdados 2019-2024 (OpenDataSUS) (2024).** Nascidos vivos por dia e tipo de parto. OpenDataSUS. N = 15.734.512; nascidos com tipo de gravidez e idade da mãe; 342.538 de gravidez dupla. Papel: central. Reuso declarado (mesma base do #136).
+- **Monden, C., Pison, G. & Smits, J. (2021).** Twin Peaks: more twinning in humans than ever before. Human Reproduction 36(6), 1666-1673. N não registrado; 165 países; lido no resumo. Papel: apoio.
+- **Hellin, D. (1895).** Die Ursache der Multiparität der uniparen Tiere überhaupt und der Zwillingsschwangerschaft beim Menschen insbesondere. N não registrado; regra de 1 em 89; citado pela regra, não pelo original. Papel: conceito.
+
+### #146 · Qual a probabilidade de tempo livre demais te deixar menos feliz?
+Cordas declaradas: #022.
+- **Sharif, M. A., Mogilner, C. & Hershfield, H. E. (2021).** Having too little or too much time is linked to lower subjective well-being. Journal of Personality and Social Psychology 121(4), doi 10.1037/pspp0000391. N = 21.736; ATUS 2012-13 N=21.736; NSCW N=13.639; experimentos ~2.500 e 4.046. Papel: central. Reuso declarado (Hershfield foi central no #022).
+- **Lee, K. J., Cho, S., Kim, E. K. & Hwang, S. (2020).** Do more leisure time and leisure repertoire make us happier?. Journal of Happiness Studies 21(5), 1727-1747. N = 10.602; Coreia do Sul, 2016; lido no PDF. Papel: apoio.
+- **U.S. Bureau of Labor Statistics (2022).** American Time Use Survey 2021 e Well-Being Module. BLS. N = 6.902; análise própria; ATUS 2025 (6.146 diários) na camada 5. Papel: apoio.
+
+### #147 · Qual a probabilidade de você ganhar se trocar de porta?
+- **Granberg, D. & Brown, T. A. (1995).** The Monty Hall dilemma. Personality and Social Psychology Bulletin 21(7), 711-723. N não registrado; 12% trocam na primeira vez; 55% com o jogo repetido; N não registrado no notebook. Papel: central.
+- **Mueser, P. R. & Granberg, D. (1999).** The Monty Hall dilemma revisited. Working paper, University of Missouri. N = 328; universitários. Papel: apoio.
+- **Herbranson, W. T. & Schroeder, J. (2010).** Are birds smarter than mathematicians?. Journal of Comparative Psychology 124(1), 1-13. N = 19; 6 pombos e 13 estudantes. Papel: apoio.
+
+### #148 · Qual a probabilidade de você lembrar do sonho amanhã de manhã?
+- **Elce, V., Bergamo, D., Bontempi, G., Pedreschi, B., Bellesi, M., Handjaras, G. & Bernardi, G. (2025).** The individual determinants of morning dream recall. Communications Psychology 3, 25. N = 204; 2.900 relatos em 15 manhãs; dados abertos no OSF (3qwsm). Papel: central.
+- **Nielsen, T. (2012).** Variations in dream recall frequency and dream theme diversity by age and sex. Frontiers in Neurology 3, 106. N = 28.888; questionário online, 10 a 79 anos. Papel: apoio.
+
+### #149 · Qual a probabilidade de cada centímetro a mais valer dinheiro?
+Cordas declaradas: #053, #086, #120.
+- **Judge, T. A. & Cable, D. M. (2004).** The effect of physical height on workplace success and income. Journal of Applied Psychology 89(3), 428-441. N não registrado; quatro estudos longitudinais; N não conferido no texto completo. Papel: central.
+- **Tyrrell, J. et al. (2016).** Height, body mass index, and socioeconomic status: mendelian randomisation study in UK Biobank. BMJ 352, i582. N = 119.669; UK Biobank. Papel: apoio.
+- **Case, A. & Paxson, C. (2008).** Stature and status: height, ability, and labor market outcomes. Journal of Political Economy 116(3), 499-532. N não registrado; quatro bases dos EUA e do Reino Unido. Papel: apoio.
+- **Thompson, K., Portrait, F. & Schoonmade, L. (2023).** The height premium: a systematic review and meta-analysis. Economics and Human Biology 50, 101273. N não registrado; 42 estudos. Papel: apoio.
+- **IBGE, Pesquisa Nacional de Saúde 2019, microdados (2019).** Altura, rendimento e horas (morador selecionado). IBGE. N = 34.549; recorte de 25 a 59 anos, ocupados; análise própria. Papel: apoio. Reuso declarado (PNS 2019 já foi fonte do #125).
+
+### #150 · Qual a probabilidade de a sua dor de cabeça ser falta de café?
+- **Silverman, K., Evans, S. M., Strain, E. C. & Griffiths, R. R. (1992).** Withdrawal syndrome after the double-blind cessation of caffeine consumption. New England Journal of Medicine 327(16), 1109-1114. N = 62; duplo-cego, dentro do mesmo indivíduo. Papel: central.
+- **Juliano, L. M. & Griffiths, R. R. (2004).** A critical review of caffeine withdrawal. Psychopharmacology 176(1), 1-29. N não registrado; 57 estudos experimentais e 9 pesquisas. Papel: apoio.
+- **Derry, C. J., Derry, S. & Moore, R. A. (2014).** Caffeine as an analgesic adjuvant for acute pain in adults. Cochrane Database of Systematic Reviews, Issue 12, CD009281. N = 4.262; 20 ensaios duplo-cegos. Papel: apoio.
+
+### #151 · Qual a probabilidade de você escolher a tarefa urgente em vez da importante?
+Cordas declaradas: #044, #107, #137.
+- **Zhu, M., Yang, Y. & Hsee, C. K. (2018).** The mere urgency effect. Journal of Consumer Research 45(3), 673-690. N não registrado; cinco experimentos; Exp. 2B com 204 observações. Papel: central.
+- **Mills, R. (2023).** Essays on time allocation, capítulo 1: The Mere Urgency Effect, an artefact of experimental design?. Tese de doutorado, Universidade de Nottingham. N = 2.003; quatro réplicas: 400, 808, 647 e 315. A mensagem de commit cita a versão em artigo (Mills, Cubitt & Starmer 2026, JCR ucag026). Papel: contraste.
+- **IBGE, Pesquisa Nacional de Saúde 2019, microdados (2019).** Módulo R, exames preventivos (mulheres). IBGE. N não registrado; análise própria. Papel: apoio. ×0,80 aplicado. Reuso declarado (PNS 2019 já foi fonte do #125 e do #149).
+
+### #152 · Qual a probabilidade de você correr melhor só porque o tênis é novo?
+Cordas declaradas: #068, #070, #073.
+- **Hébert-Losier, K., Pfister, A., Finlayson, S. J., Esculier, J. F., Lamb, P. & Beaven, C. M. (2025).** Are super shoes a super placebo?. Footwear Science, doi 10.1080/19424280.2025.2458330. N = 24; ensaio cruzado com corredoras amadoras. Papel: central.
+- **Adam, H. & Galinsky, A. D. (2012).** Enclothed cognition. Journal of Experimental Social Psychology 48(4), 918-925. N não registrado. Papel: apoio.
+- **Burns, D. M., Fox, E. L., Greenstein, M., Olbricht, G. R. & Montgomery, D. (2019).** An old task in new clothes. Journal of Experimental Social Psychology 83, 150-156. N não registrado; réplica direta registrada, sem efeito. Papel: contraste.
+- **Horton, C. B., Adam, H. & Galinsky, A. D. (2025).** Evaluating the evidence for enclothed cognition. Personality and Social Psychology Bulletin 51(2), 203-221. N = 3.789; 40 estudos, 105 efeitos; números não conferidos no texto completo. Papel: apoio.
+- **Hill, R. A. & Barton, R. A. (2005).** Red enhances human performance in contests. Nature 435, 293. N não registrado; Olimpíada de 2004. Papel: apoio.
+- **Pollet, T. V. & Peperkoorn, L. S. (2013).** Fading red? No evidence that color of trunks influences outcomes in the UFC. Frontiers in Psychology 4, 643. N = 61; lutas do UFC. Papel: contraste.
+- **Fortunato, L. & Clauset, A. (2016).** Revisiting the effect of red on competition in humans. preprint bioRxiv 10.1101/086710. N não registrado; preprint. Papel: contraste.
+
+### #153 · Qual a probabilidade de a sexta-feira 13 ser mais perigosa do que qualquer outra sexta?
+- **Polícia Rodoviária Federal, dados abertos de acidentes em rodovias federais (2025).** Acidentes 2015-2025. PRF. N não registrado; baixado pela Ana; feriados e dias críticos da pandemia fora. Papel: central.
+- **B3, Ibovespa, série diária (2026).** Retornos nas sextas-feiras 13. B3. N não registrado. Papel: apoio.
+
+### #154 · Qual a probabilidade de a regra dos cinco segundos te salvar?
+- **Fontes a registrar.** O notebook não está no repositório e as fontes não constam nas conversas disponíveis.
+
+### #155 · Qual a probabilidade de o seu cachorro saber que você está estressado antes de você dizer?
+- **Fontes a registrar.** O notebook não está no repositório e as fontes não constam nas conversas disponíveis.
+
+### #156 · Qual a probabilidade de dormir até tarde no sábado compensar a semana?
+- **Depner, C. M. et al. (2019).** Ad libitum weekend recovery sleep fails to prevent metabolic dysregulation during a repeating pattern of insufficient sleep and weekend recovery sleep. Current Biology 29(6). N não registrado; números (27%, 13-20%) ainda a conferir contra a fonte. Papel: central.
+- **Åkerstedt, T. et al. (2019).** Sleep duration and mortality: does weekend sleep matter?. Journal of Sleep Research 28(1). N não registrado; coorte sueca; contraponto de mortalidade. Papel: contraste.
+
+### #157 · Qual a probabilidade de alguém ser canhoto?
+- **Papadatou-Pastou, M., Ntolka, E., Schmitz, J., Martin, M., Munafò, M. R., Ocklenburg, S. & Paracchini, S. (2020).** Human handedness: a meta-analysis. Psychological Bulletin 146(6), 481-524. N = 2.396.170; 200 estudos; 10,6% [9,71; 11,50]; lido no manuscrito aceito. Papel: central.
+- **Medland, S. E. et al. (2009).** Genetic influences on handedness: data from 25,732 Australian and Dutch twin families. Neuropsychologia 47(2), 330-337. N = 54.270; 25.732 famílias de gêmeos; herdabilidade 23,64%. Papel: apoio.
+- **Cuellar-Partida, G. et al. (2021).** Genome-wide association study identifies 48 common genetic variants associated with handedness. Nature Human Behaviour 5, 59-70. N = 1.766.671; 41 loci para canhotos. Papel: apoio.
+- **Gilbert, A. N. & Wysocki, C. J. (1992).** Hand preference and age in the United States. Neuropsychologia 30(7), 601-608. N não registrado; cerca de 1,2 milhão; citado pela meta-análise, lido só no resumo. Papel: apoio.
+- **Annett, M. (2002).** Handedness and brain asymmetry: the right shift theory. Psychology Press. N não registrado; percentuais por mão dos pais citados em segunda mão; N não localizado. Papel: apoio.
+
+### #158 · Qual a probabilidade de "estou sem tempo" ser um símbolo de status?
+Cordas declaradas: #139.
+- **Bellezza, S., Paharia, N. & Keinan, A. (2017).** Conspicuous consumption of time: when busyness and lack of leisure time become a status symbol. Journal of Consumer Research 44(1), 118-138. N não registrado; 1A N=307, 1B N=112, 2A N=300, 2B N=302, EUA N=112, Itália N=98; lido completo. Papel: central.
+- **Holthoff, L. C. & Scheiben, C. (2019).** Conspicuous consumption of time: a replication. Journal of Marketing Behavior. N não registrado; réplica alemã; lida só no resumo; volume e páginas a conferir. Papel: apoio.
+
+### #159 · Qual a probabilidade de as oito horas de sono serem uma invenção moderna?
+- **Yetish, G., Kaplan, H., Gurven, M., Wood, B., Pontzer, H., Manger, P. R., Wilson, C., McGregor, R. & Siegel, J. M. (2015).** Natural sleep and its seasonal variations in three pre-industrial societies. Current Biology 25(21), 2862-2868. N = 94; 94 pessoas e 1.165 dias na divulgação; lido no manuscrito aceito. Papel: central.
+- **Youngstedt, S. D., Goff, E. E., Reynolds, A. M., Kripke, D. F., Irwin, M. R., Bootzin, R. R., Khan, N. & Jean-Louis, G. (2016).** Has adult sleep duration declined over the last 50+ years?. Sleep Medicine Reviews 28, 65-81. N = 6.052; 168 estudos, 257 amostras. Papel: apoio.
+- **Watson, N. F. et al. (2015).** Recommended amount of sleep for a healthy adult: a joint consensus statement. Journal of Clinical Sleep Medicine 11(6), 591-592. N não registrado; painel de 15 especialistas, 5.314 artigos. Papel: apoio.
+
+### #160 · Qual a probabilidade de a cor da pele mudar o tratamento que uma pessoa recebe?
+- **Dias, F. A. (2017).** How skin color, class status, and gender shape labor market outcomes in Brazil. Tese de doutorado, Universidade da Califórnia em Berkeley. N = 1.200; currículos fictícios; o artigo de 2020 (RSSM 65, 100477) informa 820, só resumo lido. Papel: central.
+- **Botelho, F., Madeira, R. A. & Rangel, M. A. (2015).** Racial discrimination in grading: evidence from Brazil. American Economic Journal: Applied Economics 7(4), 37-52. N = 352.881; alunos em 11.475 turmas; números da versão de trabalho de 2014. Papel: apoio.
+- **Gerard, F., Lagos, L., Severnini, E. & Card, D. (2021).** Assortative matching or exclusionary hiring? The impact of employment and pay policies on racial wage differences in Brazil. American Economic Review 111(10), 3418-3457. N não registrado; RAIS, Sudeste, 2002-2014; números da versão de trabalho de 2018 (IZA DP 11923). Papel: apoio.
+- **Sehgal, N. K. R. & Svirsky, D. (2024).** Race discrimination in internet advertising: evidence from a field experiment. arXiv 2412.14307. N = 131.219; visualizações no Brasil; texto sem revisão por pares. Papel: apoio.
+- **Vital Strategies, Umane, Universidade Federal de Pelotas e Ministério da Igualdade Racial (2025).** Mais Dados Mais Saúde: experiência de discriminação cotidiana pela população brasileira. relatório. N = 2.458; online, não probabilística. Papel: apoio. ×0,80 aplicado.
+
+## Reusos e sobrenomes repetidos neste bloco
+
+**Reusos de fonte (declarados):**
+- SINASC 2019-2024: #136 (central), #142 (apoio) e #145 (central). A mesma contagem de nascimentos alimenta os três dias.
+- IBGE, PNS 2019: #125, #149 (altura e renda) e #151 (exames). Módulos diferentes da mesma pesquisa.
+- BLS, ATUS: #144 (ATUS 2025) e #146 (ATUS 2021 com módulo de bem-estar, mais ATUS 2025 na camada 5).
+- Hershfield: central no #022 e coautor de Sharif 2021 (#146).
+- Griffiths assina duas fontes do #150 (Silverman 1992 e Juliano 2004). Adam e Galinsky assinam duas do #152 (2012 e Horton 2025).
+- IBGE, Censo 2022: #116, #120, #128, #130 e #142, em tabelas diferentes.
+
+**Homônimos (não são reuso):** Hu 2014 (#134) e Hu 2026 (#062); Nielsen 2012 (#148) e Nielsen 2019 (#021); Gilbert & Wysocki 1992 (#157) e Daniel Gilbert (#029); Zhu 2018 (#151) e Zhu 2025 (#060); Lee 2020 (#146) e Lee 2019 (#092); Li 2019 (#133) e Liu (#004, #127); Fortunato & Clauset 2016 (#152) é Laura Fortunato, e Li et al. 2019 (#133) tem Santo Fortunato como coautor.
+
+**Pendências abertas neste bloco:**
+- #154 (regra dos cinco segundos) e #155 (cachorro e estresse): fontes não registradas.
+- #153: registrar as fontes de apoio usadas no notebook além dos dados da PRF e do Ibovespa.
+- #156: notebook não montado; números de Depner 2019 a conferir contra a fonte.
+- #151: o notebook cita a tese de Mills (2023) e a mensagem de commit cita a versão em artigo (Mills, Cubitt & Starmer 2026, JCR). Alinhar.
+- #144: números do Retratos da Leitura lidos em divulgações, não no relatório.
+- #160: Botelho et al. e Gerard et al. lidos em versões de trabalho; Dias lido na tese (1.200 currículos) e o artigo informa 820.
+- Dias #128 a #152 entraram no banco com status `notebook_ok`, que é o que foi possível verificar. Atualizar para `publicado` conforme o dashboard.
+- As fontes dos dias #121 a #127 estão no banco; neste arquivo só aparecem no calendário do bloco #111 a #127.
+
